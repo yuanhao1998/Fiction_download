@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="css/index.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <title>小说网</title>
+</head>
+<body>
+<div class="header">
+    <div class="title">
+        <span>小说网</span>
+    </div>
+    <div class="login">
+        <div class="no_login">
+            <label>
+                用户名：
+                <input type="text" class="username">
+            </label>
+            <label>
+                密码：
+                <input type="password" class="password">
+            </label>
+            <input type="button" value="登录" onclick="login()">
+        </div>
+        <div class="login_user">
+            欢迎您：<span><input type="button" class="username"></span>
+        </div>
+    </div>
+</div>
+
+<div class="search">
+    <div class="button">
+        <label>
+            <input type="button" onclick="search($('.value').val())" value="搜索">
+        </label>
+    </div>
+    <div class="input">
+        <label>
+            <input type="text" class="value">
+        </label>
+    </div>
+    <div class="hot">
+        <button onclick="hot()">热搜</button>
+    </div>
+    <div class="bookshelves">
+        <button onclick="bookshelves()">书架</button>
+    </div>
+</div>
+
+<div class="data">
+    <iframe src="" id="iframe"></iframe>
+</div>
+
+</body>
+</html>

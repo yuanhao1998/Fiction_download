@@ -1,0 +1,2060 @@
+INFO 2020-08-04 20:24:47,119 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-04 20:28:37,280 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-04 20:30:08,485 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-04 20:31:08,686 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-04 20:31:29,981 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-04 20:32:00,560 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-04 20:32:15,378 autoreload 236 D:\fiction_website\source_code\source_code\settings\dev.py changed, reloading.
+INFO 2020-08-04 20:32:16,694 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-04 22:21:53,120 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-06 13:46:04,816 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-06 13:46:41,872 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-06 13:46:55,494 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-06 13:47:58,236 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-06 13:48:54,173 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 12:59:04,059 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 12:59:39,707 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 12:59:39,711 basehttp 157 "POST /login/ HTTP/1.1" 500 79924
+INFO 2020-08-07 13:00:05,671 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 13:00:32,259 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 11, in post
+    print(check_password('pbkdf2_sha256$216000$THUz2tlbY6lT$2VkDs4wu1q5ArAtaBF7sDOjU5+qo4OMygRWIP1rECls='))
+TypeError: check_password() missing 1 required positional argument: 'encoded'
+ERROR 2020-08-07 13:00:32,264 basehttp 157 "POST /login/ HTTP/1.1" 500 92513
+INFO 2020-08-07 13:02:04,388 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-07 13:02:06,096 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 13:03:07,862 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 13:03:16,542 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 13:03:16,546 basehttp 157 "POST /login/ HTTP/1.1" 500 79924
+INFO 2020-08-07 13:04:01,509 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 13:04:10,612 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 13:04:10,614 basehttp 157 "POST /login/ HTTP/1.1" 500 79924
+INFO 2020-08-07 13:04:32,440 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-07 13:04:34,156 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 13:04:51,665 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 13:04:57,477 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 13:04:57,480 basehttp 157 "POST /login/ HTTP/1.1" 500 79924
+INFO 2020-08-07 13:05:15,556 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 13:05:22,879 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 13:05:22,882 basehttp 157 "POST /login/ HTTP/1.1" 500 79924
+INFO 2020-08-07 13:05:42,577 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 13:05:59,966 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 13:05:59,968 basehttp 157 "POST /login/ HTTP/1.1" 500 79924
+INFO 2020-08-07 13:07:22,932 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 13:07:29,394 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 13:07:29,397 basehttp 157 "POST /login/ HTTP/1.1" 500 79924
+INFO 2020-08-07 13:07:45,810 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 13:07:52,227 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 13:07:52,231 basehttp 157 "POST /login/ HTTP/1.1" 500 79924
+INFO 2020-08-07 13:08:06,857 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 13:08:11,703 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 13:08:11,706 basehttp 157 "POST /login/ HTTP/1.1" 500 79924
+INFO 2020-08-07 13:08:27,408 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-07 13:08:29,217 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 13:13:47,665 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 13:13:49,532 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 13:14:51,760 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-07 13:14:53,501 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:14:26,015 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:14:46,907 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:15:19,030 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:20:27,980 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:21:18,299 basehttp 157 "POST /login/ HTTP/1.1" 200 53
+INFO 2020-08-07 18:21:44,597 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-07 18:21:46,051 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:25:06,465 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:25:11,124 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 11, in post
+    User.objects.create(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 445, in create
+    obj = self.model(**kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 501, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: User() got an unexpected keyword argument 'username'
+ERROR 2020-08-07 18:25:11,129 basehttp 157 "POST /login/?username HTTP/1.1" 500 107088
+INFO 2020-08-07 18:25:48,629 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:26:06,662 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 11, in post
+    user = User.objects.create(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 445, in create
+    obj = self.model(**kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 501, in __init__
+    raise TypeError("%s() got an unexpected keyword argument '%s'" % (cls.__name__, kwarg))
+TypeError: User() got an unexpected keyword argument 'username'
+ERROR 2020-08-07 18:26:06,667 basehttp 157 "POST /login/?username HTTP/1.1" 500 107062
+INFO 2020-08-07 18:26:47,049 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:27:09,980 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.DataError: (1406, "Data too long for column 'password' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 11, in post
+    user = User.objects.create(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 750, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 787, in save_base
+    updated = self._save_table(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 892, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 930, in _do_insert
+    return manager._insert(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1249, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 1395, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.DataError: (1406, "Data too long for column 'password' at row 1")
+ERROR 2020-08-07 18:27:09,993 basehttp 157 "POST /login/?username HTTP/1.1" 500 207406
+INFO 2020-08-07 18:28:12,560 autoreload 236 D:\fiction_website\source_code\apps\user\models.py changed, reloading.
+INFO 2020-08-07 18:28:14,073 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:28:55,661 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:29:08,885 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.DataError: (1406, "Data too long for column 'password' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 11, in post
+    user = User.objects.create(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 750, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 787, in save_base
+    updated = self._save_table(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 892, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 930, in _do_insert
+    return manager._insert(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1249, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 1395, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.DataError: (1406, "Data too long for column 'password' at row 1")
+ERROR 2020-08-07 18:29:08,897 basehttp 157 "POST /login/?username HTTP/1.1" 500 207406
+INFO 2020-08-07 18:29:36,179 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:29:40,143 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.DataError: (1406, "Data too long for column 'password' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 11, in post
+    user = User.objects.create(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 750, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 787, in save_base
+    updated = self._save_table(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 892, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 930, in _do_insert
+    return manager._insert(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1249, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 1395, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.DataError: (1406, "Data too long for column 'password' at row 1")
+ERROR 2020-08-07 18:29:40,155 basehttp 157 "POST /login/?username HTTP/1.1" 500 207406
+INFO 2020-08-07 18:30:01,035 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:30:04,676 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 18:30:04,679 basehttp 157 "POST /login/?username HTTP/1.1" 500 80169
+INFO 2020-08-07 18:30:25,828 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-07 18:30:27,249 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:31:04,885 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-07 18:31:06,470 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:31:19,199 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:31:22,532 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 27, in post
+    if serializer.is_valid():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 227, in is_valid
+    assert hasattr(self, 'initial_data'), (
+AssertionError: Cannot call `.is_valid()` as no `data=` keyword argument was passed when instantiating the serializer instance.
+ERROR 2020-08-07 18:31:22,535 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 98348
+INFO 2020-08-07 18:31:57,452 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:32:02,839 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 18:32:02,844 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 80450
+INFO 2020-08-07 18:32:25,373 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:32:30,236 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 18:32:30,241 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 82937
+INFO 2020-08-07 18:32:46,879 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:33:12,724 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:33:29,538 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:33:32,656 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 18:33:32,660 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 82922
+INFO 2020-08-07 18:33:44,298 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:34:23,584 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:34:33,060 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 18:34:33,063 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 82922
+INFO 2020-08-07 18:34:44,712 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:34:51,282 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 18:34:51,284 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 82922
+INFO 2020-08-07 18:35:15,949 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:35:28,446 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:35:33,370 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 18:35:33,375 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 82922
+INFO 2020-08-07 18:35:52,193 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:41:50,115 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:41:59,599 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 18:41:59,603 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 82922
+INFO 2020-08-07 18:42:49,969 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:44:04,985 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:44:08,020 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 30
+INFO 2020-08-07 18:44:36,967 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:44:44,756 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 30
+INFO 2020-08-07 18:44:48,751 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 31
+INFO 2020-08-07 18:46:15,001 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:46:25,695 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\utils\datastructures.py", line 76, in __getitem__
+    list_ = super().__getitem__(key)
+KeyError: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 11, in post
+    request_data = request.data[0]
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\utils\datastructures.py", line 78, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 0
+ERROR 2020-08-07 18:46:25,703 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 103246
+INFO 2020-08-07 18:46:41,078 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-07 18:46:43,548 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:47:06,229 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:48:15,567 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 18:48:21,060 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 13, in post
+    request_data = json.loads(request.data)
+  File "C:\Users\YAHO\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not QueryDict
+ERROR 2020-08-07 18:48:21,067 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 100238
+INFO 2020-08-07 18:48:59,590 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-07 18:49:02,637 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 18:54:51,816 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-07 18:54:54,484 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:00:25,879 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:00:33,695 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 19:00:37,900 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 19:00:37,903 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 82923
+INFO 2020-08-07 19:08:52,294 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 19:08:58,693 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 19:08:58,697 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 83664
+INFO 2020-08-07 19:11:54,194 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:12:59,797 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:13:02,842 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 53
+INFO 2020-08-07 19:13:29,477 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 19:13:35,415 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 19:13:35,419 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 83664
+INFO 2020-08-07 19:13:52,523 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:17:29,995 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:25:20,365 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:25:27,440 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 19:25:54,874 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 30, in post
+    if serializer.is_valid():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 433, in run_validation
+    value = self.to_internal_value(data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 486, in to_internal_value
+    for field in fields:
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 369, in _writable_fields
+    for field in self.fields.values():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 1072, in get_fields
+    fields[field_name] = field_class(**field_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\fields.py", line 808, in __init__
+    super().__init__(**kwargs)
+TypeError: __init__() got an unexpected keyword argument 'unique'
+ERROR 2020-08-07 19:25:54,885 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 132929
+INFO 2020-08-07 19:26:56,332 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 19:27:02,210 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-07 19:27:02,216 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 83662
+INFO 2020-08-07 19:36:09,779 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 19:36:12,326 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:38:06,965 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 19:38:49,215 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 30, in post
+    if serializer.is_valid():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 436, in run_validation
+    value = self.validate(value)
+  File "D:\fiction_website\source_code\apps\user\serializers.py", line 18, in validate
+    user = User.objects.get(user_name=username)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 418, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1258, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1084, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'user_name' into field. Choices are: create_time, id, is_delete, password, updated_time, username
+ERROR 2020-08-07 19:38:49,221 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 157510
+INFO 2020-08-07 19:38:55,555 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:40:06,635 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 19:40:12,721 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 30, in post
+    if serializer.is_valid():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 436, in run_validation
+    value = self.validate(value)
+  File "D:\fiction_website\source_code\apps\user\serializers.py", line 18, in validate
+    user = User.objects.get(user_name=username)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 418, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1258, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1084, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1481, in names_to_path
+    raise FieldError("Cannot resolve keyword '%s' into field. "
+django.core.exceptions.FieldError: Cannot resolve keyword 'user_name' into field. Choices are: create_time, id, is_delete, password, updated_time, username
+ERROR 2020-08-07 19:40:12,731 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 157517
+INFO 2020-08-07 19:40:49,583 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:41:55,503 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:42:00,315 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 173
+INFO 2020-08-07 19:42:28,632 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-07 19:42:30,314 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 19:42:56,483 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 23, in post
+    if serializer.is_valid():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 436, in run_validation
+    value = self.validate(value)
+  File "D:\fiction_website\source_code\apps\user\serializers.py", line 18, in validate
+    user = User.objects.get(username=username)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+user.models.User.DoesNotExist: User matching query does not exist.
+ERROR 2020-08-07 19:42:56,486 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 116126
+INFO 2020-08-07 19:43:37,785 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:46:01,342 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 19:46:17,847 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\source_code\apps\user\serializers.py", line 19, in validate
+    user = User.objects.get(username=username)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+user.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 23, in post
+    if serializer.is_valid():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 436, in run_validation
+    value = self.validate(value)
+  File "D:\fiction_website\source_code\apps\user\serializers.py", line 28, in validate
+    raise Exception('login error')
+Exception: login error
+ERROR 2020-08-07 19:46:17,853 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 119603
+INFO 2020-08-07 19:47:52,833 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 19:47:54,476 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:48:46,593 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 19:48:48,246 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:48:55,165 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 19:48:56,710 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:56:59,665 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 19:57:10,230 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 31, in post
+    'token': serializer.validated_data['token']
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\http\response.py", line 144, in __getitem__
+    return self._headers[header.lower()][1]
+KeyError: 'token'
+ERROR 2020-08-07 19:57:10,233 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 97603
+INFO 2020-08-07 19:57:28,511 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 19:57:43,658 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 28, in post
+    'token': serializer.validated_data['token']
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\http\response.py", line 144, in __getitem__
+    return self._headers[header.lower()][1]
+KeyError: 'token'
+ERROR 2020-08-07 19:57:43,662 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 97434
+INFO 2020-08-07 19:58:03,613 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:58:58,433 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 19:59:02,032 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 28, in post
+    'token': serializer.validated_data['token']
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\http\response.py", line 144, in __getitem__
+    return self._headers[header.lower()][1]
+KeyError: 'token'
+ERROR 2020-08-07 19:59:02,036 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 97434
+INFO 2020-08-07 19:59:21,711 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 19:59:25,186 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 28, in post
+    'token': serializer.validated_data['token']
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\http\response.py", line 144, in __getitem__
+    return self._headers[header.lower()][1]
+KeyError: 'token'
+ERROR 2020-08-07 19:59:25,189 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 97434
+INFO 2020-08-07 19:59:45,636 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 19:59:51,890 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 173
+INFO 2020-08-07 20:00:30,275 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:00:36,227 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 173
+INFO 2020-08-07 20:01:23,367 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:01:40,615 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:02:45,364 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:02:57,724 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:03:02,179 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 31, in post
+    'token': serializer.validated_data['token']
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\http\response.py", line 144, in __getitem__
+    return self._headers[header.lower()][1]
+KeyError: 'token'
+ERROR 2020-08-07 20:03:02,182 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 97603
+INFO 2020-08-07 20:03:16,045 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:03:27,745 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:03:31,762 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 173
+INFO 2020-08-07 20:03:45,378 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:03:54,141 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 173
+INFO 2020-08-07 20:04:12,753 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:04:18,666 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 28, in post
+    'token': serializer.validated_data['token']
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\http\response.py", line 144, in __getitem__
+    return self._headers[header.lower()][1]
+KeyError: 'token'
+ERROR 2020-08-07 20:04:18,668 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 97434
+INFO 2020-08-07 20:05:16,822 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:05:20,875 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 173
+INFO 2020-08-07 20:06:41,367 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:06:45,716 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 28, in post
+    'token': serializer.validated_data['token']
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\http\response.py", line 144, in __getitem__
+    return self._headers[header.lower()][1]
+KeyError: 'token'
+ERROR 2020-08-07 20:06:45,719 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 97434
+INFO 2020-08-07 20:07:34,027 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:08:05,010 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:08:09,286 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 30
+INFO 2020-08-07 20:09:31,140 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:10:43,593 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:10:51,130 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 30
+INFO 2020-08-07 20:12:09,401 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:12:14,638 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 31, in post
+    'token': serializer.validated_data['token']
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\http\response.py", line 144, in __getitem__
+    return self._headers[header.lower()][1]
+KeyError: 'token'
+ERROR 2020-08-07 20:12:14,642 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 97603
+INFO 2020-08-07 20:13:21,048 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:13:25,894 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.DataError: (1406, "Data too long for column 'password' at row 1")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 17, in post
+    user = User.objects.create(username=request.data['username'], password=password)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 750, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 787, in save_base
+    updated = self._save_table(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 892, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 930, in _do_insert
+    return manager._insert(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1249, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 1395, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.DataError: (1406, "Data too long for column 'password' at row 1")
+ERROR 2020-08-07 20:13:25,904 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 209400
+INFO 2020-08-07 20:14:18,949 autoreload 236 D:\fiction_website\source_code\apps\user\models.py changed, reloading.
+INFO 2020-08-07 20:14:20,384 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:14:35,052 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:14:41,823 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 173
+INFO 2020-08-07 20:16:44,055 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-07 20:16:45,887 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:17:49,280 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 20:17:50,837 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:19:31,466 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 20:19:33,141 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:20:49,446 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 20:20:50,932 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:23:17,206 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 20:23:18,734 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:23:51,643 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 173
+ERROR 2020-08-07 20:23:56,017 serializers 33 <class 'Exception'>
+ERROR 2020-08-07 20:23:56,213 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 25, in post
+    if serializer.is_valid():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 437, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+ERROR 2020-08-07 20:23:56,216 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 103100
+INFO 2020-08-07 20:28:17,891 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:28:27,428 serializers 33 <class 'Exception'>
+ERROR 2020-08-07 20:28:27,675 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 28, in post
+    'token': serializer.validated_data['token']
+TypeError: string indices must be integers
+ERROR 2020-08-07 20:28:27,679 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 94285
+INFO 2020-08-07 20:30:10,749 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:30:17,489 serializers 33 <class 'Exception'>
+ERROR 2020-08-07 20:30:17,671 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 28, in post
+    'token': serializer.validated_data['token']
+TypeError: string indices must be integers
+ERROR 2020-08-07 20:30:17,674 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 94285
+INFO 2020-08-07 20:30:40,729 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:30:43,572 serializers 33 <class 'Exception'>
+ERROR 2020-08-07 20:30:43,910 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 25, in post
+    if serializer.is_valid():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 437, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+ERROR 2020-08-07 20:30:43,920 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 105587
+INFO 2020-08-07 20:31:06,317 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:31:12,056 serializers 33 <class 'Exception'>
+INFO 2020-08-07 20:31:58,291 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:32:03,343 serializers 32 <class 'Exception'>
+INFO 2020-08-07 20:32:03,344 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 45
+INFO 2020-08-07 20:35:15,113 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 20:35:16,618 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:37:05,176 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 20:37:07,143 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:37:48,191 serializers 33 <class 'Exception'>
+INFO 2020-08-07 20:37:48,192 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 45
+INFO 2020-08-07 20:40:39,217 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 20:41:13,685 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:41:17,411 serializers 32 <class 'Exception'>
+INFO 2020-08-07 20:41:17,411 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 45
+INFO 2020-08-07 20:42:11,968 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:42:18,069 serializers 32 <class 'Exception'>
+WARNING 2020-08-07 20:42:18,070 log 224 Bad Request: /login/
+WARNING 2020-08-07 20:42:18,071 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 400 36
+INFO 2020-08-07 20:43:22,468 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:43:27,941 serializers 33 <class 'Exception'>
+WARNING 2020-08-07 20:43:27,942 log 224 Bad Request: /login/
+WARNING 2020-08-07 20:43:27,942 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 400 36
+INFO 2020-08-07 20:43:59,935 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:44:05,805 serializers 32 <class 'Exception'>
+INFO 2020-08-07 20:45:23,432 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:45:27,694 serializers 32 <class 'Exception'>
+ERROR 2020-08-07 20:45:27,946 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\source_code\apps\user\serializers.py", line 23, in validate
+    user = User.objects.get(username=username, is_delete=False)  # 查询是否有该用户
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+user.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 25, in post
+    if serializer.is_valid():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 436, in run_validation
+    value = self.validate(value)
+  File "D:\fiction_website\source_code\apps\user\serializers.py", line 33, in validate
+    raise Exception('login error')  # 登录失败抛出异常
+Exception: login error
+ERROR 2020-08-07 20:45:27,950 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 120112
+INFO 2020-08-07 20:46:38,623 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:46:46,288 serializers 32 <class 'Exception'>
+ERROR 2020-08-07 20:46:46,585 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\source_code\apps\user\serializers.py", line 23, in validate
+    user = User.objects.get(username=username, is_delete=False)  # 查询是否有该用户
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+user.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 25, in post
+    if serializer.is_valid():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 436, in run_validation
+    value = self.validate(value)
+  File "D:\fiction_website\source_code\apps\user\serializers.py", line 33, in validate
+    raise UserWarning('login error')  # 登录失败抛出异常
+UserWarning: login error
+ERROR 2020-08-07 20:46:46,593 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 120132
+ERROR 2020-08-07 20:47:13,024 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 25, in post
+    if serializer.is_valid():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 437, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+ERROR 2020-08-07 20:47:13,025 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 103100
+INFO 2020-08-07 20:47:36,454 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:47:45,170 log 224 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 25, in post
+    if serializer.is_valid():
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 234, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 437, in run_validation
+    assert value is not None, '.validate() should return the validated data'
+AssertionError: .validate() should return the validated data
+ERROR 2020-08-07 20:47:45,173 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 500 103100
+INFO 2020-08-07 20:48:07,208 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:48:12,748 serializers 34 <class 'Exception'>
+INFO 2020-08-07 20:48:12,749 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 45
+INFO 2020-08-07 20:48:37,893 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:48:41,780 serializers 34 <class 'Exception'>
+INFO 2020-08-07 20:48:41,782 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 45
+INFO 2020-08-07 20:48:58,004 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:49:02,995 serializers 34 <class 'Exception'>
+INFO 2020-08-07 20:49:02,997 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 45
+INFO 2020-08-07 20:49:03,073 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 20:49:04,506 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-07 20:49:09,578 serializers 34 <class 'Exception'>
+INFO 2020-08-07 20:49:09,580 basehttp 157 "POST /login/?username=123&password=123 HTTP/1.1" 200 45
+INFO 2020-08-07 20:49:26,482 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 20:49:28,268 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:51:03,251 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-07 20:52:31,121 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-07 20:52:32,849 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 10:12:48,105 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 10:13:36,926 basehttp 157 "POST /login/ HTTP/1.1" 200 173
+ERROR 2020-08-08 10:13:47,750 serializers 34 <class 'Exception'>
+INFO 2020-08-08 10:13:47,751 basehttp 157 "POST /login/ HTTP/1.1" 200 45
+INFO 2020-08-08 10:14:24,968 basehttp 157 "POST /login/ HTTP/1.1" 200 173
+INFO 2020-08-08 10:15:44,598 basehttp 157 "POST /login/ HTTP/1.1" 200 173
+INFO 2020-08-08 10:17:53,544 basehttp 157 "POST /login/ HTTP/1.1" 200 173
+INFO 2020-08-08 10:20:05,534 basehttp 157 "POST /login/ HTTP/1.1" 200 173
+INFO 2020-08-08 10:21:29,636 basehttp 157 "POST /login/ HTTP/1.1" 200 173
+WARNING 2020-08-08 12:40:34,674 log 224 Not Found: /link/
+WARNING 2020-08-08 12:40:34,675 basehttp 157 "GET /link/ HTTP/1.1" 404 2065
+WARNING 2020-08-08 12:40:34,686 log 224 Not Found: /link/
+WARNING 2020-08-08 12:40:34,687 basehttp 157 "GET /link/ HTTP/1.1" 404 2065
+INFO 2020-08-08 13:05:00,789 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-08 13:05:02,553 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 13:08:42,223 autoreload 236 D:\fiction_website\source_code\apps\user\serializers.py changed, reloading.
+INFO 2020-08-08 13:08:44,053 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 13:08:59,562 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 13:09:22,905 basehttp 157 "POST /user/login/ HTTP/1.1" 200 183
+INFO 2020-08-08 19:24:59,582 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 19:26:14,956 autoreload 236 D:\fiction_website\source_code\source_code\settings\dev.py changed, reloading.
+INFO 2020-08-08 19:26:16,711 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 19:26:25,792 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 19:27:34,670 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 19:28:06,846 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 20:24:07,725 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-08 20:24:09,480 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 21:15:15,394 autoreload 236 D:\fiction_website\source_code\source_code\urls.py changed, reloading.
+INFO 2020-08-08 21:15:17,043 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 21:20:22,199 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\models.py changed, reloading.
+INFO 2020-08-08 21:20:23,998 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 21:21:14,987 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\models.py changed, reloading.
+INFO 2020-08-08 21:21:16,932 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 21:24:28,025 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\models.py changed, reloading.
+INFO 2020-08-08 21:24:30,032 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 21:25:37,499 autoreload 236 D:\fiction_website\source_code\apps\book\models.py changed, reloading.
+INFO 2020-08-08 21:25:39,244 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 21:38:33,826 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\models.py changed, reloading.
+INFO 2020-08-08 21:38:35,551 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 21:40:19,157 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\urls.py changed, reloading.
+INFO 2020-08-08 21:40:20,800 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 21:44:45,342 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\models.py changed, reloading.
+INFO 2020-08-08 21:44:47,020 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-08 21:49:40,011 autoreload 236 D:\fiction_website\source_code\source_code\urls.py changed, reloading.
+INFO 2020-08-08 21:49:41,777 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-09 21:03:58,725 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-09 21:04:01,836 basehttp 157 "POST /user/login/ HTTP/1.1" 200 197
+INFO 2020-08-09 21:12:21,081 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-09 21:12:22,568 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-09 21:25:12,542 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-09 21:26:26,432 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-09 21:27:40,030 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-09 21:27:47,732 log 224 Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\user\views.py", line 22, in post
+    login(request, user)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\contrib\auth\__init__.py", line 132, in login
+    user_logged_in.send(sender=user.__class__, request=request, user=user)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\dispatch\dispatcher.py", line 177, in send
+    return [
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\dispatch\dispatcher.py", line 178, in <listcomp>
+    (receiver, receiver(signal=self, sender=sender, **named))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\contrib\auth\models.py", line 20, in update_last_login
+    user.save(update_fields=['last_login'])
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 735, in save
+    raise ValueError("The following fields do not exist in this "
+ValueError: The following fields do not exist in this model or are m2m fields: last_login
+ERROR 2020-08-09 21:27:47,738 basehttp 157 "POST /user/login/ HTTP/1.1" 500 120271
+INFO 2020-08-09 21:29:34,880 autoreload 236 D:\fiction_website\source_code\apps\user\models.py changed, reloading.
+INFO 2020-08-09 21:29:37,550 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-09 21:30:32,707 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-09 21:30:39,803 basehttp 157 "POST /user/login/ HTTP/1.1" 200 197
+INFO 2020-08-10 14:16:51,664 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 14:17:36,575 autoreload 236 D:\fiction_website\source_code\apps\hot\views.py changed, reloading.
+INFO 2020-08-10 14:17:38,191 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 14:21:49,756 autoreload 236 D:\fiction_website\source_code\apps\hot\views.py changed, reloading.
+INFO 2020-08-10 14:21:51,257 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-10 14:30:07,892 log 224 Internal Server Error: /hot/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-10 14:30:07,895 basehttp 157 "GET /hot/ HTTP/1.1" 500 89029
+INFO 2020-08-10 16:55:58,793 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-10 16:56:02,215 log 224 Internal Server Error: /hot/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-10 16:56:02,218 basehttp 157 "GET /hot/ HTTP/1.1" 500 88764
+INFO 2020-08-10 16:56:16,414 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-10 16:57:03,537 log 224 Internal Server Error: /hot/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2020-08-10 16:57:03,541 basehttp 157 "GET /hot/ HTTP/1.1" 500 91251
+INFO 2020-08-10 17:00:43,118 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 17:02:09,824 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-10 17:02:14,359 log 224 Internal Server Error: /hot/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\hot\views.py", line 26, in get
+    data1 = self.get_page()
+  File "D:\fiction_website\source_code\apps\hot\views.py", line 23, in get_page
+    return html.content.decode()
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 334: invalid start byte
+ERROR 2020-08-10 17:02:14,363 basehttp 157 "GET /hot/ HTTP/1.1" 500 115533
+INFO 2020-08-10 17:03:11,865 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 17:04:08,038 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 17:05:22,387 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 17:05:27,766 autoreload 236 D:\fiction_website\source_code\apps\hot\views.py changed, reloading.
+INFO 2020-08-10 17:05:29,463 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-10 17:05:31,564 log 224 Internal Server Error: /hot/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-10 17:05:31,568 basehttp 157 "GET /hot/ HTTP/1.1" 500 80251
+INFO 2020-08-10 17:09:33,243 autoreload 236 D:\fiction_website\source_code\apps\hot\views.py changed, reloading.
+INFO 2020-08-10 17:09:34,763 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 17:09:41,094 basehttp 157 "POST /user/login/ HTTP/1.1" 200 197
+INFO 2020-08-10 17:10:05,185 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 17:10:19,339 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-08-10 17:10:20,998 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 17:10:45,582 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 17:10:57,249 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 17:11:14,917 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 17:15:14,431 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 17:15:30,577 basehttp 157 "POST /user/login/ HTTP/1.1" 200 197
+INFO 2020-08-10 17:15:33,229 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 17:17:00,664 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 17:17:41,091 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 17:17:47,023 basehttp 157 "POST /user/login/ HTTP/1.1" 200 197
+INFO 2020-08-10 17:17:51,994 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 17:18:17,250 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 17:19:40,823 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 17:19:45,717 basehttp 157 "POST /user/login/ HTTP/1.1" 200 197
+INFO 2020-08-10 17:19:48,288 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 17:33:09,223 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 17:37:44,237 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 18:02:34,682 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 18:03:10,540 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 18:03:15,416 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 18:03:27,605 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 18:05:18,898 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 18:05:38,889 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 18:07:47,471 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 18:08:24,110 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 18:08:46,356 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 18:09:33,621 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 18:09:50,339 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 18:10:43,668 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 18:58:49,542 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 19:04:08,992 basehttp 157 "GET /hot/ HTTP/1.1" 200 1490
+INFO 2020-08-10 19:19:14,651 autoreload 236 D:\fiction_website\source_code\source_code\settings\conf.py changed, reloading.
+INFO 2020-08-10 19:19:16,381 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:20:52,980 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-10 19:20:57,100 log 224 Internal Server Error: /hot/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\hot\views.py", line 33, in get
+    temp = {'title': title, 'href': FICTION_SEARCH + title}
+TypeError: can only concatenate str (not "list") to str
+ERROR 2020-08-10 19:20:57,104 basehttp 157 "GET /hot/ HTTP/1.1" 500 93938
+INFO 2020-08-10 19:21:39,814 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:21:43,226 basehttp 157 "GET /hot/ HTTP/1.1" 200 848
+INFO 2020-08-10 19:22:09,998 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:22:13,596 basehttp 157 "GET /hot/ HTTP/1.1" 200 888
+INFO 2020-08-10 19:23:29,297 autoreload 236 D:\fiction_website\source_code\apps\hot\views.py changed, reloading.
+INFO 2020-08-10 19:23:31,004 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:23:34,762 basehttp 157 "GET /hot/ HTTP/1.1" 200 908
+INFO 2020-08-10 19:24:28,140 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-10 19:24:32,110 log 224 Internal Server Error: /hot/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\hot\views.py", line 32, in get
+    temp = {'title': title, 'href': FICTION_SEARCH + title}
+TypeError: can only concatenate str (not "list") to str
+ERROR 2020-08-10 19:24:32,113 basehttp 157 "GET /hot/ HTTP/1.1" 500 93930
+INFO 2020-08-10 19:24:53,020 autoreload 236 D:\fiction_website\source_code\apps\hot\views.py changed, reloading.
+INFO 2020-08-10 19:24:54,567 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:29:04,040 autoreload 236 D:\fiction_website\source_code\apps\hot\views.py changed, reloading.
+INFO 2020-08-10 19:29:05,504 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:34:53,395 autoreload 236 D:\fiction_website\source_code\apps\hot\views.py changed, reloading.
+INFO 2020-08-10 19:34:54,991 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:35:28,542 autoreload 236 D:\fiction_website\source_code\apps\hot\views.py changed, reloading.
+INFO 2020-08-10 19:35:30,009 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:35:48,717 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:35:53,994 basehttp 157 "GET /hot/ HTTP/1.1" 200 848
+WARNING 2020-08-10 19:35:56,913 log 224 Not Found: /search/
+WARNING 2020-08-10 19:35:56,914 basehttp 157 "GET /search/?title=%E5%89%91%E6%9D%A5 HTTP/1.1" 404 2311
+INFO 2020-08-10 19:36:47,689 autoreload 236 D:\fiction_website\source_code\source_code\urls.py changed, reloading.
+INFO 2020-08-10 19:36:49,170 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:40:35,199 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:40:38,823 basehttp 157 "GET /hot/ HTTP/1.1" 200 848
+ERROR 2020-08-10 19:40:40,960 log 224 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\search\views.py", line 8, in get
+    data = json.loads(request.data)
+  File "C:\Users\YAHO\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+ERROR 2020-08-10 19:40:40,964 basehttp 157 "GET /search/?title=%E5%89%91%E6%9D%A5 HTTP/1.1" 500 97349
+INFO 2020-08-10 19:41:11,339 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:41:14,690 basehttp 157 "GET /hot/ HTTP/1.1" 200 848
+ERROR 2020-08-10 19:41:16,151 log 224 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-10 19:41:16,154 basehttp 157 "GET /search/?title=%E5%89%91%E6%9D%A5 HTTP/1.1" 500 81041
+INFO 2020-08-10 19:41:26,539 basehttp 157 "GET /hot/ HTTP/1.1" 200 848
+ERROR 2020-08-10 19:42:20,202 log 224 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-10 19:42:20,204 basehttp 157 "GET /search/?title=%E5%89%91%E6%9D%A5 HTTP/1.1" 500 81306
+INFO 2020-08-10 19:43:43,232 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:43:49,318 basehttp 157 "GET /hot/ HTTP/1.1" 200 848
+ERROR 2020-08-10 19:43:50,553 log 224 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-10 19:43:50,555 basehttp 157 "GET /search/?title=%E5%89%91%E6%9D%A5 HTTP/1.1" 500 81041
+INFO 2020-08-10 19:44:34,303 autoreload 236 D:\fiction_website\source_code\apps\search\views.py changed, reloading.
+INFO 2020-08-10 19:44:36,005 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:45:12,820 autoreload 236 D:\fiction_website\source_code\apps\hot\views.py changed, reloading.
+INFO 2020-08-10 19:45:14,493 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:45:38,347 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:45:54,119 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:46:04,032 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:46:22,586 basehttp 157 "GET /hot/ HTTP/1.1" 200 888
+ERROR 2020-08-10 19:46:59,219 log 224 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-10 19:46:59,221 basehttp 157 "GET /search/?title=%E7%A9%BF%E8%B6%8A%E7%81%AB%E7%BA%BF HTTP/1.1" 500 81173
+INFO 2020-08-10 19:47:06,601 basehttp 157 "GET /hot/ HTTP/1.1" 200 888
+INFO 2020-08-10 19:47:14,129 basehttp 157 "GET /hot/ HTTP/1.1" 200 888
+ERROR 2020-08-10 19:47:18,841 log 224 Internal Server Error: /search/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+ERROR 2020-08-10 19:47:18,843 basehttp 157 "GET /search/?title=%E5%89%91%E6%9D%A5 HTTP/1.1" 500 81041
+INFO 2020-08-10 19:49:40,647 basehttp 157 "GET /hot/ HTTP/1.1" 200 888
+INFO 2020-08-10 19:49:40,749 autoreload 236 D:\fiction_website\source_code\apps\search\views.py changed, reloading.
+INFO 2020-08-10 19:49:42,444 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-10 19:55:00,679 autoreload 236 D:\fiction_website\source_code\source_code\settings\conf.py changed, reloading.
+INFO 2020-08-10 19:55:02,286 autoreload 612 Watching for file changes with StatReloader

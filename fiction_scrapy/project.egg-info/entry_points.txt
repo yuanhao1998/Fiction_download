@@ -1,0 +1,3 @@
+[scrapy]
+settings = fiction_scrapy.settings
+

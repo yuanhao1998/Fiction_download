@@ -1,0 +1,13 @@
+setup.py
+fiction_scrapy/__init__.py
+fiction_scrapy/items.py
+fiction_scrapy/middlewares.py
+fiction_scrapy/pipelines.py
+fiction_scrapy/settings.py
+fiction_scrapy/spiders/__init__.py
+fiction_scrapy/spiders/top_baidu.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt

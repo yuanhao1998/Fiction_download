@@ -1,0 +1,46 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.header{
+    background-color: aquamarine;
+    height: 13%;
+}
+.title{
+    height: 50%;
+}
+.title span{
+    font-family: 华文隶书, serif;
+    font-size: 36px;
+    text-align: center;
+    display: block;
+}
+.login{
+    height: 50%;
+}
+.login div{
+    float: right;
+    padding-right: 10%;
+}
+.login_user{
+    display: none;
+}
+.search{
+    background-color: bisque;
+    height: 7%;
+}
+.input{
+    float: right;
+}
+.button{
+    float: right;
+}
+.data{
+    height: 100%;
+}
+.data iframe{
+    height: 100%;
+    width: 100%;
+    border: 0;
+}

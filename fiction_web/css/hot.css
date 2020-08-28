@@ -1,0 +1,36 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    /*overflow: hidden;  !*取消iframe滚动条*!*/
+    margin: 0;
+}
+.title{
+    font-family: 华文隶书, serif;
+    font-size: 26px;
+    margin-left: 300px;
+}
+.data{
+    width: 70%;
+    position: relative;
+    left: 15%;
+}
+.book{
+    text-align: center;
+    height: 70px;
+    font-family: 微软雅黑, serif;
+    font-size: 26px;
+}
+.book:hover{
+    color: aqua;
+}
+.book_div{
+    border: 1px solid #000;
+}
+.book_detail{
+    text-align: center;
+    font-family: 微软雅黑, serif;
+    font-size: 26px;
+}
+
+
