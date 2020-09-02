@@ -1,6 +1,6 @@
 from django.db import models
 
-from utils.models import BaseModel
+from utils.base_model import BaseModel
 
 
 class Book(BaseModel):  # 书籍模型类
@@ -18,8 +18,8 @@ class Book(BaseModel):  # 书籍模型类
 
 
 class Chapter(BaseModel):  # 章节模型类
-    book_id = models.CharField(verbose_name='书籍id', max_length=100)
-    chapter_id = models.IntegerField(verbose_name='章节id', default=None)
+    book_id = models.IntegerField(verbose_name='书籍id', default=None)
+    # chapter_id = models.IntegerField(verbose_name='章节id', default=None)
     chapter_name = models.CharField(verbose_name='章节名', max_length=100)
     content = models.TextField(verbose_name='正文', default=None)
     is_delete = models.BooleanField(verbose_name='是否删除', default=False)

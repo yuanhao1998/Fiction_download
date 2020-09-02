@@ -77,6 +77,13 @@ DATABASES = {
         'NAME': 'Fiction'
     }
 }
+PYMYSQL = {
+    'host': 'cdb-dcn8l0ek.cd.tencentcdb.com',
+    'port': 10172,
+    'user': 'root',
+    'password': 'yuan123hao',
+    'db': 'Fiction'
+}
 
 CACHES = {
     "default": {  # 默认存储信息: 存到 0 号库

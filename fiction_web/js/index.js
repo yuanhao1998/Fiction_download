@@ -24,12 +24,18 @@ function login(){
             'password': $('.password').val()
         },
         success: function (response) {
-            if (response.token && response.username) {
-                localStorage.token = response.token  // 本地存储  token、username
-                localStorage.username = response.username
-                $('.login_user').css('display', 'block')
-                $('.username').val(response.username)
-                $('.no_login').css('display', 'none')
+            if (response.errno === 0){
+                if (response.token && response.username) {
+                    localStorage.token = response.token  // 本地存储  token、username
+                    localStorage.username = response.username
+                    $('.login_user').css('display', 'block')
+                    $('.username').val(response.username)
+                    $('.no_login').css('display', 'none')
+                }
+            }
+            else{
+                console.log(response)
+                alert('请求失败，您可以稍后再试或反馈到管理员')
             }
         },
         error: function () {
@@ -56,27 +62,69 @@ function search(e){
         type: 'get',
         dataType: 'json',
         success: function(response){
-            let title = $('.title p');
-            title.text(e + ": 搜索结果");
-            let data = $("#iframe").contents().find(".data");  //获取子页面的data元素
-            data.empty();
-            for (let i in response.data){
-                data.append('<p>' + '来源：' + i + '</p>');
-                for (let j=0; j<response.data[i].length; j++){
-                    let list = response.data[i][j]
-                    data.append('<div class="book_div">' +
-                        '<p class="book_detail"> 书名：' + list.name + '</p>' +
-                        '<p class="book_detail"> 分类：' + list.tag + '</p>' +
-                        '<p class="book_detail"> 作者：' + list.author + '</p>' +
-                        '<p class="book_detail"> 更新：' + list.update + '</p>' +
-                        // '<input type="button" onclick="book_detail(' +'\'' +list.href + '\')" value="查看本书"></div>')
-                        '<input type="button" onclick="add_bookshelves(' +'\''+ list.name+'\',\''+list.tag+'\',\''+list.author+'\',\''+list.href + '\')" value="添加到书架"></div>')
+            if (response.errno === 0){
+                let title = $('.title p');
+                title.text(e + ": 搜索结果");
+                let data = $("#iframe").contents().find(".data");  //获取子页面的data元素
+                data.empty();
+                for (let i in response.data){
+                    data.append('<p>' + '来源：' + i + '</p>');
+                    for (let j=0; j<response.data[i].length; j++){
+                        let list = response.data[i][j]
+                        data.append('<div class="book_div">' +
+                            '<p class="book_detail"> 书名：' + list.name + '</p>' +
+                            '<p class="book_detail"> 分类：' + list.tag + '</p>' +
+                            '<p class="book_detail"> 作者：' + list.author + '</p>' +
+                            '<p class="book_detail"> 更新：' + list.update + '</p>' +
+                            // '<input type="button" onclick="book_detail(' +'\'' +list.href + '\')" value="查看本书"></div>')
+                            '<input type="button" onclick="window.parent.add_bookshelves(' +'\''+ list.name+'\',\''+list.tag+'\',\''+list.author+'\',\''+list.href + '\')" value="添加到书架"></div>')
+                    }
                 }
+            }
+            else{
+                console.log(response)
+                alert('请求失败，您可以稍后再试或反馈到管理员')
             }
         },
         error: function(e){
             console.log(e)
             alert('查询失败，请稍后重试')
         }
+    })
+}
+
+//添加到书架
+function add_bookshelves(book_name,tags,author,href){
+    $.ajax({
+        url:'http://127.0.0.1:8000/bookshelves/',
+        type: 'post',
+        dataType: 'json',
+        headers: {
+            'Authorization': 'JWT ' + localStorage.token
+        },
+        data: {
+            "book_name": book_name,
+            "tags": tags,
+            "author": author,
+            "href": href
+        },
+        success: function(response){
+            switch(response.errno){
+                case 0:
+                    alert('添加成功,请在书架查看');
+                    break;
+                case 4003:
+                    alert('此书籍已添加到您的书架')
+                    break;
+                default:
+                    console.log(response)
+                    alert('添加失败，请稍后重试')
+            }
+        },
+        error: function(e){
+            console.log(e)
+            alert('添加失败，请稍后重试')
+        }
+
     })
 }

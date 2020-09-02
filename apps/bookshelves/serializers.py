@@ -16,10 +16,11 @@ class BookShelvesSerializer(serializers.ModelSerializer):  # 书架序列化器
     def create(self, validated_data):  # 添加书籍到数据库
         user_id = validated_data.get('user_id')
         book_id = validated_data.get('book_id')
+        chapter_id = None
         if not all([user_id, book_id]):  # 校验参数
             raise Exception('Missing important parameter')
         try:
-            instance = BookShelves.objects.create(**validated_data)  # 添加数据到book表
+            instance = BookShelves.objects.create(chapter_id=chapter_id, **validated_data)  # 添加数据到book表
         except Exception:
             raise Exception('add bookshelves error')
         return instance

@@ -18,6 +18,7 @@
       <sourceFolder url="file://$MODULE_DIR$/apps" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/fiction_scrapy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/fiction_web" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fiction_test" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

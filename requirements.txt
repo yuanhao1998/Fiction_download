@@ -45,3 +45,8 @@ Twisted==20.3.0
 urllib3==1.25.10
 w3lib==1.22.0
 zope.interface==5.1.0
+
+PyMySQL~=0.10.0
+setuptools~=49.2.1
+PyYAML~=5.3.1
+pytest~=6.0.1

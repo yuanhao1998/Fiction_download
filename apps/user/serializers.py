@@ -1,12 +1,8 @@
-import logging
-
 from rest_framework import serializers
 from django.contrib.auth.hashers import check_password
 from rest_framework.exceptions import ValidationError
 from rest_framework_jwt.serializers import jwt_payload_handler, jwt_encode_handler
 from user.models import User
-
-logger = logging.getLogger('django')
 
 
 class UserSerializer(serializers.ModelSerializer):  # 用户序列化器
@@ -35,5 +31,4 @@ class UserSerializer(serializers.ModelSerializer):  # 用户序列化器
                 }
             raise
         except Exception:
-            logger.error(Exception)
             raise ValidationError('login error')  # 登录失败抛出异常

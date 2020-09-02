@@ -1,13 +1,15 @@
 import re
 
-import requests
+from urllib import parse
+from urllib.parse import urlparse
+
 from lxml import etree
 from lxml.html import tostring
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from source_code.settings.conf import FICTION_WEBSITE, FICTION_HEADERS
-from utils.page import get_page, post_page
+from utils.page_url import get_page, post_page
 
 
 class BookSearchView(APIView):  # 返回搜索书籍的结果
@@ -29,13 +31,13 @@ class BookSearchView(APIView):  # 返回搜索书籍的结果
         response = post_page(url=self.url, headers=self.headers, data={'searchkey': book_name})  # post方法获取页面
         html = etree.HTML(response)
         book_list = html.xpath('//div[@class="bookbox"]')  # 开始处理页面数据
+        parse_data = urlparse(self.url)  # 解析url地址，用于获取域名
+        host = parse_data.scheme + '://' + parse_data.netloc
         data = {}
         temp_list = []
         for book in book_list:
             name = book.xpath('./div/div/h4/a/text()')
-            href = book.xpath('./div/div/h4/a/@href')
-            if not re.match(r'^http:', href[0]):
-                href = list(FICTION_WEBSITE.keys())[0] + href[0]
+            href = host + book.xpath('./div/div/h4/a/@href')[0]  # 将页面获取的url补齐
             tag = book.xpath('./div/div/div[@class="cat"]/text()')
             author = book.xpath('./div/div/div[@class="author"]/text()')
             update = book.xpath('./div/div/div[@class="update"]/a/text()')
@@ -65,5 +67,7 @@ class BookSearchDetailView(APIView):  # 获取查询书籍的详情
         html = etree.HTML(response)
         data = tostring(html.xpath('//div[@class="info"]')[0]).decode()
         return Response({
+            'errno': 0,
+            'errmsg': 'OK',
             'data': data
         })

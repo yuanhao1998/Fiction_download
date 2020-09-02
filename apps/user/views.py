@@ -1,10 +1,7 @@
 from django.contrib.auth import login
-from django.contrib.auth.hashers import make_password
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from source_code.settings.dev import SECRET_KEY
-from user.models import User
 from user.serializers import UserSerializer
 
 

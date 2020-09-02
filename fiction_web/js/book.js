@@ -7,11 +7,18 @@ $(document).ready(function () {
             'Authorization': 'JWT ' + localStorage.token
         },
         success: function (response){
-            let data = $('.data');
-            let title = $('.title p');
-            title.text(response.title)
-            data.empty();
-            data.append(response.data)
+            if (response.errno === 0){
+                localStorage.chapter_id = response.id;
+                let data = $('.data');
+                let title = $('.title p');
+                title.text(response.title);
+                data.empty();
+                data.append(response.data);
+            }
+            else{
+                console.log(response)
+                alert('请求失败，您可以稍后再试或反馈到管理员')
+            }
         },
         error: function(e) {
             console.log(e)
@@ -35,11 +42,17 @@ function Turn_page(flag){
             'Authorization': 'JWT ' + localStorage.token
         },
         success: function (response){
-            let data = $('.data');
-            let title = $('.title p');
-            title.text(response.title)
-            data.empty();
-            data.append(response.data)
+            if (response.errno === 0){
+                let data = $('.data');
+                let title = $('.title p');
+                title.text(response.title)
+                data.empty();
+                data.append(response.data)
+            }
+            else{
+                console.log(response)
+                alert('请求失败，您可以稍后再试或反馈到管理员')
+            }
         },
         error: function(e) {
             console.log(e)

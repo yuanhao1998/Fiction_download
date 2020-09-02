@@ -3382,3 +3382,2116 @@ INFO 2020-08-28 13:48:19,491 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/
 INFO 2020-08-28 13:50:39,537 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
 INFO 2020-08-28 13:50:46,535 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
 INFO 2020-08-28 13:50:50,343 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 13:50:57,447 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 13:50:58,638 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 13:51:03,685 basehttp 157 "GET /hot/ HTTP/1.1" 200 320
+INFO 2020-08-28 13:51:05,723 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1183
+INFO 2020-08-28 13:51:10,949 basehttp 157 "GET /search/%E6%96%97%E7%BD%97%E5%A4%A7%E9%99%86/ HTTP/1.1" 200 7508
+INFO 2020-08-28 13:53:10,685 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 13:53:18,098 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 13:53:23,991 basehttp 157 "GET /hot/ HTTP/1.1" 200 320
+INFO 2020-08-28 13:53:26,346 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1183
+INFO 2020-08-28 13:54:31,060 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 13:54:31,707 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 13:54:34,920 basehttp 157 "GET /hot/ HTTP/1.1" 200 320
+INFO 2020-08-28 13:54:36,755 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1183
+INFO 2020-08-28 13:55:22,501 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 13:55:23,198 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 13:55:25,677 basehttp 157 "GET /hot/ HTTP/1.1" 200 320
+INFO 2020-08-28 13:55:27,265 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1183
+INFO 2020-08-28 13:57:53,106 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 13:58:00,827 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 13:58:04,984 basehttp 157 "GET /hot/ HTTP/1.1" 200 320
+INFO 2020-08-28 13:58:06,648 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1183
+INFO 2020-08-28 13:59:30,280 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 13:59:35,994 basehttp 157 "GET /hot/ HTTP/1.1" 200 320
+INFO 2020-08-28 13:59:42,402 basehttp 157 "GET /search// HTTP/1.1" 200 53
+INFO 2020-08-28 14:00:14,800 basehttp 157 "GET /search// HTTP/1.1" 200 53
+INFO 2020-08-28 14:01:25,041 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 14:01:25,738 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 14:07:15,908 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 14:07:16,722 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 14:07:22,378 basehttp 157 "GET /search/undefined/ HTTP/1.1" 200 73
+INFO 2020-08-28 14:08:30,471 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 14:08:31,812 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 14:08:35,755 basehttp 157 "GET /search/undefined/ HTTP/1.1" 200 73
+INFO 2020-08-28 14:09:53,551 basehttp 157 "GET /hot/ HTTP/1.1" 200 320
+INFO 2020-08-28 14:09:56,700 basehttp 157 "GET /search/%E4%B8%89%E5%AF%B8%E4%BA%BA%E9%97%B4/ HTTP/1.1" 200 234
+INFO 2020-08-28 14:09:59,113 basehttp 157 "GET /hot/ HTTP/1.1" 200 320
+INFO 2020-08-28 14:10:04,132 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1183
+INFO 2020-08-28 14:11:41,121 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 14:11:42,722 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 14:11:44,569 basehttp 157 "GET /hot/ HTTP/1.1" 200 320
+INFO 2020-08-28 14:11:48,303 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1183
+INFO 2020-08-28 14:11:57,702 basehttp 157 "GET /search/undefined/ HTTP/1.1" 200 73
+INFO 2020-08-28 14:14:50,923 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 14:15:05,284 basehttp 157 "GET /hot/ HTTP/1.1" 200 320
+INFO 2020-08-28 14:15:07,507 basehttp 157 "GET /search/undefined/ HTTP/1.1" 200 73
+INFO 2020-08-28 14:18:07,718 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 14:18:08,641 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 14:18:11,696 basehttp 157 "GET /hot/ HTTP/1.1" 200 320
+INFO 2020-08-28 14:18:13,220 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1183
+INFO 2020-08-28 14:18:20,341 basehttp 157 "GET /hot/ HTTP/1.1" 200 320
+INFO 2020-08-28 14:18:24,415 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1183
+INFO 2020-08-28 17:42:14,692 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 17:42:21,024 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 17:42:21,865 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 17:42:25,669 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 17:42:28,881 basehttp 157 "GET /hot/ HTTP/1.1" 200 320
+INFO 2020-08-28 17:43:00,713 basehttp 157 "GET /search/%E5%A4%A9%E8%B5%90%E7%A6%8F%E5%A6%BB/ HTTP/1.1" 200 73
+INFO 2020-08-28 17:45:47,663 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 17:46:12,341 basehttp 157 "GET /search/%E9%82%A3%E5%B9%B4%E5%A4%8F%E5%A4%A9/ HTTP/1.1" 200 1152
+INFO 2020-08-28 17:46:23,844 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 17:46:37,429 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 17:46:42,049 basehttp 157 "GET /search/%E9%82%A3%E5%B9%B4%E5%A4%8F%E5%A4%A9/ HTTP/1.1" 200 1152
+INFO 2020-08-28 17:57:43,691 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 17:58:00,411 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 17:58:01,812 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 17:58:16,106 basehttp 157 "GET /search/%E9%82%A3%E5%B9%B4%E5%A4%8F%E5%A4%A9/ HTTP/1.1" 200 1152
+INFO 2020-08-28 17:58:19,554 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 17:58:21,514 basehttp 157 "POST /book/create/ HTTP/1.1" 200 164
+ERROR 2020-08-28 17:58:22,811 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1048, "Column 'chapter_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\source_code\apps\bookshelves\serializers.py", line 22, in create
+    instance = BookShelves.objects.create(**validated_data)  # 添加数据到book表
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 750, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 787, in save_base
+    updated = self._save_table(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 892, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 930, in _do_insert
+    return manager._insert(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1249, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 1395, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'chapter_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 47, in create
+    serializer.save()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "D:\fiction_website\source_code\apps\bookshelves\serializers.py", line 24, in create
+    raise Exception('add bookshelves error')
+Exception: add bookshelves error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 57, in create
+    transaction.savepoint_rollback(save_id)  # 回滚数据
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\transaction.py", line 57, in savepoint_rollback
+    get_connection(using).savepoint_rollback(sid)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\base\base.py", line 352, in savepoint_rollback
+    self._savepoint_rollback(sid)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\base\base.py", line 310, in _savepoint_rollback
+    cursor.execute(self.ops.savepoint_rollback_sql(sid))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 78, in _execute
+    self.db.validate_no_broken_transaction()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\base\base.py", line 447, in validate_no_broken_transaction
+    raise TransactionManagementError(
+django.db.transaction.TransactionManagementError: An error occurred in the current transaction. You can't execute queries until the end of the 'atomic' block.
+ERROR 2020-08-28 17:58:22,823 basehttp 157 "POST /bookshelves/ HTTP/1.1" 500 241733
+INFO 2020-08-28 18:07:59,683 autoreload 236 D:\fiction_website\source_code\apps\book\models.py changed, reloading.
+INFO 2020-08-28 18:08:01,166 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 18:10:01,797 autoreload 236 D:\fiction_website\source_code\apps\book\models.py changed, reloading.
+INFO 2020-08-28 18:10:03,316 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 18:14:23,638 autoreload 236 D:\fiction_website\source_code\apps\book\models.py changed, reloading.
+INFO 2020-08-28 18:14:25,252 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 18:14:56,591 autoreload 236 D:\fiction_website\source_code\apps\book\models.py changed, reloading.
+INFO 2020-08-28 18:14:58,102 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 18:16:55,696 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\migrations\0001_initial.py changed, reloading.
+INFO 2020-08-28 18:16:57,450 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 18:20:03,097 autoreload 236 D:\fiction_website\source_code\apps\book\migrations\0001_initial.py changed, reloading.
+INFO 2020-08-28 18:20:04,577 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 18:21:26,868 autoreload 236 D:\fiction_website\source_code\apps\book\migrations\0001_initial.py changed, reloading.
+INFO 2020-08-28 18:21:28,330 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 19:22:22,476 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-08-28 19:22:24,078 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 19:28:33,925 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\models.py changed, reloading.
+INFO 2020-08-28 19:28:35,427 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 19:52:22,650 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 19:52:41,448 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+ERROR 2020-08-28 19:52:43,216 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'tb_bookshelves.chapter' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 19, in list
+    for bookshelves in bookshelves_list:
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 287, in __iter__
+    self._fetch_all()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1303, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 1154, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'tb_bookshelves.chapter' in 'field list'")
+ERROR 2020-08-28 19:52:43,225 basehttp 157 "GET /bookshelves/ HTTP/1.1" 500 181458
+INFO 2020-08-28 19:52:49,165 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-28 20:18:06,863 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-08-28 20:18:08,467 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 20:19:05,428 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 20:19:12,456 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+ERROR 2020-08-28 20:19:13,806 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1054, "Unknown column 'tb_bookshelves.chapter' in 'field list'")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 19, in list
+    for bookshelves in bookshelves_list:
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 287, in __iter__
+    self._fetch_all()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1303, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 1154, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+django.db.utils.OperationalError: (1054, "Unknown column 'tb_bookshelves.chapter' in 'field list'")
+ERROR 2020-08-28 20:19:13,816 basehttp 157 "GET /bookshelves/ HTTP/1.1" 500 181458
+INFO 2020-08-28 20:32:44,482 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 20:32:51,494 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 20:32:52,316 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 20:36:14,700 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\serializers.py changed, reloading.
+INFO 2020-08-28 20:36:16,285 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 20:36:38,324 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 20:36:51,556 basehttp 157 "GET /search/%E9%82%A3%E5%B9%B4%E5%A4%8F%E5%A4%A9/ HTTP/1.1" 200 1152
+INFO 2020-08-28 20:36:53,053 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 20:36:54,607 basehttp 157 "POST /book/create/ HTTP/1.1" 200 164
+ERROR 2020-08-28 20:36:55,789 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 206, in execute
+    res = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 319, in _query
+    db.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 259, in query
+    _mysql.connection.query(self, query)
+MySQLdb._exceptions.OperationalError: (1048, "Column 'chapter_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\source_code\apps\bookshelves\serializers.py", line 23, in create
+    instance = BookShelves.objects.create(chapter_id=chapter_id, **validated_data)  # 添加数据到book表
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 750, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 787, in save_base
+    updated = self._save_table(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 892, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\base.py", line 930, in _do_insert
+    return manager._insert(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1249, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 1395, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 78, in execute
+    raise IntegrityError(*tuple(e.args))
+django.db.utils.IntegrityError: (1048, "Column 'chapter_id' cannot be null")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 51, in create
+    serializer.save()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "D:\fiction_website\source_code\apps\bookshelves\serializers.py", line 25, in create
+    raise Exception('add bookshelves error')
+Exception: add bookshelves error
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 61, in create
+    transaction.savepoint_rollback(save_id)  # 回滚数据
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\transaction.py", line 57, in savepoint_rollback
+    get_connection(using).savepoint_rollback(sid)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\base\base.py", line 352, in savepoint_rollback
+    self._savepoint_rollback(sid)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\base\base.py", line 310, in _savepoint_rollback
+    cursor.execute(self.ops.savepoint_rollback_sql(sid))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 78, in _execute
+    self.db.validate_no_broken_transaction()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\base\base.py", line 447, in validate_no_broken_transaction
+    raise TransactionManagementError(
+django.db.transaction.TransactionManagementError: An error occurred in the current transaction. You can't execute queries until the end of the 'atomic' block.
+ERROR 2020-08-28 20:36:55,802 basehttp 157 "POST /bookshelves/ HTTP/1.1" 500 242161
+INFO 2020-08-28 20:37:41,206 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\models.py changed, reloading.
+INFO 2020-08-28 20:37:43,007 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 20:39:32,740 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 20:39:49,746 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+ERROR 2020-08-28 20:39:50,995 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 30, in list
+    'chapter_id': chapter.id,
+AttributeError: 'dict' object has no attribute 'id'
+ERROR 2020-08-28 20:39:50,999 basehttp 157 "GET /bookshelves/ HTTP/1.1" 500 96531
+INFO 2020-08-28 20:42:21,822 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 20:42:27,716 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+ERROR 2020-08-28 20:42:30,797 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 22, in list
+    chapter = Chapter.objects.get(id=bookshelves.chapter_id)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+book.models.Chapter.DoesNotExist: Chapter matching query does not exist.
+ERROR 2020-08-28 20:42:30,800 basehttp 157 "GET /bookshelves/ HTTP/1.1" 500 105174
+INFO 2020-08-28 20:44:37,487 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 20:45:33,203 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 20:45:42,254 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 20:45:45,713 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 154
+INFO 2020-08-28 20:46:09,712 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 111
+INFO 2020-08-28 20:47:01,703 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 20:47:06,264 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 130
+INFO 2020-08-28 20:47:25,561 basehttp 157 "GET /search/%E9%82%A3%E5%B9%B4%E5%A4%8F%E5%A4%A9/ HTTP/1.1" 200 1152
+INFO 2020-08-28 20:47:29,886 basehttp 157 "POST /book/create/ HTTP/1.1" 200 164
+INFO 2020-08-28 20:47:30,962 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-08-28 20:49:42,713 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 20:49:48,433 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 130
+INFO 2020-08-28 20:49:54,940 basehttp 157 "GET /search/%E9%82%A3%E5%B9%B4%E5%A4%8F%E5%A4%A9/ HTTP/1.1" 200 1152
+INFO 2020-08-28 20:50:12,684 basehttp 157 "POST /book/create/ HTTP/1.1" 200 164
+INFO 2020-08-28 20:50:13,363 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-08-28 20:55:37,674 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 20:55:45,062 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 130
+INFO 2020-08-28 20:56:04,254 basehttp 157 "GET /search/%E9%82%A3%E5%B9%B4%E5%A4%8F%E5%A4%A9/ HTTP/1.1" 200 1152
+INFO 2020-08-28 20:56:08,512 basehttp 157 "POST /book/create/ HTTP/1.1" 200 164
+INFO 2020-08-28 20:56:09,044 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-08-28 20:59:18,069 autoreload 236 D:\fiction_website\source_code\apps\book\models.py changed, reloading.
+INFO 2020-08-28 20:59:19,593 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 20:59:38,632 autoreload 236 D:\fiction_website\source_code\apps\book\models.py changed, reloading.
+INFO 2020-08-28 20:59:40,089 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 21:00:19,576 basehttp 157 "POST /book/create/ HTTP/1.1" 200 49
+INFO 2020-08-28 21:00:19,753 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 59
+INFO 2020-08-28 21:00:49,752 basehttp 157 "POST /book/create/ HTTP/1.1" 200 164
+INFO 2020-08-28 21:00:50,295 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-08-28 22:18:19,482 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:18:36,334 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-08-28 22:18:36,347 log 224 Unauthorized: /bookshelves/
+WARNING 2020-08-28 22:18:36,348 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 35
+INFO 2020-08-28 22:18:43,581 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-28 22:18:48,388 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-08-28 22:18:50,609 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 130
+INFO 2020-08-28 22:19:04,278 basehttp 157 "GET /search/%E9%82%A3%E5%B9%B4%E5%A4%8F%E5%A4%A9/ HTTP/1.1" 200 1152
+INFO 2020-08-28 22:19:06,585 basehttp 157 "POST /book/create/ HTTP/1.1" 200 164
+INFO 2020-08-28 22:19:07,365 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-08-28 22:20:25,111 autoreload 236 D:\fiction_website\source_code\apps\book\models.py changed, reloading.
+INFO 2020-08-28 22:20:26,960 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:21:42,776 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:21:53,789 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 130
+INFO 2020-08-28 22:22:05,095 basehttp 157 "GET /search/%E9%82%A3%E5%B9%B4%E5%A4%8F%E5%A4%A9/ HTTP/1.1" 200 1152
+INFO 2020-08-28 22:22:10,609 basehttp 157 "POST /book/create/ HTTP/1.1" 200 164
+INFO 2020-08-28 22:22:11,730 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-08-28 22:22:23,459 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-28 22:23:38,945 basehttp 157 "OPTIONS /book/?book_id=38&chapter_id=null HTTP/1.1" 200 0
+ERROR 2020-08-28 22:23:41,469 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'null'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 30, in get
+    chapter = Chapter.objects.get(book_id=book_id, id=chapter_id)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 418, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\lookups.py", line 74, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'null'.
+ERROR 2020-08-28 22:23:41,478 basehttp 157 "GET /book/?book_id=38&chapter_id=null HTTP/1.1" 500 160354
+INFO 2020-08-28 22:25:11,686 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-08-28 22:25:13,297 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:27:49,801 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-08-28 22:32:56,447 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:33:11,097 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 22:33:11,689 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-28 22:33:14,184 basehttp 157 "OPTIONS /book/?book_id=38&chapter_id=null HTTP/1.1" 200 0
+ERROR 2020-08-28 22:33:16,155 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'null'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 33, in get
+    chapter = Chapter.objects.get(book_id=book_id, id=chapter_id)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 418, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\lookups.py", line 74, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'null'.
+ERROR 2020-08-28 22:33:16,160 basehttp 157 "GET /book/?book_id=38&chapter_id=null HTTP/1.1" 500 160458
+INFO 2020-08-28 22:33:36,152 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:33:41,069 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+ERROR 2020-08-28 22:33:44,544 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'null'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 34, in get
+    chapter = Chapter.objects.get(book_id=book_id, id=chapter_id)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 418, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\lookups.py", line 74, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'null'.
+ERROR 2020-08-28 22:33:44,549 basehttp 157 "GET /book/?book_id=38&chapter_id=null HTTP/1.1" 500 160475
+INFO 2020-08-28 22:34:40,308 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:34:45,039 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 22:34:45,649 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-28 22:34:46,971 basehttp 157 "OPTIONS /book/?book_id=38&chapter_id=null HTTP/1.1" 200 0
+ERROR 2020-08-28 22:34:49,041 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'null'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 35, in get
+    chapter = Chapter.objects.get(book_id=book_id, id=chapter_id)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 418, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\lookups.py", line 74, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'null'.
+ERROR 2020-08-28 22:34:49,045 basehttp 157 "GET /book/?book_id=38&chapter_id=null HTTP/1.1" 500 160748
+INFO 2020-08-28 22:35:09,584 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:35:14,255 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 22:35:14,865 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-28 22:35:16,833 basehttp 157 "OPTIONS /book/?book_id=38&chapter_id=null HTTP/1.1" 200 0
+ERROR 2020-08-28 22:35:17,402 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 36, in get
+    title = chapter.chapter_name
+AttributeError: 'dict' object has no attribute 'chapter_name'
+ERROR 2020-08-28 22:35:17,406 basehttp 157 "GET /book/?book_id=38&chapter_id=null HTTP/1.1" 500 94909
+INFO 2020-08-28 22:35:51,046 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:36:12,483 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-28 22:36:13,088 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-28 22:36:15,217 basehttp 157 "OPTIONS /book/?book_id=38&chapter_id=null HTTP/1.1" 200 0
+INFO 2020-08-28 22:39:42,824 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:39:46,388 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-28 22:46:20,302 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:46:27,858 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+ERROR 2020-08-28 22:46:32,331 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'dict'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 34, in get
+    chapter = Chapter.objects.get(id=chapter_min_id)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 418, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\lookups.py", line 74, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got {'id__min': 1235}.
+ERROR 2020-08-28 22:46:32,337 basehttp 157 "GET /book/?book_id=38&chapter_id=null HTTP/1.1" 500 160173
+INFO 2020-08-28 22:46:57,579 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:47:14,179 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+ERROR 2020-08-28 22:47:17,346 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 34, in get
+    chapter = Chapter.objects.get(id=chapter_min_id)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+book.models.Chapter.DoesNotExist: Chapter matching query does not exist.
+ERROR 2020-08-28 22:47:17,349 basehttp 157 "GET /book/?book_id=38&chapter_id=null HTTP/1.1" 500 104277
+INFO 2020-08-28 22:47:45,160 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:47:50,749 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-28 22:47:51,733 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-28 22:48:24,766 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:48:31,845 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-08-28 22:48:34,527 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:48:36,635 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-28 22:50:58,954 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:51:04,069 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-28 22:51:52,988 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:51:58,917 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-28 22:52:37,870 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 22:52:51,445 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-28 22:52:53,995 basehttp 157 "GET /book/?book_id=38&chapter_id=null HTTP/1.1" 200 5113
+INFO 2020-08-28 22:53:05,966 basehttp 157 "OPTIONS /book/?book_id=38&chapter_id=NaN HTTP/1.1" 200 0
+ERROR 2020-08-28 22:53:07,967 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\fields\__init__.py", line 1774, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'NaN'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 35, in get
+    chapter = Chapter.objects.get(book_id=book_id, id=chapter_id)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 418, in get
+    clone = self._chain() if self.query.combinator else self.filter(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 942, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 962, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 969, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1358, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1377, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1319, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 1165, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\lookups.py", line 24, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\lookups.py", line 74, in get_prep_lookup
+    return self.lhs.output_field.get_prep_value(self.rhs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\fields\__init__.py", line 1776, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'NaN'.
+ERROR 2020-08-28 22:53:07,972 basehttp 157 "GET /book/?book_id=38&chapter_id=NaN HTTP/1.1" 500 160553
+INFO 2020-08-28 23:03:04,800 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-08-28 23:03:06,809 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 23:05:05,520 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-08-28 23:05:06,968 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 23:08:41,600 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-08-28 23:08:43,256 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-28 23:08:48,682 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-08-28 23:08:50,129 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-29 12:04:36,381 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-29 12:04:54,397 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-29 12:04:55,338 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-29 12:04:57,119 basehttp 157 "OPTIONS /book/?book_id=38&chapter_id=null HTTP/1.1" 200 0
+ERROR 2020-08-29 12:04:57,890 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 41, in get
+    'title': chapter.chapter_name,
+AttributeError: 'RawQuerySet' object has no attribute 'chapter_name'
+ERROR 2020-08-29 12:04:57,892 basehttp 157 "GET /book/?book_id=38&chapter_id=null HTTP/1.1" 500 94639
+INFO 2020-08-29 12:05:36,825 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-29 12:05:48,635 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-29 12:09:17,920 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-29 12:09:24,485 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-29 12:09:26,123 basehttp 157 "GET /book/?book_id=38&chapter_id=null HTTP/1.1" 200 5123
+INFO 2020-08-29 12:18:50,804 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-08-29 12:18:52,286 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-29 12:19:40,720 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-29 12:19:52,740 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-29 12:20:44,888 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-29 12:20:53,727 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+ERROR 2020-08-29 12:20:55,416 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 201, in execute
+    query = query % args
+TypeError: %d format: a number is required, not bytes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+MySQLdb._exceptions.ProgrammingError: %d format: a number is required, not bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 32, in get
+    chapter = Chapter.objects.raw(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1505, in __getitem__
+    return list(self)[k]
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1455, in __len__
+    self._fetch_all()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1450, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1473, in iterator
+    query = iter(self.query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 99, in __iter__
+    self._execute_query()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+django.db.utils.ProgrammingError: %d format: a number is required, not bytes
+ERROR 2020-08-29 12:20:55,422 basehttp 157 "GET /book/?book_id=38&chapter_id=null HTTP/1.1" 500 174563
+INFO 2020-08-29 12:21:19,718 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-29 12:21:25,499 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-29 12:21:26,665 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+ERROR 2020-08-29 12:21:28,141 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 201, in execute
+    query = query % args
+TypeError: %d format: a number is required, not bytes
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+MySQLdb._exceptions.ProgrammingError: %d format: a number is required, not bytes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 32, in get
+    chapter = Chapter.objects.raw(
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1505, in __getitem__
+    return list(self)[k]
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1455, in __len__
+    self._fetch_all()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1450, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1473, in iterator
+    query = iter(self.query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 99, in __iter__
+    self._execute_query()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\query.py", line 133, in _execute_query
+    self.cursor.execute(self.sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 73, in execute
+    return self.cursor.execute(query, args)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\cursors.py", line 203, in execute
+    raise ProgrammingError(str(m))
+django.db.utils.ProgrammingError: %d format: a number is required, not bytes
+ERROR 2020-08-29 12:21:28,151 basehttp 157 "GET /book/?book_id=38&chapter_id=null HTTP/1.1" 500 174563
+INFO 2020-08-29 12:21:43,239 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-29 12:21:50,098 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-29 12:21:51,557 basehttp 157 "GET /book/?book_id=38&chapter_id=null HTTP/1.1" 200 5123
+INFO 2020-08-29 14:25:29,241 basehttp 157 "OPTIONS /book/?book_id=38&chapter_id=1236 HTTP/1.1" 200 0
+INFO 2020-08-29 14:25:30,019 basehttp 157 "GET /book/?book_id=38&chapter_id=1236 HTTP/1.1" 200 6034
+INFO 2020-08-29 14:25:32,458 basehttp 157 "OPTIONS /book/?book_id=38&chapter_id=1237 HTTP/1.1" 200 0
+INFO 2020-08-29 14:25:33,086 basehttp 157 "GET /book/?book_id=38&chapter_id=1237 HTTP/1.1" 200 6097
+INFO 2020-08-29 14:33:31,424 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-08-29 14:33:33,493 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 12:04:57,250 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 12:06:42,817 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-08-31 12:06:42,839 log 224 Unauthorized: /bookshelves/
+WARNING 2020-08-31 12:06:42,840 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 35
+INFO 2020-08-31 12:06:51,014 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-31 12:06:57,118 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-08-31 12:07:00,044 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-31 12:07:03,869 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-31 12:07:28,484 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-31 12:07:29,958 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-31 12:07:32,887 basehttp 157 "GET /search/%E4%B8%89%E5%AF%B8%E4%BA%BA%E9%97%B4/ HTTP/1.1" 200 234
+ERROR 2020-08-31 12:07:44,110 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 37, in create
+    conn = pymysql.connect(host='175.24.100.78', port=3306, user='root', passwd='yuan123hao', db='Fiction')
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\connections.py", line 327, in __init__
+    self.connect()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\connections.py", line 588, in connect
+    self._request_authentication()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\connections.py", line 853, in _request_authentication
+    auth_packet = self._read_packet()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1049, "Unknown database 'Fiction'")
+ERROR 2020-08-31 12:07:44,114 basehttp 157 "POST /bookshelves/ HTTP/1.1" 500 134026
+INFO 2020-08-31 12:09:02,962 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 12:09:04,756 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 12:09:17,920 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 12:09:24,097 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 12:09:24,472 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 12:10:39,180 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 12:11:07,046 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 12:13:43,281 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 12:16:13,601 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 12:16:27,543 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 12:16:27,782 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 12:17:23,640 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 12:17:29,137 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 12:17:29,374 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 12:18:12,049 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 12:18:17,875 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 12:18:18,113 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 12:18:39,758 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 12:18:58,959 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 12:18:59,195 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 12:19:34,788 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 12:20:08,606 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 12:21:59,493 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 12:22:07,228 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 12:22:07,456 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 12:22:31,644 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 12:22:45,241 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 12:23:40,903 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 12:24:52,685 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:00:06,766 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 13:00:08,209 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:33:11,491 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:33:26,745 basehttp 157 "POST /book/create/ HTTP/1.1" 200 49
+INFO 2020-08-31 13:33:26,971 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 13:34:01,784 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:34:12,464 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 13:35:21,225 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:35:33,516 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 13:35:33,752 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 13:36:12,781 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:36:29,570 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:36:43,628 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:36:56,460 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 13:37:54,994 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:38:14,171 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 13:39:31,356 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:39:38,050 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 13:39:39,716 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:39:54,672 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 13:39:55,132 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 13:40:05,411 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:40:26,055 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 13:41:29,103 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 13:41:40,640 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:41:58,980 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 13:42:53,303 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:43:21,470 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 13:44:10,652 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:44:17,098 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 13:44:19,857 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:44:40,983 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 13:44:53,536 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 13:46:28,150 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:46:39,109 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 13:48:31,957 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:48:43,881 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 13:51:28,596 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 13:52:38,839 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 13:52:56,245 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+ERROR 2020-08-31 13:52:56,676 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 63, in create
+    cursor.execute(sql, (table_name,))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tb_59_三寸人间' (id INT auto_increment PRIMARY KEY ,book_id INT NOT NULL,ch' at line 1")
+ERROR 2020-08-31 13:52:56,679 basehttp 157 "POST /bookshelves/ HTTP/1.1" 500 133871
+INFO 2020-08-31 13:59:47,722 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 14:00:18,695 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+ERROR 2020-08-31 14:00:19,180 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 63, in create
+    cursor.execute(sql, {'table_name': table_name})
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\cursors.py", line 163, in execute
+    result = self._query(query)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\cursors.py", line 321, in _query
+    conn.query(q)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\connections.py", line 505, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\connections.py", line 724, in _read_query_result
+    result.read()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\connections.py", line 1069, in read
+    first_packet = self.connection._read_packet()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\connections.py", line 676, in _read_packet
+    packet.raise_for_error()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\protocol.py", line 223, in raise_for_error
+    err.raise_mysql_exception(self._data)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.ProgrammingError: (1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''tb_60_三寸人间' (id INT auto_increment PRIMARY KEY ,book_id INT NOT NULL,ch' at line 1")
+ERROR 2020-08-31 14:00:19,186 basehttp 157 "POST /bookshelves/ HTTP/1.1" 500 133964
+INFO 2020-08-31 14:00:45,406 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 14:01:09,694 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 14:06:00,590 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 14:06:03,506 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 14:06:23,272 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 14:07:01,726 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 14:07:03,320 basehttp 157 "POST /book/create/ HTTP/1.1" 200 158
+INFO 2020-08-31 14:07:03,656 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-08-31 14:08:22,308 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 14:08:23,841 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 14:22:27,156 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 14:22:28,928 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 18:11:50,255 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 18:12:39,789 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 18:12:40,942 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 388
+INFO 2020-08-31 18:12:46,980 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+ERROR 2020-08-31 18:12:52,823 log 224 Internal Server Error: /search/剑来/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\search\views.py", line 32, in get
+    host = response.request.headers['Origin']
+AttributeError: 'str' object has no attribute 'request'
+ERROR 2020-08-31 18:12:52,825 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 500 102755
+ERROR 2020-08-31 18:12:55,694 log 224 Internal Server Error: /search/斗罗大陆/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\search\views.py", line 32, in get
+    host = response.request.headers['Origin']
+AttributeError: 'str' object has no attribute 'request'
+ERROR 2020-08-31 18:12:55,695 basehttp 157 "GET /search/%E6%96%97%E7%BD%97%E5%A4%A7%E9%99%86/ HTTP/1.1" 500 104332
+INFO 2020-08-31 18:15:46,140 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-31 18:15:52,409 log 224 Internal Server Error: /search/剑来/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\search\views.py", line 33, in get
+    host = response.request.headers['Origin']
+  File "D:\fiction_website\virtual_environment\lib\site-packages\requests\structures.py", line 54, in __getitem__
+    return self._store[key.lower()][1]
+KeyError: 'origin'
+ERROR 2020-08-31 18:15:52,412 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 500 98781
+INFO 2020-08-31 18:16:21,473 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 18:17:22,271 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:01:29,877 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-31 19:01:45,541 log 224 Internal Server Error: /search/剑来/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\search\views.py", line 31, in get
+    proto, rest = urllib.splittype(self.url)
+AttributeError: module 'urllib' has no attribute 'splittype'
+ERROR 2020-08-31 19:01:45,544 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 500 102748
+INFO 2020-08-31 19:03:52,960 autoreload 236 D:\fiction_website\source_code\apps\search\views.py changed, reloading.
+INFO 2020-08-31 19:03:54,699 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:06:58,469 autoreload 236 D:\fiction_website\source_code\apps\search\views.py changed, reloading.
+INFO 2020-08-31 19:07:00,178 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:10:48,928 autoreload 236 D:\fiction_website\source_code\apps\search\views.py changed, reloading.
+INFO 2020-08-31 19:10:50,483 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:14:04,946 autoreload 236 D:\fiction_website\source_code\apps\search\views.py changed, reloading.
+INFO 2020-08-31 19:14:06,770 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:16:15,668 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:16:35,259 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1192
+INFO 2020-08-31 19:25:58,152 autoreload 236 D:\fiction_website\source_code\apps\search\views.py changed, reloading.
+INFO 2020-08-31 19:25:59,861 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:42:07,028 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:42:45,214 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-31 19:42:46,735 basehttp 157 "GET /search/%E4%B8%89%E5%AF%B8%E4%BA%BA%E9%97%B4/ HTTP/1.1" 200 238
+ERROR 2020-08-31 19:42:48,851 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 39, in create
+    conn = pymysql.connect(**DATABASES['default'])
+  File "D:\fiction_website\virtual_environment\lib\site-packages\pymysql\__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'ENGINE'
+ERROR 2020-08-31 19:42:48,854 basehttp 157 "POST /bookshelves/ HTTP/1.1" 500 100608
+INFO 2020-08-31 19:43:23,884 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-31 19:43:36,348 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\request.py", line 220, in user
+    self._authenticate()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\request.py", line 373, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework_jwt\authentication.py", line 43, in authenticate
+    user = self.authenticate_credentials(payload)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework_jwt\authentication.py", line 59, in authenticate_credentials
+    user = User.objects.get_by_natural_key(username)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\contrib\auth\base_user.py", line 45, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1303, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 1141, in execute_sql
+    sql, params = self.as_sql()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 498, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 55, in pre_sql_setup
+    self.setup_query()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 46, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 262, in get_select
+    sql, params = self.compile(col)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\expressions.py", line 784, in as_sql
+    sql = '.'.join(map(compiler.quote_name_unless_alias, identifiers))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 421, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\dummy\base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+ERROR 2020-08-31 19:43:36,356 basehttp 157 "GET /bookshelves/ HTTP/1.1" 500 180935
+INFO 2020-08-31 19:43:42,997 autoreload 236 D:\fiction_website\source_code\source_code\settings\dev.py changed, reloading.
+INFO 2020-08-31 19:43:47,706 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:43:53,948 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-08-31 19:45:14,036 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:45:25,681 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-31 19:45:26,983 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1192
+INFO 2020-08-31 19:45:29,547 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 19:45:59,455 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 19:46:00,830 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 19:46:42,406 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:46:46,219 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 19:49:52,203 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:50:02,291 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 19:50:36,317 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 19:50:49,291 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:50:53,030 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 19:51:31,355 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:51:34,902 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 19:51:37,952 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 19:51:48,054 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 19:52:18,970 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 19:52:36,565 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:52:40,933 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 19:52:54,857 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-08-31 19:54:48,375 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 19:58:18,188 autoreload 236 D:\fiction_website\source_code\apps\search\views.py changed, reloading.
+INFO 2020-08-31 19:58:20,836 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:00:32,605 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:00:39,117 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 399
+INFO 2020-08-31 20:00:42,266 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-31 20:00:43,867 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1210
+INFO 2020-08-31 20:00:53,127 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-08-31 20:01:41,467 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 563
+INFO 2020-08-31 20:01:42,923 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-31 20:01:44,236 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1210
+INFO 2020-08-31 20:01:49,088 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-31 20:01:51,527 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1210
+INFO 2020-08-31 20:02:18,353 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 20:02:19,618 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 563
+INFO 2020-08-31 20:02:21,716 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-31 20:02:24,987 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1210
+INFO 2020-08-31 20:05:14,285 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:06:49,269 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:06:54,998 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 20:06:56,421 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 563
+INFO 2020-08-31 20:07:00,677 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-31 20:07:02,598 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1210
+INFO 2020-08-31 20:07:03,916 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 20:07:40,145 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:08:25,817 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:08:32,580 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 20:08:34,051 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 563
+INFO 2020-08-31 20:08:36,624 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-31 20:08:38,647 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1210
+INFO 2020-08-31 20:08:40,752 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-08-31 20:09:12,740 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:09:55,851 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-08-31 20:11:03,618 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 20:11:06,589 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:11:40,642 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 20:11:43,725 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:12:00,056 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:12:26,589 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-08-31 20:13:35,157 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 20:13:36,625 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:14:09,387 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:14:15,722 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 49
+INFO 2020-08-31 20:14:49,699 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 20:15:43,197 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:18:59,316 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:19:07,561 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-08-31 20:19:31,874 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:20:44,693 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:22:33,444 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-31 20:22:38,319 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 38, in create
+    print(**book_data)
+TypeError: 'book_name' is an invalid keyword argument for print()
+ERROR 2020-08-31 20:22:38,324 basehttp 157 "POST /bookshelves/ HTTP/1.1" 500 99638
+INFO 2020-08-31 20:24:35,683 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 20:24:38,818 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:26:45,656 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:28:02,359 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:28:30,978 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 20:28:34,127 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:30:48,661 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:32:26,964 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-31 20:32:32,722 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 39, in create
+    book_data = json.loads(request.data)
+  File "C:\Users\YAHO\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not QueryDict
+ERROR 2020-08-31 20:32:32,728 basehttp 157 "POST /bookshelves/ HTTP/1.1" 500 104391
+INFO 2020-08-31 20:32:45,939 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-08-31 20:32:51,022 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 39, in create
+    book_data = json.loads(request.data)
+  File "C:\Users\YAHO\AppData\Local\Programs\Python\Python38\lib\json\__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not QueryDict
+ERROR 2020-08-31 20:32:51,026 basehttp 157 "POST /bookshelves/ HTTP/1.1" 500 104391
+INFO 2020-08-31 20:33:22,894 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:33:25,942 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 20:33:29,079 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:33:43,029 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:34:22,640 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:35:12,474 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:35:36,418 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:36:44,341 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 20:36:47,368 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:36:56,380 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 20:36:59,438 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:37:50,079 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:38:30,646 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-08-31 20:40:52,266 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-08-31 20:40:55,137 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:41:59,367 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-08-31 20:42:08,781 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 2
+INFO 2020-08-31 20:42:11,357 basehttp 157 "GET /hot/ HTTP/1.1" 200 189
+INFO 2020-08-31 20:42:15,911 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1210
+INFO 2020-08-31 20:42:18,819 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-08-31 20:42:22,273 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 130
+INFO 2020-08-31 20:47:23,916 autoreload 236 D:\fiction_website\source_code\utils\completion_url.py changed, reloading.
+INFO 2020-08-31 20:47:25,678 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 10:26:30,300 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-09-01 10:27:08,893 log 224 Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/user/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2020-09-01 10:27:08,895 basehttp 157 "POST /user/login HTTP/1.1" 500 72379
+ERROR 2020-09-01 10:28:24,016 log 224 Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\utils\deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\middleware\common.py", line 54, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 127.0.0.1:8000/user/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+ERROR 2020-09-01 10:28:24,018 basehttp 157 "POST /user/login HTTP/1.1" 500 72379
+INFO 2020-09-01 10:30:09,370 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-01 10:32:50,405 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-01 10:33:06,848 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-01 10:35:28,901 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-01 10:36:35,097 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-01 10:36:59,572 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+ERROR 2020-09-01 10:37:32,425 serializers 38 <class 'Exception'>
+INFO 2020-09-01 10:37:32,426 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+ERROR 2020-09-01 10:39:01,856 serializers 38 <class 'Exception'>
+INFO 2020-09-01 10:39:01,856 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+ERROR 2020-09-01 10:39:37,670 serializers 38 <class 'Exception'>
+INFO 2020-09-01 10:39:37,671 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+ERROR 2020-09-01 10:40:19,372 serializers 38 <class 'Exception'>
+INFO 2020-09-01 10:40:19,373 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 10:45:43,388 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-01 10:45:44,564 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-01 10:47:58,278 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+ERROR 2020-09-01 10:47:58,919 serializers 38 <class 'Exception'>
+INFO 2020-09-01 10:47:58,920 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 10:48:25,289 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+ERROR 2020-09-01 10:48:25,919 serializers 38 <class 'Exception'>
+INFO 2020-09-01 10:48:25,919 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 11:00:07,735 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+ERROR 2020-09-01 11:00:08,375 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:00:08,376 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 11:05:23,427 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+ERROR 2020-09-01 11:05:24,031 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:05:24,032 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 11:05:37,028 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+ERROR 2020-09-01 11:05:37,890 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:05:37,891 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 11:05:53,138 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+ERROR 2020-09-01 11:05:53,988 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:05:53,990 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 11:09:13,603 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+ERROR 2020-09-01 11:09:14,177 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:09:14,179 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 11:55:28,373 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+ERROR 2020-09-01 11:55:29,021 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:55:29,022 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+ERROR 2020-09-01 11:58:16,630 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:58:16,631 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 11:58:17,725 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+ERROR 2020-09-01 11:58:41,928 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:58:41,929 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+ERROR 2020-09-01 11:58:42,728 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:58:42,728 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 11:58:43,809 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+ERROR 2020-09-01 11:59:10,508 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:59:10,509 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+ERROR 2020-09-01 11:59:11,412 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:59:11,413 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 11:59:12,560 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+ERROR 2020-09-01 11:59:29,596 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:59:29,596 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+ERROR 2020-09-01 11:59:30,434 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:59:30,435 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 11:59:31,530 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-01 11:59:45,633 basehttp 157 "POST /user/login/ HTTP/1.1" 200 53
+ERROR 2020-09-01 11:59:46,294 serializers 38 <class 'Exception'>
+INFO 2020-09-01 11:59:46,294 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 11:59:47,417 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-01 17:59:15,418 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 17:59:22,930 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+ERROR 2020-09-01 17:59:23,533 serializers 38 <class 'Exception'>
+INFO 2020-09-01 17:59:23,534 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 18:00:34,489 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+WARNING 2020-09-01 18:02:01,244 log 224 Unsupported Media Type: /user/login/
+WARNING 2020-09-01 18:02:01,244 basehttp 157 "POST /user/login/ HTTP/1.1" 415 66
+WARNING 2020-09-01 18:02:01,455 log 224 Unsupported Media Type: /user/login/
+WARNING 2020-09-01 18:02:01,456 basehttp 157 "POST /user/login/ HTTP/1.1" 415 66
+WARNING 2020-09-01 18:02:01,468 log 224 Unsupported Media Type: /user/login/
+WARNING 2020-09-01 18:02:01,469 basehttp 157 "POST /user/login/ HTTP/1.1" 415 66
+WARNING 2020-09-01 18:02:01,482 log 224 Unsupported Media Type: /user/login/
+WARNING 2020-09-01 18:02:01,483 basehttp 157 "POST /user/login/ HTTP/1.1" 415 66
+INFO 2020-09-01 18:02:02,502 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-01 18:02:55,460 basehttp 157 "POST /user/login/ HTTP/1.1" 200 53
+ERROR 2020-09-01 18:02:56,080 serializers 38 <class 'Exception'>
+INFO 2020-09-01 18:02:56,080 basehttp 157 "POST /user/login/ HTTP/1.1" 200 45
+INFO 2020-09-01 18:02:57,135 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-01 19:23:34,420 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 20:00:54,797 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 20:07:54,419 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-01 20:07:54,426 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-01 20:07:54,426 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 35
+INFO 2020-09-01 20:08:01,643 basehttp 157 "GET /hot/ HTTP/1.1" 200 183
+INFO 2020-09-01 20:08:06,701 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-01 20:08:27,604 basehttp 157 "GET /search/%E9%82%A3%E5%B9%B4%E5%A4%8F%E5%A4%A9/ HTTP/1.1" 200 1401
+INFO 2020-09-01 20:08:34,213 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-09-01 20:10:31,823 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 20:11:22,387 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 20:13:53,191 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 44
+INFO 2020-09-01 20:15:26,789 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 20:16:47,047 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 20:17:26,686 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 20:17:41,737 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-09-01 20:18:06,841 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-01 20:18:09,708 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 20:20:51,888 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 20:21:02,204 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-09-01 20:24:30,747 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-01 20:24:32,517 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 20:25:09,807 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-09-01 20:26:31,989 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-09-01 20:30:40,967 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-01 20:30:42,591 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 20:31:20,612 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-09-01 20:32:39,497 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-01 20:32:41,281 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-01 20:34:54,699 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-09-01 20:39:56,097 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 11:00:41,699 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:00:48,297 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-02 11:00:49,327 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 11:00:58,123 basehttp 157 "OPTIONS /book/?book_id=85&chapter_id=null HTTP/1.1" 200 0
+ERROR 2020-09-02 11:00:59,386 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 42, in list
+    'title': chapter.chapter_name,
+AttributeError: 'QuerySet' object has no attribute 'chapter_name'
+ERROR 2020-09-02 11:00:59,389 basehttp 157 "GET /book/?book_id=85&chapter_id=null HTTP/1.1" 500 99654
+INFO 2020-09-02 11:02:00,328 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:02:12,008 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:09:38,765 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-02 11:09:40,419 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:10:14,260 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:13:01,110 basehttp 157 "GET /hot/ HTTP/1.1" 200 183
+INFO 2020-09-02 11:13:10,721 basehttp 157 "GET /search/%E9%82%A3%E5%B9%B4%E5%A4%8F%E5%A4%A9/ HTTP/1.1" 200 1386
+INFO 2020-09-02 11:13:15,073 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-09-02 11:13:41,413 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 11:15:25,270 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-02 11:15:26,796 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:29:02,474 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:30:03,594 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:31:31,717 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:32:10,636 basehttp 157 "OPTIONS /book/?book_id=86&chapter_id=null HTTP/1.1" 200 0
+INFO 2020-09-02 11:32:13,150 basehttp 157 "GET /hot/ HTTP/1.1" 200 183
+INFO 2020-09-02 11:32:14,567 basehttp 157 "GET /search/%E9%82%A3%E5%B9%B4%E5%A4%8F%E5%A4%A9/ HTTP/1.1" 200 1386
+INFO 2020-09-02 11:34:46,432 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:37:53,283 autoreload 236 D:\fiction_website\source_code\utils\pymysql_conn.py changed, reloading.
+INFO 2020-09-02 11:37:55,352 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:38:17,826 autoreload 236 D:\fiction_website\source_code\utils\pymysql_conn.py changed, reloading.
+INFO 2020-09-02 11:38:19,573 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:41:34,704 autoreload 236 D:\fiction_website\source_code\utils\pymysql_conn.py changed, reloading.
+INFO 2020-09-02 11:41:36,421 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:43:13,353 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 11:51:51,794 autoreload 236 D:\fiction_website\source_code\utils\completion_url.py changed, reloading.
+INFO 2020-09-02 11:51:53,392 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 12:00:45,897 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 25
+INFO 2020-09-02 12:01:47,939 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 12:06:40,624 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 12:06:45,866 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 12:06:47,285 basehttp 157 "OPTIONS /book/?book_id=90&chapter_id=null HTTP/1.1" 200 0
+ERROR 2020-09-02 12:06:48,434 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 42, in list
+    'title': chapter.chapter_name,
+AttributeError: 'NoneType' object has no attribute 'chapter_name'
+ERROR 2020-09-02 12:06:48,437 basehttp 157 "GET /book/?book_id=90&chapter_id=null HTTP/1.1" 500 100255
+INFO 2020-09-02 12:07:37,561 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 12:07:44,870 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 12:09:32,753 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 12:09:41,628 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 12:10:55,133 autoreload 236 D:\fiction_website\source_code\utils\pymysql_conn.py changed, reloading.
+INFO 2020-09-02 12:10:57,802 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 12:11:27,387 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 12:11:35,249 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 12:22:11,125 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 12:22:17,976 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 12:25:03,953 autoreload 236 D:\fiction_website\source_code\utils\pymysql_conn.py changed, reloading.
+INFO 2020-09-02 12:25:06,779 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 12:26:08,979 autoreload 236 D:\fiction_website\source_code\utils\pymysql_conn.py changed, reloading.
+INFO 2020-09-02 12:26:11,900 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 12:27:12,891 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 12:27:20,761 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+ERROR 2020-09-02 12:27:36,394 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 43, in list
+    'title': chapter.chapter_name,
+AttributeError: 'dict' object has no attribute 'chapter_name'
+ERROR 2020-09-02 12:27:36,406 basehttp 157 "GET /book/?book_id=90&chapter_id=null HTTP/1.1" 500 110479
+INFO 2020-09-02 12:27:58,256 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 12:28:53,659 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 12:28:58,403 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 12:29:00,439 basehttp 157 "GET /book/?book_id=90&chapter_id=null HTTP/1.1" 200 5120
+INFO 2020-09-02 13:16:32,553 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-09-02 13:16:34,083 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 13:28:44,621 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-02 13:28:46,240 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:02:53,791 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:04:05,641 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-02 16:04:07,085 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 16:04:08,812 basehttp 157 "OPTIONS /book/?book_id=90&chapter_id=null HTTP/1.1" 200 0
+INFO 2020-09-02 16:04:09,898 basehttp 157 "GET /book/?book_id=90&chapter_id=null HTTP/1.1" 200 5120
+INFO 2020-09-02 16:04:15,635 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 16:04:18,885 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 16:06:25,896 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-02 16:06:27,431 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:07:01,320 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 262
+INFO 2020-09-02 16:10:16,429 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-02 16:10:17,963 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:11:12,916 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-02 16:11:14,576 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:14:03,035 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-02 16:14:04,516 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:16:06,350 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-09-02 16:16:22,014 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 30, in list
+    table_name = 'tb_' + book.id
+TypeError: can only concatenate str (not "int") to str
+ERROR 2020-09-02 16:16:22,016 basehttp 157 "GET /bookshelves/ HTTP/1.1" 500 96870
+INFO 2020-09-02 16:16:39,322 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:17:40,563 autoreload 612 Watching for file changes with StatReloader
+ERROR 2020-09-02 16:17:45,805 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 38, in list
+    'chapter_id': chapter.id if chapter else None,
+AttributeError: 'dict' object has no attribute 'id'
+ERROR 2020-09-02 16:17:45,807 basehttp 157 "GET /bookshelves/ HTTP/1.1" 500 105061
+INFO 2020-09-02 16:19:16,361 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:19:22,525 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 273
+INFO 2020-09-02 16:20:15,798 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 273
+INFO 2020-09-02 16:20:35,232 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-02 16:20:36,785 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:20:39,199 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 273
+INFO 2020-09-02 16:20:46,500 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 273
+INFO 2020-09-02 16:20:47,267 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-02 16:20:49,509 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 273
+INFO 2020-09-02 16:20:53,476 basehttp 157 "OPTIONS /book/?book_id=90&chapter_id=1 HTTP/1.1" 200 0
+INFO 2020-09-02 16:20:54,595 basehttp 157 "GET /book/?book_id=90&chapter_id=1 HTTP/1.1" 200 5120
+INFO 2020-09-02 16:21:00,174 basehttp 157 "OPTIONS /book/?book_id=90&chapter_id=2 HTTP/1.1" 200 0
+INFO 2020-09-02 16:21:01,219 basehttp 157 "GET /book/?book_id=90&chapter_id=2 HTTP/1.1" 200 6031
+INFO 2020-09-02 16:21:05,461 basehttp 157 "OPTIONS /book/?book_id=90&chapter_id=3 HTTP/1.1" 200 0
+INFO 2020-09-02 16:21:06,541 basehttp 157 "GET /book/?book_id=90&chapter_id=3 HTTP/1.1" 200 6094
+INFO 2020-09-02 16:21:11,180 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 264
+INFO 2020-09-02 16:21:16,397 basehttp 157 "OPTIONS /book/?book_id=75&chapter_id=null HTTP/1.1" 200 0
+ERROR 2020-09-02 16:21:17,280 views 48 <class 'Exception'>
+INFO 2020-09-02 16:21:17,428 basehttp 157 "GET /book/?book_id=75&chapter_id=null HTTP/1.1" 200 46
+INFO 2020-09-02 16:22:39,616 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 264
+ERROR 2020-09-02 16:22:45,643 views 48 <class 'Exception'>
+INFO 2020-09-02 16:22:45,796 basehttp 157 "GET /book/?book_id=75&chapter_id=null HTTP/1.1" 200 46
+INFO 2020-09-02 16:23:31,397 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-09-02 16:23:32,982 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:24:52,808 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-09-02 16:24:54,376 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:25:12,345 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:25:21,405 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-02 16:25:22,751 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 264
+INFO 2020-09-02 16:25:29,096 basehttp 157 "OPTIONS /book/?book_id=75&chapter_id=null HTTP/1.1" 200 0
+ERROR 2020-09-02 16:26:01,045 views 46 <class 'Exception'>
+INFO 2020-09-02 16:26:09,116 basehttp 157 "GET /book/?book_id=75&chapter_id=null HTTP/1.1" 200 46
+INFO 2020-09-02 16:27:39,518 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-09-02 16:27:42,410 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:30:56,622 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-02 16:30:57,907 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 264
+INFO 2020-09-02 16:31:00,053 basehttp 157 "OPTIONS /book/?book_id=75&chapter_id=null HTTP/1.1" 200 0
+ERROR 2020-09-02 16:31:00,946 views 46 <class 'Exception'>
+INFO 2020-09-02 16:31:01,021 basehttp 157 "GET /book/?book_id=75&chapter_id=null HTTP/1.1" 200 46
+INFO 2020-09-02 16:33:05,044 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-02 16:33:06,249 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 264
+INFO 2020-09-02 16:33:08,250 basehttp 157 "OPTIONS /book/?book_id=90&chapter_id=3 HTTP/1.1" 200 0
+INFO 2020-09-02 16:33:09,377 basehttp 157 "GET /book/?book_id=90&chapter_id=3 HTTP/1.1" 200 6094
+INFO 2020-09-02 16:33:11,140 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-02 16:33:12,394 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 264
+INFO 2020-09-02 16:33:13,424 basehttp 157 "OPTIONS /book/?book_id=75&chapter_id=null HTTP/1.1" 200 0
+ERROR 2020-09-02 16:33:14,324 views 46 <class 'Exception'>
+INFO 2020-09-02 16:33:14,403 basehttp 157 "GET /book/?book_id=75&chapter_id=null HTTP/1.1" 200 46
+INFO 2020-09-02 16:33:28,553 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-09-02 16:33:31,493 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:39:04,154 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-02 16:39:11,853 basehttp 157 "GET /search/%E9%82%A3%E5%B9%B4%E5%A4%8F%E5%A4%A9/ HTTP/1.1" 200 1386
+INFO 2020-09-02 16:39:13,087 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-02 16:39:15,319 basehttp 157 "POST /bookshelves/ HTTP/1.1" 200 66
+INFO 2020-09-02 16:39:19,540 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-02 16:39:24,053 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 264
+INFO 2020-09-02 16:39:36,619 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:39:44,207 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-02 16:39:45,572 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 264
+INFO 2020-09-02 16:40:01,449 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 264
+INFO 2020-09-02 16:41:17,417 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-02 16:41:19,167 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 16:41:40,283 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-02 16:41:41,546 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 297
+INFO 2020-09-02 16:42:27,438 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-02 16:42:28,669 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 297
+INFO 2020-09-02 16:42:44,854 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-02 16:42:46,150 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 297

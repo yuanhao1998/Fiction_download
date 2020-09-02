@@ -1,31 +1,28 @@
-import unicodedata
+# -*- coding: utf-8 -*-
 
+import json
 import scrapy
-from lxml import etree
-from scrapy_redis.spiders import RedisSpider
-
-from fiction_scrapy.items import FictionScrapyItem
+from scrapy_redis.spiders import RedisSpider, RedisCrawlSpider
 
 
-class Test(RedisSpider):
-    name = 'test'
-    redis_key = 'book_url'
+class MysiteSpider(RedisCrawlSpider):
+    name = 'mysite'
 
-    def parse(self, response, *args, **kwargs):
-        chapter_list = response.xpath('//dl/dt[2]/following-sibling::dd/a/@href').extract()
-        num = 0
-        for chapter in chapter_list:
-            # print(chapter)
-            num += 1
-            yield scrapy.Request(url='http://www.shuquge.com/txt/127797/' + chapter, callback=self.parse_detail,
-                                 meta={'num': num})
+    def make_requests_from_url(self, data: str):
+        '''
+        data就是放入 mysite:start_urls 中的任务
+        :param data:
+        :return:
+        '''
+        req_data = json.loads(data)
+        url = req_data['url']
 
-    def parse_detail(self, resp):
-        item = FictionScrapyItem()
-        num = resp.meta['num']
-        item['chapter_name'] = resp.xpath("string(//div[@class='content']/h1)").extract_first()
-        content = resp.xpath('//*[@id="content"]').extract_first()
-        item['content'] = unicodedata.normalize('NFKC', content)  # 替换乱码
-        item['book_id'] = 26
-        item['chapter_id'] = num
-        yield item
+        # 此处也可以改为post请求
+        return scrapy.Request(
+            url,
+            meta={'req_data': req_data}
+        )
+
+    def parse(self, response):
+        print(response.text)
+        print(response.meta)

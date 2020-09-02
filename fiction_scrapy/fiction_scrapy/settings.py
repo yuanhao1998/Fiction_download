@@ -115,3 +115,12 @@ REDIS_PORT = 6379
 REDIS_PARAMS = {
     'password': 'yuan123hao',
 }
+
+# pymysqlµƒ≈‰÷√
+PYMYSQL = {
+    'host': 'cdb-dcn8l0ek.cd.tencentcdb.com',
+    'port': 10172,
+    'user': 'root',
+    'password': 'yuan123hao',
+    'db': 'Fiction'
+}

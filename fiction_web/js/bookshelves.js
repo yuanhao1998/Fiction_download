@@ -8,17 +8,23 @@ $(document).ready(function () {
             'Authorization': 'JWT ' + localStorage.token
         },
         success: function(response){
-            let data = $('.data');
-            data.empty();
-            for (let i in response){
-                data.append(
-                    '<div class="book_div">' +
-                    '<p class="book_detail"> 书名：' + response[i].book_name + '</p>' +
-                    '<p class="book_detail"> 作者：' + response[i].author + '</p>' +
-                    '<p class="book_detail"> 已阅读到：' + response[i].chapter_name + '</p>' +
-                    '<input type="button" onclick="read('  + response[i].book_id + ',' + response[i].chapter_id + ')" value="继续阅读">' +
-                    '</div>'
-                )
+            if (response.errno === 0){
+                let data = $('.data');
+                data.empty();
+                for (let i in response.data){
+                    data.append(
+                        '<div class="book_div">' +
+                        '<p class="book_detail"> 书名：' + response.data[i].book_name + '</p>' +
+                        '<p class="book_detail"> 作者：' + response.data[i].author + '</p>' +
+                        '<p class="book_detail"> 已阅读到：' + response.data[i].chapter_name + '</p>' +
+                        '<input type="button" onclick="read('  + response.data[i].book_id + ',' + response.data[i].chapter_id + ')" value="继续阅读">' +
+                        '</div>'
+                    )
+                }
+            }
+            else{
+                console.log(response)
+                alert('请求失败，您可以稍后再试或反馈到管理员')
             }
         },
         error: function(e) {

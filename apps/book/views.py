@@ -1,42 +1,75 @@
+import logging
+
 from django.forms import model_to_dict
 from rest_framework.generics import CreateAPIView, ListAPIView
 from rest_framework.response import Response
-from rest_framework.views import APIView
 
-from book.models import Chapter
 from book.serializers import BookSerializer, BookListSerializer
+from utils.pymysql_conn import Conn
+
+logger = logging.getLogger('django')
 
 
-class BookCreateView(CreateAPIView):  # Ìí¼ÓÊé¼®
+class BookCreateView(CreateAPIView):  # æ·»åŠ ä¹¦ç±
     serializer_class = BookSerializer
 
     def create(self, request, *args, **kwargs):
         serializer = self.get_serializer(data=request.data)
-        if serializer.is_valid():  # ÑéÖ¤Êé¼®Êı¾İ¡¢ÒÔ¼°¸ÃÁ´½ÓÊÇ·ñÒÑÅÀÈ¡¹ı
+        if serializer.is_valid():  # éªŒè¯ä¹¦ç±æ•°æ®ã€ä»¥åŠè¯¥é“¾æ¥æ˜¯å¦å·²çˆ¬å–è¿‡
             book = serializer.save()
-            return Response(model_to_dict(book))  # ·µ»Ø±£´æµÄÊé¼®Êı¾İ
+            return Response(model_to_dict(book))  # è¿”å›ä¿å­˜çš„ä¹¦ç±æ•°æ®
         return Response({
             'errno': 4003,
             'errmsg': 'The book already exists'
         })
 
 
-class BookReadView(APIView):  # ·µ»ØÄÚÈİ
+class BookReadView(ListAPIView):  # ç»§ç»­é˜…è¯»
 
-    @staticmethod
-    def get(request):
+    def list(self, request, *args, **kwargs):
         book_id = request.query_params.get('book_id')
         chapter_id = request.query_params.get('chapter_id')
-        chapter = Chapter.objects.get(book_id=book_id, id=chapter_id)
-        title = chapter.chapter_name
-        data = chapter.content
-        return Response({
-            'title': title,
-            'data': data
-        })
+        table_name = 'tb_' + book_id
+        conn = Conn()
+        # noinspection PyBroadException
+        try:
+            if not chapter_id or chapter_id == '' or chapter_id == 'null':
+                query = 'SELECT * FROM %s WHERE id = 1' % table_name
+                chapter_id = 1
+                conn.execute(query)
+                chapter = conn.fetchone()  # è·å–åˆ°çš„ç±»å‹ä¸ºdict
+            else:
+                query = 'SELECT * FROM %s' % table_name + ' WHERE id = %s'
+                conn.execute(query, chapter_id)
+                chapter = conn.fetchone()
+        except Exception:
+            logger.error(Exception)
+            return Response({
+                'errno': 4001,
+                'errmsg': 'database query error'
+            })
+        # noinspection PyBroadException
+        try:
+            query = 'UPDATE tb_bookshelves SET chapter_id = %s WHERE book_id = %s'
+            conn.execute(query, (chapter_id, book_id))
+            return Response({
+                'errno': 0,
+                'errmsg': 'OK',
+                'title': chapter.get('chapter_name'),
+                'data': chapter.get('content'),
+                'id': chapter.get('id')
+            })
+        except Exception:
+            logger.error(Exception)
+            conn.rollback()
+            return Response({
+                'errno': 4007,
+                'errmsg': 'database update error'
+
+            })
 
 
-class BookListAPIView(ListAPIView):  # ·µ»ØÕÂ½ÚÁĞ±í
+class BookListAPIView(ListAPIView):  # è¿”å›ç« èŠ‚åˆ—è¡¨
     serializer_class = BookListSerializer
 
     def list(self, request, *args, **kwargs):

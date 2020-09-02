@@ -27,7 +27,7 @@ class HotView(APIView):  # 热搜视图，爬取百度风云榜实时数据
         for book in li_list:
             book_name = book.xpath('./div[1]/a[1]/@title')  # 获取热搜书名,xpath获取为list类型
             if book_name:  # 判断是否获取到数据
-                data.append({'book_name': book_name})
+                data.append(book_name)
         return Response({
             'errno': 0,
             'errmsg': 'OK',

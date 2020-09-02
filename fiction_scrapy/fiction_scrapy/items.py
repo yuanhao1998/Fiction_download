@@ -3,9 +3,11 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
-from scrapy_djangoitem import DjangoItem
-from book.models import Chapter
+import scrapy
 
 
-class FictionScrapyItem(DjangoItem):  # 添加django模型类
-    django_model = Chapter
+class FictionScrapyItem(scrapy.Item):
+    chapter_name = scrapy.Field(),
+    content = scrapy.Field(),
+    book_id = scrapy.Field(),
+    table_name = scrapy.Field()
