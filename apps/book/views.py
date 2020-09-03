@@ -1,13 +1,11 @@
-import logging
-
 from django.forms import model_to_dict
+from django_redis import get_redis_connection
 from rest_framework.generics import CreateAPIView, ListAPIView
 from rest_framework.response import Response
 
 from book.serializers import BookSerializer, BookListSerializer
+from source_code.settings.dev import logger
 from utils.pymysql_conn import Conn
-
-logger = logging.getLogger('django')
 
 
 class BookCreateView(CreateAPIView):  # 添加书籍
@@ -29,8 +27,13 @@ class BookReadView(ListAPIView):  # 继续阅读
     def list(self, request, *args, **kwargs):
         book_id = request.query_params.get('book_id')
         chapter_id = request.query_params.get('chapter_id')
-        table_name = 'tb_' + book_id
+        table_name = 'tb_' + str(book_id)
         conn = Conn()
+        query = 'SELECT href FROM tb_book WHERE id = %s'
+        conn.execute(query, book_id)
+        href = conn.fetchone().get('href')
+        redis_conn = get_redis_connection('default')
+        redis_conn.lpush("book_url", str({"url": href, "table_name": table_name, "book_id": book_id}))
         # noinspection PyBroadException
         try:
             if not chapter_id or chapter_id == '' or chapter_id == 'null':

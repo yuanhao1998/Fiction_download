@@ -3,12 +3,12 @@ $(document).ready(function () {
     if (localStorage.token && localStorage.username){
         $('.login_user').css('display', 'block')
         $('.username').val(localStorage.username)
-        // $('.no_login').css('display', 'none')
+        $('.no_login').css('display', 'none')
         $('.data iframe').attr('src', 'bookshelves.html')
     }
     else{
-        // $('.login_user').css('display', 'block')
-        // $('.username').val(localStorage.username)
+        $('.no_login').css('display', 'block')
+        $('.login_user').css('display', 'none')
         $('.data iframe').attr('src', 'hot.html')
     }
 })
@@ -35,7 +35,7 @@ function login(){
             }
             else{
                 console.log(response)
-                alert('请求失败，您可以稍后再试或反馈到管理员')
+                alert('登录失败')
             }
         },
         error: function () {
@@ -43,6 +43,20 @@ function login(){
         }
     });
 }
+
+//退出登陆
+function logout(){
+    window.localStorage.removeItem('username')
+    window.localStorage.removeItem('token')
+    window.location.reload()
+    alert('退出成功')
+}
+
+//切换到注册页面
+function registered(){
+    $('.data iframe').attr('src', 'registered.html')
+}
+
 
 //切换到热搜页面
 function hot(){
@@ -123,8 +137,13 @@ function add_bookshelves(book_name,tags,author,href){
         },
         error: function(e){
             console.log(e)
-            alert('添加失败，请稍后重试')
+            if (e.status === 401){
+                window.localStorage.removeItem('username')
+                window.localStorage.removeItem('token')
+                alert('需要登陆才能添加到书架！')
+            }
+            else
+                alert('添加失败，请稍后重试')
         }
-
     })
 }

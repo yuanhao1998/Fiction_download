@@ -11,15 +11,20 @@ $(document).ready(function () {
             if (response.errno === 0){
                 let data = $('.data');
                 data.empty();
-                for (let i in response.data){
-                    data.append(
-                        '<div class="book_div">' +
-                        '<p class="book_detail"> 书名：' + response.data[i].book_name + '</p>' +
-                        '<p class="book_detail"> 作者：' + response.data[i].author + '</p>' +
-                        '<p class="book_detail"> 已阅读到：' + response.data[i].chapter_name + '</p>' +
-                        '<input type="button" onclick="read('  + response.data[i].book_id + ',' + response.data[i].chapter_id + ')" value="继续阅读">' +
-                        '</div>'
-                    )
+                if (response.data.length === 0){
+                    data.append('<p style="text-align: center;font-family: 微软雅黑, serif;font-size: 30px;">空空如也！！！</p>')
+                }
+                else{
+                    for (let i in response.data){
+                        data.append(
+                            '<div class="book_div">' +
+                            '<p class="book_detail"> 书名：' + response.data[i].book_name + '</p>' +
+                            '<p class="book_detail"> 作者：' + response.data[i].author + '</p>' +
+                            '<p class="book_detail"> 已阅读到：' + response.data[i].chapter_name + '</p>' +
+                            '<input type="button" onclick="read('  + response.data[i].book_id + ',' + response.data[i].chapter_id + ')" value="继续阅读">' +
+                            '</div>'
+                        )
+                    }
                 }
             }
             else{
@@ -29,8 +34,11 @@ $(document).ready(function () {
         },
         error: function(e) {
             console.log(e)
-            if (e.status === 401)
-                alert('认证信息过期，请重新登陆！')
+            if (e.status === 401){
+                window.localStorage.removeItem('username')
+                window.localStorage.removeItem('token')
+                alert('需要登陆才能查看书架！')
+            }
             else
                 alert('获取书架内容失败，请稍后再试')
         }

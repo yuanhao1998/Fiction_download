@@ -3,7 +3,6 @@ import json
 import unicodedata
 
 import scrapy
-from scrapy.http import Request
 from scrapy.spiders import Rule
 from scrapy.linkextractors import LinkExtractor
 from scrapy_redis.spiders import RedisCrawlSpider

@@ -1,5 +1,3 @@
-import logging
-
 from django.db import transaction
 from django.http import QueryDict
 from django_redis import get_redis_connection
@@ -9,10 +7,9 @@ from rest_framework.viewsets import ModelViewSet
 from book.models import Book
 from bookshelves.models import BookShelves
 from bookshelves.serializers import BookShelvesSerializer
+from source_code.settings.dev import logger
 from utils.completion_url import Completion_URL
 from utils.pymysql_conn import Conn
-
-logger = logging.getLogger('django')
 
 
 class BookShelvesModelViewSet(ModelViewSet):  # 书架管理

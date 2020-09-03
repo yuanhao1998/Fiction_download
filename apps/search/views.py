@@ -1,6 +1,3 @@
-import re
-
-from urllib import parse
 from urllib.parse import urlparse
 
 from lxml import etree

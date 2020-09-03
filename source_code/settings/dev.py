@@ -1,4 +1,5 @@
 import datetime
+import logging
 import os
 import sys
 from pathlib import Path
@@ -15,6 +16,8 @@ ALLOWED_HOSTS = ['*']
 
 # 指明自定义的用户模型类
 AUTH_USER_MODEL = 'user.User'
+
+logger = logging.getLogger('django')
 
 INSTALLED_APPS = [
     'django.contrib.admin',

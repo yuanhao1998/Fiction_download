@@ -5495,3 +5495,137 @@ INFO 2020-09-02 16:42:27,438 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
 INFO 2020-09-02 16:42:28,669 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 297
 INFO 2020-09-02 16:42:44,854 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
 INFO 2020-09-02 16:42:46,150 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 297
+INFO 2020-09-02 17:05:24,609 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-09-02 17:05:26,112 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 17:08:02,271 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 17:08:27,697 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 17:08:32,225 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 297
+INFO 2020-09-02 17:09:10,017 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-09-02 17:09:11,736 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 17:09:15,064 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 17:09:25,649 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 297
+INFO 2020-09-02 17:09:27,918 basehttp 157 "GET /book/?book_id=90&chapter_id=3 HTTP/1.1" 200 6094
+INFO 2020-09-02 17:09:41,392 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 17:09:46,082 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 297
+INFO 2020-09-02 17:09:47,952 basehttp 157 "GET /book/?book_id=90&chapter_id=3 HTTP/1.1" 200 6094
+INFO 2020-09-02 17:10:19,007 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 17:10:23,867 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 297
+INFO 2020-09-02 17:10:26,352 basehttp 157 "GET /book/?book_id=90&chapter_id=3 HTTP/1.1" 200 6094
+INFO 2020-09-02 17:10:38,991 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 17:10:43,433 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 297
+INFO 2020-09-02 17:10:45,647 basehttp 157 "GET /book/?book_id=90&chapter_id=3 HTTP/1.1" 200 6094
+INFO 2020-09-02 17:12:11,614 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-09-02 17:12:13,216 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 23:13:17,934 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-02 23:13:24,172 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-02 23:13:24,184 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-02 23:13:24,185 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 35
+WARNING 2020-09-02 23:16:29,650 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-02 23:16:29,651 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 35
+INFO 2020-09-02 23:19:45,487 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-02 23:19:45,494 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-02 23:19:45,494 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 35
+INFO 2020-09-02 23:19:52,170 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-02 23:19:52,177 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-02 23:19:52,177 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 35
+INFO 2020-09-02 23:19:56,793 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-02 23:19:56,798 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-02 23:19:56,798 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 35
+INFO 2020-09-02 23:20:16,527 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-02 23:20:16,530 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-02 23:20:16,531 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 35
+INFO 2020-09-02 23:20:21,456 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-02 23:20:21,460 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-02 23:20:21,460 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 38
+INFO 2020-09-02 23:21:24,927 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-02 23:21:24,931 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-02 23:21:24,932 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 38
+INFO 2020-09-02 23:21:29,620 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-02 23:23:08,950 basehttp 157 "GET /search/%E5%89%91%E6%9D%A5/ HTTP/1.1" 200 1210
+INFO 2020-09-02 23:23:11,081 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-02 23:23:11,085 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-02 23:23:11,086 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 38
+INFO 2020-09-02 23:26:31,651 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-02 23:26:37,857 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-02 23:26:37,862 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-02 23:26:37,863 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 38
+INFO 2020-09-02 23:26:42,489 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-02 23:26:44,376 basehttp 157 "GET /search/%E4%B8%89%E5%AF%B8%E4%BA%BA%E9%97%B4/ HTTP/1.1" 200 233
+INFO 2020-09-02 23:26:47,543 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-02 23:26:47,547 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-02 23:26:47,547 basehttp 157 "POST /bookshelves/ HTTP/1.1" 401 38
+INFO 2020-09-02 23:26:56,721 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-02 23:26:58,510 basehttp 157 "GET /search/%E4%B8%89%E5%AF%B8%E4%BA%BA%E9%97%B4/ HTTP/1.1" 200 233
+INFO 2020-09-02 23:27:00,845 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-02 23:27:00,851 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-02 23:27:00,851 basehttp 157 "POST /bookshelves/ HTTP/1.1" 401 38
+INFO 2020-09-02 23:27:19,281 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-02 23:27:21,306 basehttp 157 "GET /search/%E5%85%83%E5%B0%8A/ HTTP/1.1" 200 2241
+INFO 2020-09-02 23:27:22,818 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-02 23:27:22,821 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-02 23:27:22,821 basehttp 157 "POST /bookshelves/ HTTP/1.1" 401 38
+INFO 2020-09-02 23:35:15,689 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-02 23:37:27,340 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-02 23:37:50,327 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-02 23:38:43,321 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 17:36:59,001 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-03 17:37:03,869 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 17:37:47,682 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 17:37:55,493 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-03 17:37:55,497 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-03 17:37:55,497 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 38
+INFO 2020-09-03 17:37:58,246 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 17:46:59,975 autoreload 236 D:\fiction_website\source_code\apps\user\urls.py changed, reloading.
+INFO 2020-09-03 17:47:01,675 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-03 17:47:13,004 autoreload 236 D:\fiction_website\source_code\apps\user\urls.py changed, reloading.
+INFO 2020-09-03 17:47:14,808 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-03 17:50:05,335 autoreload 236 D:\fiction_website\source_code\apps\user\urls.py changed, reloading.
+INFO 2020-09-03 17:50:06,971 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-03 17:51:03,490 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-09-03 17:51:05,007 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-03 17:53:02,984 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-09-03 17:53:04,779 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-03 17:59:20,080 autoreload 236 D:\fiction_website\source_code\apps\user\views.py changed, reloading.
+INFO 2020-09-03 17:59:21,650 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-03 18:00:01,613 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-03 18:02:16,434 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 18:04:36,976 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 18:05:41,897 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 18:05:53,629 basehttp 157 "POST /user/registered/ HTTP/1.1" 200 45
+INFO 2020-09-03 18:06:27,883 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-03 18:06:36,796 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 18:06:49,085 basehttp 157 "POST /user/registered/ HTTP/1.1" 200 25
+INFO 2020-09-03 18:06:50,838 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 18:07:00,169 basehttp 157 "POST /user/login/ HTTP/1.1" 200 214
+INFO 2020-09-03 18:07:06,168 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-03 18:07:07,181 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 35
+INFO 2020-09-03 18:07:08,910 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 18:07:10,355 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-03 18:07:11,372 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 35
+INFO 2020-09-03 18:11:54,182 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-03 18:11:55,239 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 35
+INFO 2020-09-03 18:11:58,755 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 18:12:06,652 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-03 18:12:06,654 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-03 18:12:06,655 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 38
+INFO 2020-09-03 18:14:17,558 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 18:14:27,851 basehttp 157 "POST /user/login/ HTTP/1.1" 200 214
+INFO 2020-09-03 18:14:30,238 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-03 18:14:31,249 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 35
+INFO 2020-09-03 18:14:33,708 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-03 18:14:34,711 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 35
+INFO 2020-09-03 18:15:51,229 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-03 18:16:01,182 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 35
+INFO 2020-09-03 18:16:50,837 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-03 18:16:51,798 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 35
+INFO 2020-09-03 18:18:48,570 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-03 18:18:49,565 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 35
+INFO 2020-09-03 18:19:58,550 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-03 18:19:59,594 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 35
+INFO 2020-09-03 18:20:19,624 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 18:20:24,641 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-03 18:20:27,544 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 297
+INFO 2020-09-03 18:20:31,973 basehttp 157 "OPTIONS /book/?book_id=90&chapter_id=3 HTTP/1.1" 200 0
+INFO 2020-09-03 18:20:33,260 basehttp 157 "GET /book/?book_id=90&chapter_id=3 HTTP/1.1" 200 6094
+INFO 2020-09-03 18:20:49,782 basehttp 157 "OPTIONS /book/?book_id=90&chapter_id=4 HTTP/1.1" 200 0
+INFO 2020-09-03 18:20:51,016 basehttp 157 "GET /book/?book_id=90&chapter_id=4 HTTP/1.1" 200 6414
