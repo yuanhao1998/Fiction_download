@@ -14,6 +14,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+
 # 指明自定义的用户模型类
 AUTH_USER_MODEL = 'user.User'
 
@@ -165,7 +166,11 @@ LOGGING = {
 
 # CORS跨域请求白名单设置
 CORS_ORIGIN_WHITELIST = (
-    'http://127.0.0.1:8080',
+    'http://127.0.0.1:80',
+	'http://waterberry.cn',
+    'http://waterberry.cn:80',
+    'http://waterberry.cn:8000',
+    'http://waterberry.cn:8001',
 )
 CORS_ALLOW_CREDENTIALS = True  # 允许携带cookie
 

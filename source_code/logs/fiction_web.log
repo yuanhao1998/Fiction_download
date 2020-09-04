@@ -5629,3 +5629,9 @@ INFO 2020-09-03 18:20:31,973 basehttp 157 "OPTIONS /book/?book_id=90&chapter_id=
 INFO 2020-09-03 18:20:33,260 basehttp 157 "GET /book/?book_id=90&chapter_id=3 HTTP/1.1" 200 6094
 INFO 2020-09-03 18:20:49,782 basehttp 157 "OPTIONS /book/?book_id=90&chapter_id=4 HTTP/1.1" 200 0
 INFO 2020-09-03 18:20:51,016 basehttp 157 "GET /book/?book_id=90&chapter_id=4 HTTP/1.1" 200 6414
+INFO 2020-09-03 21:42:48,584 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-03 21:43:01,810 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-03 21:47:35,136 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-03 21:47:44,132 basehttp 157 "GET /hot/ HTTP/1.0" 200 5742
+WARNING 2020-09-04 10:03:26,033 log 230 Unauthorized: /bookshelves/
+WARNING 2020-09-04 11:17:21,423 log 230 Not Found: /

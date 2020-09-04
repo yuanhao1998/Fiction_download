@@ -28,9 +28,8 @@ pycparser==2.20
 PyDispatcher==2.0.5
 PyHamcrest==2.0.2
 PyJWT==1.7.1
-pyOpenSSL @ file:///D:/fiction_website/source_code/pyOpenSSL-19.1.0-py2.py3-none-any.whl
+pyOpenSSL==19.1.0
 pytz==2020.1
-pywin32==228
 queuelib==1.5.0
 redis==3.5.3
 requests==2.24.0

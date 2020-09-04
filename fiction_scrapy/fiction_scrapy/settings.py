@@ -9,12 +9,12 @@
 import os
 import sys
 
-sys.path.append(os.path.dirname(os.path.abspath('.')))
-os.environ['DJANGO_SETTINGS_MODULE'] = 'source_code.settings.dev'
+# sys.path.append(os.path.dirname(os.path.abspath('.')))
+# os.environ['DJANGO_SETTINGS_MODULE'] = 'source_code.settings.prod'
 # 手动初始化Django：
-import django
+# import django
 
-django.setup()
+# django.setup()
 
 BOT_NAME = 'fiction_scrapy'
 
@@ -110,7 +110,7 @@ SCHEDULER_PERSIST = True
 # Requests的调度策略，默认优先级队列
 SCHEDULER_QUEUE_CLASS = 'scrapy_redis.queue.PriorityQueue'
 
-REDIS_HOST = "175.24.100.78"
+REDIS_HOST = "172.17.0.4"
 REDIS_PORT = 6379
 REDIS_PARAMS = {
     'password': 'yuan123hao',
@@ -118,8 +118,8 @@ REDIS_PARAMS = {
 
 # pymysql的配置
 PYMYSQL = {
-    'host': 'cdb-dcn8l0ek.cd.tencentcdb.com',
-    'port': 10172,
+    'host': '172.27.0.13',
+    'port': 3306,
     'user': 'root',
     'password': 'yuan123hao',
     'db': 'Fiction'

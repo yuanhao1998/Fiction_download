@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // 展示热搜
     $.ajax({
-        url: 'http://127.0.0.1:8000/hot/',
+        url: 'http://waterberry.cn:8000/hot/',
         type: 'get',
         success: function(response){
             if (response.errno === 0){
@@ -24,7 +24,7 @@ $(document).ready(function () {
 //查看书籍
 function book_detail(href){
     $.ajax({
-        url: 'http://127.0.0.1:8000/search/detail/?href=' + href,
+        url: 'http://waterberry.cn:8000/search/detail/?href=' + href,
         type: 'get',
         dataType: 'json',
         success: function(response) {

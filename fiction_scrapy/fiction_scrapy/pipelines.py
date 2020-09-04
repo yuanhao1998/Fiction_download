@@ -12,7 +12,7 @@ from fiction_scrapy.settings import PYMYSQL
 
 class FictionScrapyPipeline:
 
-    def process_item(self, item, spider):  # 连接数据库，保存数据
+    def process_item(self, item, spider):  
         conn = pymysql.connect(**PYMYSQL)
         sql = 'INSERT INTO %s' % item['table_name'] + '(book_id,chapter_name,content)' + ' VALUES (%s, %s, %s)'
         with conn.cursor() as cursor:
