@@ -34,7 +34,7 @@ class FictionDownload(RedisCrawlSpider):
     def parse_page(self, response):  # 页面处理
         item = {'chapter_name': response.xpath("string(//div[@class='content']/h1)").extract_first()}
         content = response.xpath('//*[@id="content"]').extract_first()
-        item['content'] = unicodedata.normalize('NFKC', content)  # 替换乱码
+        item['content'] = unicodedata.normalize('NFKC', content).encode('utf-8')  # 替换乱码
         item['book_id'] = self.book_data.get('book_id')
         item['table_name'] = self.book_data.get('table_name')
         yield item

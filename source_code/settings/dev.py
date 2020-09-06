@@ -74,16 +74,16 @@ WSGI_APPLICATION = 'source_code.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'cdb-dcn8l0ek.cd.tencentcdb.com',
-        'PORT': 10172,
+        'HOST': '127.0.0.1',
+        'PORT': 3306,
         'USER': 'root',
         'PASSWORD': 'yuan123hao',
         'NAME': 'Fiction'
     }
 }
 PYMYSQL = {
-    'host': 'cdb-dcn8l0ek.cd.tencentcdb.com',
-    'port': 10172,
+    'host': '127.0.0.1',
+    'port': 3306,
     'user': 'root',
     'password': 'yuan123hao',
     'db': 'Fiction'
@@ -92,14 +92,14 @@ PYMYSQL = {
 CACHES = {
     "default": {  # 默认存储信息: 存到 0 号库
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://:yuan123hao@175.24.100.78:6379/0",
+        "LOCATION": "redis://:yuan123hao@127.0.0.1:6379/0",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
     "session": {  # session 信息: 存到 1 号库
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://:yuan123hao@175.24.100.78/1",
+        "LOCATION": "redis://:yuan123hao@127.0.0.1:6379/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }

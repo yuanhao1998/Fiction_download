@@ -74,7 +74,7 @@ WSGI_APPLICATION = 'source_code.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '172.27.0.13',
+        'HOST': '127.0.0.1',
         'PORT': 3306,
         'USER': 'root',
         'PASSWORD': 'yuan123hao',
@@ -82,7 +82,7 @@ DATABASES = {
     }
 }
 PYMYSQL = {
-    'host': '172.27.0.13',
+    'host': '127.0.0.1',
     'port': 3306,
     'user': 'root',
     'password': 'yuan123hao',
@@ -92,14 +92,14 @@ PYMYSQL = {
 CACHES = {
     "default": {  # 默认存储信息: 存到 0 号库
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://:yuan123hao@172.17.0.4:6379/0",
+        "LOCATION": "redis://:yuan123hao@127.0.0.1:6379/0",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
     "session": {  # session 信息: 存到 1 号库
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://:yuan123hao@172.17.0.4/1",
+        "LOCATION": "redis://:yuan123hao@127.0.0.1/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }

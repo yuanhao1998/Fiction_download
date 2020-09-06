@@ -110,7 +110,7 @@ SCHEDULER_PERSIST = True
 # Requests的调度策略，默认优先级队列
 SCHEDULER_QUEUE_CLASS = 'scrapy_redis.queue.PriorityQueue'
 
-REDIS_HOST = "172.17.0.4"
+REDIS_HOST = "127.0.0.1"
 REDIS_PORT = 6379
 REDIS_PARAMS = {
     'password': 'yuan123hao',
@@ -118,7 +118,7 @@ REDIS_PARAMS = {
 
 # pymysql的配置
 PYMYSQL = {
-    'host': '172.27.0.13',
+    'host': '127.0.0.1',
     'port': 3306,
     'user': 'root',
     'password': 'yuan123hao',
