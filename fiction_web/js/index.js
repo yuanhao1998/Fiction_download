@@ -16,7 +16,7 @@ $(document).ready(function () {
 //登录
 function login(){
     $.ajax({
-        url: 'http://waterberry.cn:8000/user/login/',
+        url: 'http://127.0.0.1:8000/user/login/',
         type: 'post',
         dataType: 'json',
         data: {
@@ -72,7 +72,7 @@ function bookshelves(){
 function search(e){
     console.log(e)
     $.ajax({
-        url: 'http://waterberry.cn:8000/search/' + e + '/',
+        url: 'http://127.0.0.1:8000/search/' + e + '/',
         type: 'get',
         dataType: 'json',
         success: function(response){
@@ -110,7 +110,7 @@ function search(e){
 //添加到书架
 function add_bookshelves(book_name,tags,author,href){
     $.ajax({
-        url:'http://waterberry.cn:8000/bookshelves/',
+        url:'http://127.0.0.1:8000/bookshelves/',
         type: 'post',
         dataType: 'json',
         headers: {

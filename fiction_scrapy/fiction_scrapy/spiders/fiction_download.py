@@ -7,7 +7,7 @@ from scrapy.spiders import Rule
 from scrapy.linkextractors import LinkExtractor
 from scrapy_redis.spiders import RedisCrawlSpider
 
-# lpush book_url '{"url":"http://www.shuquge.com/txt/128294/index.html", "table_name":"tb_75", "book_id":"75"}'
+# lpush book_url '{"url":"http://www.shuquge.com/txt/128294/index.html", "table_name":"tb_92", "book_id":"92"}'
 
 
 class FictionDownload(RedisCrawlSpider):

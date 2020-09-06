@@ -26,6 +26,9 @@ class Conn:  # 建立pymysql连接与提交
     def rollback(self):
         return self.conn.rollback()
 
+    def rowcount(self):
+        return self.cursor.rowcount()
+
     def __del__(self):
         self.conn.commit()
         self.cursor.close()

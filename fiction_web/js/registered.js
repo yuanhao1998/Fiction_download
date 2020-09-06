@@ -4,7 +4,7 @@ function submit(){
     let repeat = $('.repeat')
     if (password.val() === repeat.val()){
         $.ajax({
-            url: 'http://waterberry.cn:8000/user/registered/',
+            url: 'http://127.0.0.1:8000/user/registered/',
             type: 'post',
             dataType: 'json',
             data: {

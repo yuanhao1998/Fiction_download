@@ -14,7 +14,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-
 # 指明自定义的用户模型类
 AUTH_USER_MODEL = 'user.User'
 
@@ -70,19 +69,35 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'source_code.wsgi.application'
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '127.0.0.1',
+        'HOST': '175.24.100.78',
         'PORT': 3306,
         'USER': 'root',
         'PASSWORD': 'yuan123hao',
         'NAME': 'Fiction'
     }
 }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'HOST': 'cdb-dcn8l0ek.cd.tencentcdb.com',
+#         'PORT': 10172,
+#         'USER': 'root',
+#         'PASSWORD': 'yuan123hao',
+#         'NAME': 'Fiction'
+#     }
+# }
+# PYMYSQL = {
+#     'host': 'cdb-dcn8l0ek.cd.tencentcdb.com',
+#     'port': 10172,
+#     'user': 'root',
+#     'password': 'yuan123hao',
+#     'db': 'Fiction'
+# }
 PYMYSQL = {
-    'host': '127.0.0.1',
+    'host': '175.24.100.78',
     'port': 3306,
     'user': 'root',
     'password': 'yuan123hao',
@@ -92,14 +107,14 @@ PYMYSQL = {
 CACHES = {
     "default": {  # 默认存储信息: 存到 0 号库
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://:yuan123hao@127.0.0.1:6379/0",
+        "LOCATION": "redis://:yuan123hao@175.24.100.78:6379/0",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
     },
     "session": {  # session 信息: 存到 1 号库
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "redis://:yuan123hao@127.0.0.1:6379/1",
+        "LOCATION": "redis://:yuan123hao@175.24.100.78/1",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
@@ -167,7 +182,8 @@ LOGGING = {
 # CORS跨域请求白名单设置
 CORS_ORIGIN_WHITELIST = (
     'http://127.0.0.1:80',
-	'http://waterberry.cn',
+    'http://127.0.0.1:8080',
+    'http://waterberry.cn',
     'http://waterberry.cn:80',
     'http://waterberry.cn:8000',
     'http://waterberry.cn:8001',
@@ -186,7 +202,6 @@ JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
     # 'JWT_RESPONSE_PAYLOAD_HANDLER': 'utils.JWTReturn.jwt_response_payload_handler',
 }
-
 
 LANGUAGE_CODE = 'zh-hans'  # 配置语言
 

@@ -1,11 +1,13 @@
 from django.forms import model_to_dict
 from django_redis import get_redis_connection
-from rest_framework.generics import CreateAPIView, ListAPIView
+from rest_framework.generics import CreateAPIView
 from rest_framework.response import Response
+from rest_framework.views import APIView
 
-from book.serializers import BookSerializer, BookListSerializer
+from book.serializers import BookSerializer
 from source_code.settings.dev import logger
 from utils.pymysql_conn import Conn
+from utils.sql_manage import book_query2, bookshelves_query2, select_book_table
 
 
 class BookCreateView(CreateAPIView):  # 添加书籍
@@ -22,15 +24,14 @@ class BookCreateView(CreateAPIView):  # 添加书籍
         })
 
 
-class BookReadView(ListAPIView):  # 继续阅读
+class BookReadView(APIView):  # 继续阅读
 
-    def list(self, request, *args, **kwargs):
+    def get(self, request):
         book_id = request.query_params.get('book_id')
         chapter_id = request.query_params.get('chapter_id')
         table_name = 'tb_' + str(book_id)
         conn = Conn()
-        query = 'SELECT href FROM tb_book WHERE id = %s'
-        conn.execute(query, book_id)
+        conn.execute(book_query2, book_id)
         href = conn.fetchone().get('href')
         redis_conn = get_redis_connection('default')
         redis_conn.lpush("book_url", str({"url": href, "table_name": table_name, "book_id": book_id}))
@@ -42,7 +43,7 @@ class BookReadView(ListAPIView):  # 继续阅读
                 conn.execute(query)
                 chapter = conn.fetchone()  # 获取到的类型为dict
             else:
-                query = 'SELECT * FROM %s' % table_name + ' WHERE id = %s'
+                query = 'SELECT id, chapter_name, content FROM %s' % table_name + ' WHERE id = %s'
                 conn.execute(query, chapter_id)
                 chapter = conn.fetchone()
         except Exception:
@@ -53,15 +54,8 @@ class BookReadView(ListAPIView):  # 继续阅读
             })
         # noinspection PyBroadException
         try:
-            query = 'UPDATE tb_bookshelves SET chapter_id = %s WHERE book_id = %s'
-            conn.execute(query, (chapter_id, book_id))
-            return Response({
-                'errno': 0,
-                'errmsg': 'OK',
-                'title': chapter.get('chapter_name'),
-                'data': chapter.get('content'),
-                'id': chapter.get('id')
-            })
+            conn.execute(bookshelves_query2, (chapter_id, book_id))
+            return Response({'errno': 0, 'errmsg': 'OK', **chapter})
         except Exception:
             logger.error(Exception)
             conn.rollback()
@@ -72,8 +66,18 @@ class BookReadView(ListAPIView):  # 继续阅读
             })
 
 
-class BookListAPIView(ListAPIView):  # 返回章节列表
-    serializer_class = BookListSerializer
+class BookListAPIView(APIView):  # 返回章节列表
 
-    def list(self, request, *args, **kwargs):
-        pass
+    def get(self, request, book_id):
+        conn = Conn()
+        table_name = 'tb_' + str(book_id)
+        query = select_book_table % table_name
+        conn.execute(query)
+        data = []
+        for value in conn.fetchall():
+            data.append(value)
+        return Response({
+            'errno': 0,
+            'errmsg': 'OK',
+            'data': data
+        })

@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // 展示书架
     $.ajax({
-        url: 'http://waterberry.cn:8000/bookshelves/',
+        url: 'http://127.0.0.1:8000/bookshelves/',
         type: 'get',
         dataType: 'json',
         headers: {
@@ -49,5 +49,5 @@ $(document).ready(function () {
 function read(book_id, chapter_id){
     $('.data iframe', parent.document).attr('src', 'book.html')
     localStorage.book_id = book_id;
-    localStorage.chapter_id = chapter_id
+    localStorage.chapter_id = chapter_id;
 }

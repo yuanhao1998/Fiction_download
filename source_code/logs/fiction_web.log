@@ -5629,6 +5629,16 @@ INFO 2020-09-03 18:20:31,973 basehttp 157 "OPTIONS /book/?book_id=90&chapter_id=
 INFO 2020-09-03 18:20:33,260 basehttp 157 "GET /book/?book_id=90&chapter_id=3 HTTP/1.1" 200 6094
 INFO 2020-09-03 18:20:49,782 basehttp 157 "OPTIONS /book/?book_id=90&chapter_id=4 HTTP/1.1" 200 0
 INFO 2020-09-03 18:20:51,016 basehttp 157 "GET /book/?book_id=90&chapter_id=4 HTTP/1.1" 200 6414
+INFO 2020-09-03 20:40:58,744 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 20:41:06,178 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 20:43:14,165 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 20:44:18,225 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 20:47:33,669 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 20:48:08,760 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 20:51:03,404 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 20:52:26,412 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-03 20:58:39,616 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-04 14:59:39,611 autoreload 612 Watching for file changes with StatReloader
 INFO 2020-09-03 21:42:48,584 autoreload 612 Watching for file changes with StatReloader
 INFO 2020-09-03 21:43:01,810 autoreload 612 Watching for file changes with StatReloader
 INFO 2020-09-03 21:47:35,136 autoreload 612 Watching for file changes with StatReloader
@@ -5739,3 +5749,491 @@ WARNING 2020-09-05 23:37:17,407 log 230 Not Found: /
 WARNING 2020-09-06 03:28:22,240 log 230 Not Found: /cache/global/img/gs.gif
 WARNING 2020-09-06 04:40:12,505 log 230 Not Found: /
 WARNING 2020-09-06 05:02:06,921 log 230 Not Found: /
+INFO 2020-09-06 08:21:11,184 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 08:29:04,739 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-06 08:29:06,511 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 08:29:44,457 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-06 08:29:45,915 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 14:22:38,479 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 14:23:13,876 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-09-06 14:23:15,608 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 14:24:44,310 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-06 14:24:58,169 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 14:27:11,811 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 14:27:18,724 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+WARNING 2020-09-06 14:27:18,732 log 224 Unauthorized: /bookshelves/
+WARNING 2020-09-06 14:27:18,733 basehttp 157 "GET /bookshelves/ HTTP/1.1" 401 35
+INFO 2020-09-06 14:27:22,570 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-06 14:27:27,080 basehttp 157 "POST /user/login/ HTTP/1.1" 200 212
+INFO 2020-09-06 14:27:28,546 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:06:55,844 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 18:07:45,324 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 18:08:00,451 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:09:30,464 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 18:09:58,436 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 18:10:52,243 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 18:11:09,227 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 166
+INFO 2020-09-06 18:11:27,237 basehttp 157 "OPTIONS /book/?book_id=92&chapter_id=null HTTP/1.1" 200 0
+ERROR 2020-09-06 18:11:28,397 views 66 <class 'Exception'>
+INFO 2020-09-06 18:11:28,559 basehttp 157 "GET /book/?book_id=92&chapter_id=null HTTP/1.1" 200 47
+INFO 2020-09-06 18:12:16,471 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 18:12:27,846 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 18:12:31,250 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=5 HTTP/1.1" 200 0
+INFO 2020-09-06 18:12:31,891 basehttp 157 "GET /book/?book_id=4&chapter_id=5 HTTP/1.1" 200 12121
+INFO 2020-09-06 18:13:27,170 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:13:42,784 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:13:48,300 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-06 18:13:49,689 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:13:50,398 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 18:13:53,813 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=5 HTTP/1.1" 200 0
+INFO 2020-09-06 18:13:54,372 basehttp 157 "GET /book/?book_id=4&chapter_id=5 HTTP/1.1" 200 12121
+ERROR 2020-09-06 18:13:54,989 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\base\base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 234, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+MySQLdb._exceptions.OperationalError: (2013, "Lost connection to MySQL server at 'reading authorization packet', system error: 0")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 493, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 410, in initial
+    self.perform_authentication(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 324, in perform_authentication
+    request.user
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\request.py", line 220, in user
+    self._authenticate()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\request.py", line 373, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework_jwt\authentication.py", line 43, in authenticate
+    user = self.authenticate_credentials(payload)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework_jwt\authentication.py", line 59, in authenticate_credentials
+    user = User.objects.get_by_natural_key(username)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\contrib\auth\base_user.py", line 45, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 1303, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\models\sql\compiler.py", line 1152, in execute_sql
+    cursor = self.connection.cursor()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\base\base.py", line 259, in cursor
+    return self._cursor()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\base\base.py", line 235, in _cursor
+    self.ensure_connection()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\base\base.py", line 219, in ensure_connection
+    self.connect()
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\base\base.py", line 200, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\db\backends\mysql\base.py", line 234, in get_new_connection
+    return Database.connect(**conn_params)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\__init__.py", line 130, in Connect
+    return Connection(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\MySQLdb\connections.py", line 185, in __init__
+    super().__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2013, "Lost connection to MySQL server at 'reading authorization packet', system error: 0")
+INFO 2020-09-06 18:14:52,049 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=6 HTTP/1.1" 200 0
+INFO 2020-09-06 18:14:58,760 basehttp 157 "GET /book/?book_id=4&chapter_id=6 HTTP/1.1" 200 12864
+INFO 2020-09-06 18:15:03,795 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 18:15:04,395 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14339
+INFO 2020-09-06 18:16:22,189 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:16:28,909 basehttp 157 "GET /hot/ HTTP/1.1" 200 180
+INFO 2020-09-06 18:16:29,720 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:16:35,500 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 18:16:52,382 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 18:16:52,999 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14339
+INFO 2020-09-06 18:16:59,605 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+ERROR 2020-09-06 18:17:00,136 log 224 Internal Server Error: /book/list/4/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 82, in get
+    print(conn.fetchall())
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2580' in position 5864: illegal multibyte sequence
+ERROR 2020-09-06 18:17:00,138 basehttp 157 "GET /book/list/4/ HTTP/1.1" 500 121534
+INFO 2020-09-06 18:17:11,696 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+ERROR 2020-09-06 18:17:18,489 log 224 Internal Server Error: /book/list/4/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 82, in get
+    print(conn.fetchall())
+UnicodeEncodeError: 'gbk' codec can't encode character '\u2580' in position 5864: illegal multibyte sequence
+ERROR 2020-09-06 18:17:18,491 basehttp 157 "GET /book/list/4/ HTTP/1.1" 500 121534
+INFO 2020-09-06 18:19:38,161 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 18:19:50,490 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:19:51,232 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 18:19:53,431 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 18:19:54,105 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14339
+INFO 2020-09-06 18:19:57,887 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+ERROR 2020-09-06 18:19:58,608 log 224 Internal Server Error: /book/list/4/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 507, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 419, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'list'>`
+ERROR 2020-09-06 18:19:58,610 basehttp 157 "GET /book/list/4/ HTTP/1.1" 500 99927
+INFO 2020-09-06 18:21:10,327 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 18:21:25,784 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:21:26,547 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 18:21:28,380 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 18:21:29,057 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14339
+INFO 2020-09-06 18:21:32,892 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:21:33,414 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 18:23:49,402 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:23:54,017 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 18:23:58,735 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 18:23:59,333 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14339
+INFO 2020-09-06 18:24:02,100 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:24:02,631 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 18:24:52,570 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:25:07,004 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 18:25:08,508 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 18:25:09,112 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14339
+INFO 2020-09-06 18:25:11,542 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 18:25:12,076 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 19:07:23,612 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:07:30,434 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 19:07:32,009 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 19:07:32,610 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14339
+INFO 2020-09-06 19:07:35,768 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:07:36,297 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 19:08:41,364 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:08:52,623 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 19:09:05,934 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:09:06,637 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 19:09:38,286 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 19:09:45,257 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14339
+INFO 2020-09-06 19:10:00,706 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:10:01,231 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 19:11:05,793 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:11:19,378 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 19:11:28,536 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 19:11:29,142 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14339
+INFO 2020-09-06 19:11:32,559 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:11:33,096 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 19:13:57,111 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-06 19:13:58,721 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:14:23,666 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-06 19:14:25,236 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:15:48,595 autoreload 236 D:\fiction_website\source_code\utils\sql_manage.py changed, reloading.
+INFO 2020-09-06 19:15:50,156 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:17:17,169 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-06 19:17:18,649 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:20:58,776 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-06 19:21:00,480 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:21:55,785 autoreload 236 D:\fiction_website\source_code\utils\sql_manage.py changed, reloading.
+INFO 2020-09-06 19:21:57,464 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:28:12,289 autoreload 236 D:\fiction_website\source_code\utils\sql_manage.py changed, reloading.
+INFO 2020-09-06 19:28:13,812 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:28:23,236 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:28:26,922 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+ERROR 2020-09-06 19:28:27,672 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 24, in list
+    if not bookshelves.chapter_id:  # 如果没有阅读记录
+AttributeError: 'dict' object has no attribute 'chapter_id'
+ERROR 2020-09-06 19:28:27,675 basehttp 157 "GET /bookshelves/ HTTP/1.1" 500 97380
+INFO 2020-09-06 19:29:36,709 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:29:52,327 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+ERROR 2020-09-06 19:29:52,986 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 27, in list
+    table_name = 'tb_' + str(bookshelves.id)
+AttributeError: 'dict' object has no attribute 'id'
+ERROR 2020-09-06 19:29:52,989 basehttp 157 "GET /bookshelves/ HTTP/1.1" 500 97471
+INFO 2020-09-06 19:30:09,038 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:30:15,102 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:30:15,714 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 19:37:26,927 autoreload 236 D:\fiction_website\source_code\utils\pymysql_conn.py changed, reloading.
+INFO 2020-09-06 19:37:28,603 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:37:59,978 autoreload 236 D:\fiction_website\source_code\utils\pymysql_conn.py changed, reloading.
+INFO 2020-09-06 19:38:01,619 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:40:43,134 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:41:31,684 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+ERROR 2020-09-06 19:41:39,800 log 224 Internal Server Error: /bookshelves/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\viewsets.py", line 114, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 38, in list
+    book_list.append(bookshelves + chapter)
+TypeError: unsupported operand type(s) for +: 'dict' and 'dict'
+ERROR 2020-09-06 19:41:39,802 basehttp 157 "GET /bookshelves/ HTTP/1.1" 500 98048
+INFO 2020-09-06 19:42:03,055 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:42:18,929 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:42:25,751 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 419
+INFO 2020-09-06 19:43:08,930 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-06 19:43:10,455 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:44:13,734 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:44:26,804 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:44:28,002 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 419
+INFO 2020-09-06 19:44:29,939 basehttp 157 "OPTIONS /book/?book_id=undefined&chapter_id=7 HTTP/1.1" 200 0
+ERROR 2020-09-06 19:44:30,532 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 35, in get
+    href = conn.fetchone().get('href')
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2020-09-06 19:44:30,535 basehttp 157 "GET /book/?book_id=undefined&chapter_id=7 HTTP/1.1" 500 96114
+INFO 2020-09-06 19:49:03,634 autoreload 236 D:\fiction_website\source_code\apps\bookshelves\views.py changed, reloading.
+INFO 2020-09-06 19:49:05,267 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:49:09,345 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:49:15,038 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:50:15,593 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:50:26,477 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:50:27,083 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 418
+INFO 2020-09-06 19:50:29,893 basehttp 157 "OPTIONS /book/?book_id=undefined&chapter_id=7 HTTP/1.1" 200 0
+ERROR 2020-09-06 19:50:30,523 log 224 Internal Server Error: /book/
+Traceback (most recent call last):
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\django\views\generic\base.py", line 73, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "D:\fiction_website\source_code\apps\book\views.py", line 35, in get
+    href = conn.fetchone().get('href')
+AttributeError: 'NoneType' object has no attribute 'get'
+ERROR 2020-09-06 19:50:30,528 basehttp 157 "GET /book/?book_id=undefined&chapter_id=7 HTTP/1.1" 500 96114
+INFO 2020-09-06 19:50:48,462 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:51:14,070 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:51:23,874 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:51:24,466 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 19:51:26,083 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 19:51:26,754 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14349
+INFO 2020-09-06 19:51:46,526 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:51:47,102 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 19:51:59,112 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 19:52:05,980 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14349
+INFO 2020-09-06 19:54:54,711 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:54:57,908 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:55:01,490 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 19:55:05,512 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 19:55:06,103 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14349
+INFO 2020-09-06 19:55:16,359 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:55:16,895 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 19:56:30,150 autoreload 236 D:\fiction_website\source_code\apps\book\views.py changed, reloading.
+INFO 2020-09-06 19:56:31,680 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 19:58:18,999 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:58:24,074 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 19:58:28,140 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 19:58:28,803 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14349
+INFO 2020-09-06 19:58:32,145 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 19:58:32,675 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 20:00:03,303 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:00:11,292 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 20:00:12,659 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 20:00:13,263 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14349
+INFO 2020-09-06 20:00:15,893 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:00:16,421 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 20:01:16,873 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:01:25,446 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 20:01:27,867 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 20:01:28,459 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14349
+INFO 2020-09-06 20:01:31,004 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:01:31,525 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 20:05:44,208 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:05:50,952 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 20:05:58,915 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 20:05:59,516 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14349
+INFO 2020-09-06 20:06:02,120 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:06:02,658 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 20:06:58,690 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:07:05,442 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 20:07:07,672 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 0
+INFO 2020-09-06 20:07:08,289 basehttp 157 "GET /book/?book_id=4&chapter_id=7 HTTP/1.1" 200 14349
+INFO 2020-09-06 20:07:12,336 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:07:12,870 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 20:14:01,397 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:14:02,718 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 433
+INFO 2020-09-06 20:14:10,266 basehttp 157 "OPTIONS /book/?book_id=4 HTTP/1.1" 200 0
+INFO 2020-09-06 20:14:12,613 basehttp 157 "GET /book/?book_id=4 HTTP/1.1" 200 12739
+INFO 2020-09-06 20:14:16,747 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:14:17,798 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 20:14:22,286 basehttp 157 "OPTIONS /book/?book_id=4 HTTP/1.1" 200 0
+INFO 2020-09-06 20:14:23,802 basehttp 157 "GET /book/?book_id=4 HTTP/1.1" 200 12739
+INFO 2020-09-06 20:14:32,036 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:14:32,864 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 20:14:36,244 basehttp 157 "OPTIONS /book/?book_id=4 HTTP/1.1" 200 0
+INFO 2020-09-06 20:14:38,509 basehttp 157 "GET /book/?book_id=4 HTTP/1.1" 200 12739
+INFO 2020-09-06 20:15:59,164 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:16:00,465 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 436
+INFO 2020-09-06 20:16:02,309 basehttp 157 "OPTIONS /book/?book_id=4 HTTP/1.1" 200 0
+INFO 2020-09-06 20:16:03,461 basehttp 157 "GET /book/?book_id=4 HTTP/1.1" 200 12739
+INFO 2020-09-06 20:16:12,250 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:16:13,138 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 20:16:14,863 basehttp 157 "OPTIONS /book/?book_id=4 HTTP/1.1" 200 0
+INFO 2020-09-06 20:16:17,425 basehttp 157 "GET /book/?book_id=4 HTTP/1.1" 200 12739
+INFO 2020-09-06 20:17:35,436 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:17:36,388 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 436
+INFO 2020-09-06 20:17:38,260 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=1 HTTP/1.1" 200 0
+INFO 2020-09-06 20:17:39,917 basehttp 157 "GET /book/?book_id=4&chapter_id=1 HTTP/1.1" 200 12713
+INFO 2020-09-06 20:17:43,418 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:17:44,839 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 60247
+INFO 2020-09-06 20:17:49,889 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=undefined HTTP/1.1" 200 0
+ERROR 2020-09-06 20:17:50,771 views 60 <class 'Exception'>
+INFO 2020-09-06 20:17:50,887 basehttp 157 "GET /book/?book_id=4&chapter_id=undefined HTTP/1.1" 200 47
+INFO 2020-09-06 20:19:18,236 autoreload 612 Watching for file changes with StatReloader
+INFO 2020-09-06 20:19:26,109 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:19:27,313 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 436
+INFO 2020-09-06 20:19:29,872 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=1 HTTP/1.1" 200 0
+INFO 2020-09-06 20:19:31,211 basehttp 157 "GET /book/?book_id=4&chapter_id=1 HTTP/1.1" 200 12713
+INFO 2020-09-06 20:19:33,646 basehttp 157 "OPTIONS /book/list/4/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:19:35,083 basehttp 157 "GET /book/list/4/ HTTP/1.1" 200 66871
+INFO 2020-09-06 20:19:38,392 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=231 HTTP/1.1" 200 0
+INFO 2020-09-06 20:19:40,157 basehttp 157 "GET /book/?book_id=4&chapter_id=231 HTTP/1.1" 200 19111
+INFO 2020-09-06 20:19:45,302 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:19:47,712 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 480

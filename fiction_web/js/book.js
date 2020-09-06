@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $.ajax({
-        url:'http://waterberry.cn:8000/book/?book_id=' + localStorage.book_id + '&chapter_id='  + localStorage.chapter_id,
+        url:'http://127.0.0.1:8000/book/?book_id=' + localStorage.book_id + '&chapter_id='  + localStorage.chapter_id,
         type: 'get',
         dataType: 'json',
         headers: {
@@ -11,9 +11,9 @@ $(document).ready(function () {
                 localStorage.chapter_id = response.id;
                 let data = $('.data');
                 let title = $('.title p');
-                title.text(response.title);
+                title.text(response.chapter_name);
                 data.empty();
-                data.append(response.data);
+                data.append(response.content);
             }
             else{
                 console.log(response)
@@ -35,7 +35,7 @@ function Turn_page(flag){
     let chapter = Number(localStorage.chapter_id) + Number(flag)
     localStorage.chapter_id = chapter
     $.ajax({
-        url:'http://waterberry.cn:8000/book/?book_id=' + localStorage.book_id + '&chapter_id='  + chapter,
+        url:'http://127.0.0.1:8000/book/?book_id=' + localStorage.book_id + '&chapter_id='  + chapter,
         type: 'get',
         dataType: 'json',
         headers: {
@@ -65,23 +65,6 @@ function Turn_page(flag){
 }
 
 //返回目录
-function list(){
-    $.ajax({
-        url:'http://waterberry.cn:8000/book/list/' + localStorage.book_id + '/',
-        type: 'get',
-        dataType: 'json',
-        headers: {
-            'Authorization': 'JWT ' + localStorage.token
-        },
-        success: function (response){
-            console.log(response)
-        },
-        error: function(e) {
-            console.log(e)
-            if (e.status === 401)
-                alert('认证信息过期，请重新登陆！')
-            else
-                alert('获取内容失败，请稍后再试')
-        }
-    })
+function List(){
+    $('.data iframe', parent.document).attr('src', 'list.html')
 }
