@@ -1,6 +1,6 @@
 FICTION_HOT_URL = "http://top.baidu.com/category?c=10"  # 百度风云榜小说热搜
 
-FICTION_SEARCH = 'http://127.0.0.1:8000/search/?book_name='  # 搜索链接
+FICTION_SEARCH = 'http://waterberry.cn:8000/search/?book_name='  # 搜索链接
 
 FICTION_WEBSITE = {  # 网站源
     'www.shuquge.com': 'http://www.shuquge.com/search.php',  # 书趣阁

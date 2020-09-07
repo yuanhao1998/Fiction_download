@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // 展示书架
     $.ajax({
-        url: 'http://127.0.0.1:8000/bookshelves/',
+        url: 'http://waterberry.cn:8000/bookshelves/',
         type: 'get',
         dataType: 'json',
         headers: {

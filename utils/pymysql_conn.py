@@ -1,6 +1,6 @@
 import pymysql
 
-from source_code.settings.dev import PYMYSQL
+from source_code.settings.prod import PYMYSQL
 
 
 class Conn:  # 建立pymysql连接与提交

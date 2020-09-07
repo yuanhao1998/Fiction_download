@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $.ajax({
-        url:'http://127.0.0.1:8000/book/list/' + localStorage.book_id + '/',
+        url:'http://waterberry.cn:8000/book/list/' + localStorage.book_id + '/',
         type: 'get',
         dataType: 'json',
         headers: {

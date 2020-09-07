@@ -1,2 +1,2 @@
-url: "http://127.0.0.1:8000/user/login/"
+url: "http://waterberry.cn:8000/user/login/"
 user: [{"username": "123","password": "123"}]

@@ -724,7 +724,7 @@ Traceback (most recent call last):
   File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\generics.py", line 190, in post
     return self.create(request, *args, **kwargs)
   File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 13, in create
-    book = requests.post(url='http://127.0.0.1:8000/book/add/', data=data)
+    book = requests.post(url='http://waterberry.cn:8000/book/add/', data=data)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 119, in post
     return request('post', url, data=data, json=json, **kwargs)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 61, in request
@@ -840,7 +840,7 @@ Traceback (most recent call last):
   File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\generics.py", line 190, in post
     return self.create(request, *args, **kwargs)
   File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 13, in create
-    book = requests.post(url='http://127.0.0.1:8000/book/add/', data=data)
+    book = requests.post(url='http://waterberry.cn:8000/book/add/', data=data)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 119, in post
     return request('post', url, data=data, json=json, **kwargs)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 61, in request
@@ -1046,7 +1046,7 @@ Traceback (most recent call last):
   File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\generics.py", line 190, in post
     return self.create(request, *args, **kwargs)
   File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 13, in create
-    book = requests.post(url='http://127.0.0.1:8000/book/add/', data=data)
+    book = requests.post(url='http://waterberry.cn:8000/book/add/', data=data)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 119, in post
     return request('post', url, data=data, json=json, **kwargs)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 61, in request
@@ -1201,7 +1201,7 @@ Traceback (most recent call last):
   File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\generics.py", line 190, in post
     return self.create(request, *args, **kwargs)
   File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 13, in create
-    book = requests.post(url='http://127.0.0.1:8000/book/add/', data=data)
+    book = requests.post(url='http://waterberry.cn:8000/book/add/', data=data)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 119, in post
     return request('post', url, data=data, json=json, **kwargs)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 61, in request
@@ -1280,7 +1280,7 @@ Traceback (most recent call last):
   File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\generics.py", line 190, in post
     return self.create(request, *args, **kwargs)
   File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 13, in create
-    book = requests.post(url='http://127.0.0.1:8000/book/add/', data=data)
+    book = requests.post(url='http://waterberry.cn:8000/book/add/', data=data)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 119, in post
     return request('post', url, data=data, json=json, **kwargs)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 61, in request
@@ -1359,7 +1359,7 @@ Traceback (most recent call last):
   File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\generics.py", line 190, in post
     return self.create(request, *args, **kwargs)
   File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 13, in create
-    book = requests.post(url='http://127.0.0.1:8000/book/add/', data=data)
+    book = requests.post(url='http://waterberry.cn:8000/book/add/', data=data)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 119, in post
     return request('post', url, data=data, json=json, **kwargs)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 61, in request
@@ -1438,7 +1438,7 @@ Traceback (most recent call last):
   File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\generics.py", line 190, in post
     return self.create(request, *args, **kwargs)
   File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 13, in create
-    book = requests.post(url='http://127.0.0.1:8000/book/add/', data=data)
+    book = requests.post(url='http://waterberry.cn:8000/book/add/', data=data)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 119, in post
     return request('post', url, data=data, json=json, **kwargs)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 61, in request
@@ -1518,7 +1518,7 @@ Traceback (most recent call last):
   File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\generics.py", line 190, in post
     return self.create(request, *args, **kwargs)
   File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 13, in create
-    book = requests.post(url='http://127.0.0.1:8000/book/add/', data=data)
+    book = requests.post(url='http://waterberry.cn:8000/book/add/', data=data)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 119, in post
     return request('post', url, data=data, json=json, **kwargs)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 61, in request
@@ -1597,7 +1597,7 @@ Traceback (most recent call last):
   File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\generics.py", line 190, in post
     return self.create(request, *args, **kwargs)
   File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 13, in create
-    book = requests.post(url='http://127.0.0.1:8000/book/add/', data=data)
+    book = requests.post(url='http://waterberry.cn:8000/book/add/', data=data)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 119, in post
     return request('post', url, data=data, json=json, **kwargs)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 61, in request
@@ -1676,7 +1676,7 @@ Traceback (most recent call last):
   File "D:\fiction_website\virtual_environment\lib\site-packages\rest_framework\generics.py", line 190, in post
     return self.create(request, *args, **kwargs)
   File "D:\fiction_website\source_code\apps\bookshelves\views.py", line 13, in create
-    book = requests.post(url='http://127.0.0.1:8000/book/add/', data=data)
+    book = requests.post(url='http://waterberry.cn:8000/book/add/', data=data)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 119, in post
     return request('post', url, data=data, json=json, **kwargs)
   File "D:\fiction_website\virtual_environment\lib\site-packages\requests\api.py", line 61, in request
@@ -6237,3 +6237,10 @@ INFO 2020-09-06 20:19:38,392 basehttp 157 "OPTIONS /book/?book_id=4&chapter_id=2
 INFO 2020-09-06 20:19:40,157 basehttp 157 "GET /book/?book_id=4&chapter_id=231 HTTP/1.1" 200 19111
 INFO 2020-09-06 20:19:45,302 basehttp 157 "OPTIONS /bookshelves/ HTTP/1.1" 200 0
 INFO 2020-09-06 20:19:47,712 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 480
+INFO 2020-09-06 20:22:35,074 basehttp 157 "OPTIONS /book/?book_id=9&chapter_id=1 HTTP/1.1" 200 0
+INFO 2020-09-06 20:22:36,447 basehttp 157 "GET /book/?book_id=9&chapter_id=1 HTTP/1.1" 200 13394
+INFO 2020-09-06 20:22:41,703 basehttp 157 "OPTIONS /book/list/9/ HTTP/1.1" 200 0
+INFO 2020-09-06 20:22:42,753 basehttp 157 "GET /book/list/9/ HTTP/1.1" 200 57689
+INFO 2020-09-06 20:22:46,594 basehttp 157 "OPTIONS /book/?book_id=9&chapter_id=600 HTTP/1.1" 200 0
+INFO 2020-09-06 20:22:48,584 basehttp 157 "GET /book/?book_id=9&chapter_id=600 HTTP/1.1" 200 7440
+INFO 2020-09-06 20:22:55,496 basehttp 157 "GET /bookshelves/ HTTP/1.1" 200 491
