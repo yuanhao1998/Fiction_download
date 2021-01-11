@@ -1,0 +1,34 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogHeight" value="276" />
+    <option name="newTranslationDialogWidth" value="556" />
+    <option name="newTranslationDialogX" value="1107" />
+    <option name="newTranslationDialogY" value="646" />
+    <histories>
+      <item value="生成" />
+      <item value="sheng c" />
+      <item value="sh" />
+      <item value="s" />
+      <item value="ImportError: attempted relative import with no known parent package" />
+      <item value="不等于" />
+      <item value="If the _imaging C module is not present, Pillow will not load. Note that other modules should not refer to _imaging directly; import Image and use the Image.core variable instead. Also note that Image.core is not a publicly documented interface, and should be considered private and subject to change." />
+      <item value="validate Url" />
+      <item value="stat" />
+      <item value="bad stat" />
+      <item value="bad st" />
+      <item value="R0ck9" />
+      <item value="Py Broad Exception" />
+      <item value="RSA key format is not supported" />
+      <item value="This is probably a DER encoded key" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="4" />
+        <entry key="ENGLISH" value="5" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1609995457922" />
+  </component>
+</application>
