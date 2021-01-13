@@ -5,6 +5,11 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="monitor" />
+      <item value="monit" />
+      <item value="mon" />
+      <item value="device" />
+      <item value="de" />
       <item value="导出信息" />
       <item value="dao chu" />
       <item value="dao" />
