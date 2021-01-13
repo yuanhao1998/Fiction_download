@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="导出信息" />
+      <item value="dao chu" />
+      <item value="dao" />
       <item value="生成" />
       <item value="sheng c" />
       <item value="sh" />
@@ -29,6 +32,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1609995457922" />
+    <option name="lastTrimTime" value="1610502851057" />
   </component>
 </application>
