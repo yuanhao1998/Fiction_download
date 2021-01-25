@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="Object of type bytes is not JSON serializable" />
       <item value="监测点" />
       <item value="local variable 'monitor' referenced before assignment" />
       <item value="jian" />
@@ -44,12 +45,12 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="8" />
-        <entry key="ENGLISH" value="9" />
+        <entry key="CHINESE" value="9" />
+        <entry key="ENGLISH" value="10" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1611125383526" />
+    <option name="lastTrimTime" value="1611562322166" />
   </component>
 </application>
