@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="监测点" />
+      <item value="local variable 'monitor' referenced before assignment" />
+      <item value="jian" />
       <item value="The alias has invalid character" />
       <item value="cannot find user by this audience or has been inactive for more than 255 days" />
       <item value="Authen failed" />
