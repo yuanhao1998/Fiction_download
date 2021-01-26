@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="the JSON object must be str, bytes or bytearray, not NoneType" />
       <item value="Object of type bytes is not JSON serializable" />
       <item value="监测点" />
       <item value="local variable 'monitor' referenced before assignment" />
