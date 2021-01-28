@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="详情&#10;" />
+      <item value="xiang q" />
       <item value="updata" />
       <item value="update" />
       <item value="the JSON object must be str, bytes or bytearray, not NoneType" />
