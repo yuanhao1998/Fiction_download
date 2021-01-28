@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="updata" />
+      <item value="update" />
       <item value="the JSON object must be str, bytes or bytearray, not NoneType" />
       <item value="Object of type bytes is not JSON serializable" />
       <item value="监测点" />
