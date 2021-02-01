@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="读取" />
       <item value="字段" />
       <item value="insert filed" />
       <item value="insert_filed" />
@@ -61,6 +62,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1611562322166" />
+    <option name="lastTrimTime" value="1612146247621" />
   </component>
 </application>
