@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="详情" />
+      <item value="xiang q" />
+      <item value="detail" />
       <item value="python initialize failed" />
       <item value="合并s" />
       <item value="合并s shu" />
@@ -27,7 +30,6 @@
       <item value=" 字段" />
       <item value=" z" />
       <item value="详情&#10;" />
-      <item value="xiang q" />
       <item value="updata" />
       <item value="update" />
       <item value="the JSON object must be str, bytes or bytearray, not NoneType" />
@@ -53,8 +55,6 @@
       <item value="导出信息" />
       <item value="dao chu" />
       <item value="dao" />
-      <item value="生成" />
-      <item value="sheng c" />
     </histories>
     <option name="languageScores">
       <map>
