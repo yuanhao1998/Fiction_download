@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="RECORD " />
       <item value="详情" />
       <item value="xiang q" />
       <item value="detail" />
@@ -54,7 +55,6 @@
       <item value="de" />
       <item value="导出信息" />
       <item value="dao chu" />
-      <item value="dao" />
     </histories>
     <option name="languageScores">
       <map>
