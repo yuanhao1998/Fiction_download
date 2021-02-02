@@ -31,6 +31,13 @@
       <webServer id="7fc932e7-181f-4fc8-ae7e-f25c2ab62527" name="ubuntu@175.24.100.78:22 password">
         <fileTransfer accessType="SFTP" host="175.24.100.78" port="22" sshConfigId="782c4f44-52f0-4304-ab62-51f07f7d899a" sshConfig="ubuntu@175.24.100.78:22 password" />
       </webServer>
+      <webServer id="4d5c94f0-65c8-43f8-bc05-8dfb8b852bee" name="198">
+        <fileTransfer accessType="SFTP" host="192.168.1.198" port="22" sshConfigId="8d3553de-7080-4a4f-93f9-1c33c39ea2b0" sshConfig="root@192.168.1.198:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>

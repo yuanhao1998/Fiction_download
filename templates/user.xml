@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="r" value="return self.mx_error()" description="返回错误" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
