@@ -5,6 +5,10 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="warning top5 detail" />
+      <item value="warning top5 details" />
+      <item value="warning_top5 details" />
+      <item value="warning_top5_details" />
       <item value="RECORD " />
       <item value="详情" />
       <item value="xiang q" />
@@ -51,10 +55,6 @@
       <item value="monitor" />
       <item value="monit" />
       <item value="mon" />
-      <item value="device" />
-      <item value="de" />
-      <item value="导出信息" />
-      <item value="dao chu" />
     </histories>
     <option name="languageScores">
       <map>
