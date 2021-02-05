@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="NO FIND RECORD " />
+      <item value="NO FINDRECORD " />
+      <item value="NOFINDRECORD " />
       <item value="PARSE NODE PATH FAILED" />
       <item value="PARSE NODE PATHFAILED" />
       <item value="PARSE NODE PAT HFAILED" />
@@ -52,9 +55,6 @@
       <item value="Object of type bytes is not JSON serializable" />
       <item value="监测点" />
       <item value="local variable 'monitor' referenced before assignment" />
-      <item value="jian" />
-      <item value="The alias has invalid character" />
-      <item value="cannot find user by this audience or has been inactive for more than 255 days" />
     </histories>
     <option name="languageScores">
       <map>
