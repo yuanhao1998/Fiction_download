@@ -5,6 +5,10 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="Mapping" />
+      <item value="representations" />
+      <item value="method decorators" />
+      <item value="Represents an abstract RESTful resource. Concrete resources should extend from this class and expose methods for each supported HTTP method. If a resource is invoked with an unsupported HTTP method, the API will return a response with status 405 Method Not Allowed. Otherwise the appropriate method is called and passed all arguments from the url rule used when adding the resource to an Api instance. See :meth:`~flask_restful.Api.add_resource` for details." />
       <item value="NO FIND RECORD " />
       <item value="NO FINDRECORD " />
       <item value="NOFINDRECORD " />
@@ -51,19 +55,15 @@
       <item value="详情&#10;" />
       <item value="updata" />
       <item value="update" />
-      <item value="the JSON object must be str, bytes or bytearray, not NoneType" />
-      <item value="Object of type bytes is not JSON serializable" />
-      <item value="监测点" />
-      <item value="local variable 'monitor' referenced before assignment" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="9" />
-        <entry key="ENGLISH" value="10" />
+        <entry key="CHINESE" value="13" />
+        <entry key="ENGLISH" value="14" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1612146247621" />
+    <option name="lastTrimTime" value="1612750880556" />
   </component>
 </application>
