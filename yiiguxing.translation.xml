@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="ValueError: too many values to unpack (expected 2)" />
+      <item value="内存" />
       <item value="负载" />
       <item value="fu z" />
       <item value="百分比" />
@@ -53,8 +55,6 @@
       <item value="已处理" />
       <item value="wei" />
       <item value="yi" />
-      <item value="Could not resolve hostname awk" />
-      <item value="读取" />
     </histories>
     <option name="languageScores">
       <map>
