@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="并发" />
       <item value="ValueError: too many values to unpack (expected 2)" />
       <item value="内存" />
       <item value="负载" />
@@ -54,7 +55,6 @@
       <item value="未处理" />
       <item value="已处理" />
       <item value="wei" />
-      <item value="yi" />
     </histories>
     <option name="languageScores">
       <map>
