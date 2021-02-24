@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="so" type="PLAIN_TEXT" />
       <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
