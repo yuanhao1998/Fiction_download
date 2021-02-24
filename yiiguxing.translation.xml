@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="AUTH" />
       <item value="跨域" />
       <item value="k" />
       <item value="中间件" />
@@ -54,7 +55,6 @@
       <item value="b" />
       <item value="process" />
       <item value="There may be a better way to test" />
-      <item value="Decorators to attach to every resource" />
     </histories>
     <option name="languageScores">
       <map>
