@@ -5,6 +5,15 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="FATAL" />
+      <item value="CRITICAL" />
+      <item value="Phone Number One Hour Limit" />
+      <item value="Phone Number One HourLimit" />
+      <item value="Phone Number OneHourLimit" />
+      <item value="Phone NumberOneHourLimit" />
+      <item value="PhoneNumberOneHourLimit" />
+      <item value="PhoneNumberOneHourLimit'" />
+      <item value="'LimitExceeded.PhoneNumberOneHourLimit'" />
       <item value="'SendSmsResponse' object is not subscriptable" />
       <item value="沙特" />
       <item value="shat" />
@@ -46,15 +55,6 @@
       <item value="reload" />
       <item value="延时" />
       <item value="项目" />
-      <item value="projebt" />
-      <item value="proje" />
-      <item value="proj" />
-      <item value="pro" />
-      <item value="监控" />
-      <item value="系统监控" />
-      <item value="xi" />
-      <item value="并发" />
-      <item value="ValueError: too many values to unpack (expected 2)" />
     </histories>
     <option name="languageScores">
       <map>
