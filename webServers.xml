@@ -27,7 +27,7 @@
       <webServer id="7bde909b-1759-40c4-a674-cc6d05221f00" name="root@192.168.1.198:22 password">
         <fileTransfer accessType="SFTP" host="192.168.1.198" port="22" sshConfigId="8d3553de-7080-4a4f-93f9-1c33c39ea2b0" sshConfig="root@192.168.1.198:22 password" />
       </webServer>
-      <webServer id="974bce22-6036-450b-97fc-e943733d2455" name="root@192.168.1.198:22 password">
+      <webServer id="974bce22-6036-450b-97fc-e943733d2455" name="root@192.168.1.198:22 password (1)">
         <fileTransfer accessType="SFTP" host="192.168.1.198" port="22" sshConfigId="8d3553de-7080-4a4f-93f9-1c33c39ea2b0" sshConfig="root@192.168.1.198:22 password" />
       </webServer>
     </option>
