@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="'SendSmsResponse' object is not subscriptable" />
       <item value="沙特" />
       <item value="shat" />
       <item value="nora" />
@@ -54,12 +55,11 @@
       <item value="xi" />
       <item value="并发" />
       <item value="ValueError: too many values to unpack (expected 2)" />
-      <item value="内存" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="16" />
-        <entry key="ENGLISH" value="17" />
+        <entry key="CHINESE" value="17" />
+        <entry key="ENGLISH" value="18" />
       </map>
     </option>
   </component>
