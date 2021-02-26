@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="退款" />
+      <item value="tu" />
+      <item value="tu yi" />
       <item value="Baseclass for all HTTP exceptions. This exception can be called as WSGI application to render a default error page or you can catch the subclasses of it independently and render nicer error messages" />
       <item value="If specified, this should be an iterable of already created handlers, which will be added to the root handler. Any handler in the list which does not have a formatter assigned will be assigned the formatter created in this function" />
       <item value="Use the specified stream to initialize the StreamHandler. Note that this argument is incompatible with 'filename' - if both are present, 'stream' is ignored" />
@@ -52,9 +55,6 @@
       <item value="funk" />
       <item value="SelfMonitor" />
       <item value="自身监测" />
-      <item value="zi" />
-      <item value="on" />
-      <item value="in" />
     </histories>
     <option name="languageScores">
       <map>
