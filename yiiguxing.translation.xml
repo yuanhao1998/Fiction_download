@@ -5,11 +5,30 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="catalog" />
+      <item value="cata" />
+      <item value="目录列表" />
+      <item value="目录" />
+      <item value="mu" />
+      <item value="affairs" />
+      <item value="aff" />
+      <item value="a" />
+      <item value="事务模版" />
+      <item value="事务膜拜" />
+      <item value="si wu" />
+      <item value="service desk" />
+      <item value="ser" />
+      <item value="ApproveCatalog" />
+      <item value="approvercatalog" />
+      <item value="approvercata" />
+      <item value="approverca" />
+      <item value="approver" />
+      <item value="app" />
+      <item value="APP" />
+      <item value="APP " />
       <item value="实例" />
       <item value="shi li" />
       <item value="shi" />
-      <item value="affairs" />
-      <item value="aff" />
       <item value="af f" />
       <item value="事务模板" />
       <item value="SLA Agreement" />
@@ -36,25 +55,6 @@
       <item value="shat" />
       <item value="nora" />
       <item value="我想买一台挖掘机" />
-      <item value="我想买一台wa" />
-      <item value="wo x" />
-      <item value="编译" />
-      <item value="AUTH" />
-      <item value="跨域" />
-      <item value="k" />
-      <item value="中间件" />
-      <item value="中间jian" />
-      <item value="zhonfg jian" />
-      <item value="zhonfg" />
-      <item value="zho" />
-      <item value="请求钩子" />
-      <item value="钩子" />
-      <item value="dispath" />
-      <item value="dispa" />
-      <item value="Failed to connect to github.com port 443: Operation timed out" />
-      <item value="The method is not allowed for the requested URL" />
-      <item value="游标" />
-      <item value="youbiao" />
     </histories>
     <option name="languageScores">
       <map>
@@ -64,6 +64,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1614130333351" />
+    <option name="lastTrimTime" value="1614578166458" />
   </component>
 </application>
