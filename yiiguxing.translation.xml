@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="ferq" />
+      <item value="fe" />
+      <item value="f" />
       <item value="approve" />
       <item value="approver" />
       <item value="approve catalog" />
@@ -52,9 +55,6 @@
       <item value="Phone Number One Hour Limit" />
       <item value="Phone Number One HourLimit" />
       <item value="Phone Number OneHourLimit" />
-      <item value="Phone NumberOneHourLimit" />
-      <item value="PhoneNumberOneHourLimit" />
-      <item value="PhoneNumberOneHourLimit'" />
     </histories>
     <option name="languageScores">
       <map>
