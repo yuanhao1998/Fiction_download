@@ -5,6 +5,15 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="approve" />
+      <item value="approver" />
+      <item value="approve catalog" />
+      <item value="approver catalog" />
+      <item value="approvercatalog" />
+      <item value="approvecatalog" />
+      <item value="appro" />
+      <item value="appr" />
+      <item value="a" />
       <item value="catalog" />
       <item value="cata" />
       <item value="目录列表" />
@@ -12,17 +21,14 @@
       <item value="mu" />
       <item value="affairs" />
       <item value="aff" />
-      <item value="a" />
       <item value="事务模版" />
       <item value="事务膜拜" />
       <item value="si wu" />
       <item value="service desk" />
       <item value="ser" />
       <item value="ApproveCatalog" />
-      <item value="approvercatalog" />
       <item value="approvercata" />
       <item value="approverca" />
-      <item value="approver" />
       <item value="app" />
       <item value="APP" />
       <item value="APP " />
@@ -49,12 +55,6 @@
       <item value="Phone NumberOneHourLimit" />
       <item value="PhoneNumberOneHourLimit" />
       <item value="PhoneNumberOneHourLimit'" />
-      <item value="'LimitExceeded.PhoneNumberOneHourLimit'" />
-      <item value="'SendSmsResponse' object is not subscriptable" />
-      <item value="沙特" />
-      <item value="shat" />
-      <item value="nora" />
-      <item value="我想买一台挖掘机" />
     </histories>
     <option name="languageScores">
       <map>
