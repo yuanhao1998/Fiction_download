@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="推送" />
       <item value="ferq" />
       <item value="fe" />
       <item value="f" />
@@ -54,7 +55,6 @@
       <item value="CRITICAL" />
       <item value="Phone Number One Hour Limit" />
       <item value="Phone Number One HourLimit" />
-      <item value="Phone Number OneHourLimit" />
     </histories>
     <option name="languageScores">
       <map>
