@@ -5,6 +5,10 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="regular" />
+      <item value="regu" />
+      <item value="re" />
+      <item value="LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443" />
       <item value="状态改变" />
       <item value="状态gu" />
       <item value="zhun" />
@@ -51,15 +55,11 @@
       <item value="APP" />
       <item value="APP " />
       <item value="实例" />
-      <item value="shi li" />
-      <item value="shi" />
-      <item value="af f" />
-      <item value="事务模板" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="21" />
-        <entry key="ENGLISH" value="22" />
+        <entry key="CHINESE" value="22" />
+        <entry key="ENGLISH" value="23" />
       </map>
     </option>
   </component>
