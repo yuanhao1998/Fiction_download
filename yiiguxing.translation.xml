@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="Connection refused" />
       <item value="克隆" />
       <item value="ke l" />
       <item value="regular" />
@@ -54,7 +55,6 @@
       <item value="approvercata" />
       <item value="approverca" />
       <item value="app" />
-      <item value="APP" />
     </histories>
     <option name="languageScores">
       <map>
