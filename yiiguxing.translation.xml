@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="Invalid header padding" />
       <item value="云" />
       <item value="clu" />
       <item value="cloud wise" />
@@ -54,12 +55,11 @@
       <item value="a" />
       <item value="catalog" />
       <item value="cata" />
-      <item value="目录列表" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="22" />
-        <entry key="ENGLISH" value="23" />
+        <entry key="CHINESE" value="23" />
+        <entry key="ENGLISH" value="24" />
       </map>
     </option>
   </component>
