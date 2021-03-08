@@ -5,6 +5,10 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="cloud wise" />
+      <item value="cloudwise" />
+      <item value="cloud" />
+      <item value="cl" />
       <item value="Dead line" />
       <item value="安装目录" />
       <item value="安装" />
@@ -51,10 +55,6 @@
       <item value="目录列表" />
       <item value="目录" />
       <item value="mu" />
-      <item value="affairs" />
-      <item value="aff" />
-      <item value="事务模版" />
-      <item value="事务膜拜" />
     </histories>
     <option name="languageScores">
       <map>
@@ -64,6 +64,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1614578166458" />
+    <option name="lastTrimTime" value="1615174685542" />
   </component>
 </application>
