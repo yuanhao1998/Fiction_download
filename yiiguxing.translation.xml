@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="ocal variable 'auto_items' referenced before assignment&#10;" />
       <item value="a new response object or the same, has to be an instance of :attr:`response_class`" />
       <item value="Can be overridden in order to modify the response object before it's sent to the WSGI server. By default this will call all the :meth:`after_request` decorated functions" />
       <item value="Given the return value from a view function this finalizes the request by converting it into a response and invoking the postprocessing functions. This is invoked for both normal request dispatching as well as error handlers. Because this means that it might be called as a result of a failure a special safe mode is available which can be enabled with the `from_error_handler` flag. If enabled, failures in response processing will be logged and otherwise ignored" />
@@ -54,7 +55,6 @@
       <item value="approve catalog" />
       <item value="approver catalog" />
       <item value="approvercatalog" />
-      <item value="approvecatalog" />
     </histories>
     <option name="languageScores">
       <map>
