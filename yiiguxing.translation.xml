@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="'NoneType' object is not callable" />
       <item value="Invalid header padding" />
       <item value="云" />
       <item value="clu" />
@@ -54,12 +55,11 @@
       <item value="appr" />
       <item value="a" />
       <item value="catalog" />
-      <item value="cata" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="23" />
-        <entry key="ENGLISH" value="24" />
+        <entry key="CHINESE" value="24" />
+        <entry key="ENGLISH" value="25" />
       </map>
     </option>
   </component>
