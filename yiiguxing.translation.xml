@@ -5,6 +5,17 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="执勤表" />
+      <item value="执勤biao" />
+      <item value="执勤" />
+      <item value="zhi qin b" />
+      <item value="zhi qin p" />
+      <item value="Schedule" />
+      <item value="Duty Roster" />
+      <item value="DutyRoster" />
+      <item value="Schedul" />
+      <item value="排班表" />
+      <item value="pai" />
       <item value="ocal variable 'auto_items' referenced before assignment&#10;" />
       <item value="a new response object or the same, has to be an instance of :attr:`response_class`" />
       <item value="Can be overridden in order to modify the response object before it's sent to the WSGI server. By default this will call all the :meth:`after_request` decorated functions" />
@@ -44,17 +55,6 @@
       <item value="serve" />
       <item value="service" />
       <item value="服务" />
-      <item value="服务目录" />
-      <item value="server" />
-      <item value="推送" />
-      <item value="ferq" />
-      <item value="fe" />
-      <item value="f" />
-      <item value="approve" />
-      <item value="approver" />
-      <item value="approve catalog" />
-      <item value="approver catalog" />
-      <item value="approvercatalog" />
     </histories>
     <option name="languageScores">
       <map>
