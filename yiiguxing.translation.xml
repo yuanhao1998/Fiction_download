@@ -5,6 +5,12 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="launch" />
+      <item value="la" />
+      <item value="l" />
+      <item value="排班" />
+      <item value="Shift" />
+      <item value="班次" />
       <item value="执勤表" />
       <item value="执勤biao" />
       <item value="执勤" />
@@ -49,12 +55,6 @@
       <item value="停用/启用" />
       <item value="停用/" />
       <item value="ting y" />
-      <item value="t" />
-      <item value="Tuple or struct_time argument required" />
-      <item value="identify" />
-      <item value="serve" />
-      <item value="service" />
-      <item value="服务" />
     </histories>
     <option name="languageScores">
       <map>
