@@ -5,6 +5,15 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="小时" />
+      <item value="xiao s" />
+      <item value="duration" />
+      <item value="持续时间" />
+      <item value="时间差" />
+      <item value="shi jian cha" />
+      <item value="shi jian c" />
+      <item value="ji suan" />
+      <item value="ji" />
       <item value="详情" />
       <item value="xi" />
       <item value="roster" />
@@ -46,15 +55,6 @@
       <item value="YOLO" />
       <item value="国际区号" />
       <item value="Connection refused" />
-      <item value="克隆" />
-      <item value="ke l" />
-      <item value="regular" />
-      <item value="regu" />
-      <item value="re" />
-      <item value="LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to github.com:443" />
-      <item value="状态改变" />
-      <item value="状态gu" />
-      <item value="zhun" />
     </histories>
     <option name="languageScores">
       <map>
