@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="详情" />
+      <item value="xi" />
       <item value="roster" />
       <item value="launch" />
       <item value="la" />
@@ -53,8 +55,6 @@
       <item value="状态改变" />
       <item value="状态gu" />
       <item value="zhun" />
-      <item value="停用/启用" />
-      <item value="停用/" />
     </histories>
     <option name="languageScores">
       <map>
