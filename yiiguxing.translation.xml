@@ -5,6 +5,10 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="process params" />
+      <item value="process_params" />
+      <item value="分页&#10;" />
+      <item value="分页" />
       <item value="process" />
       <item value="处理参数" />
       <item value="Processing" />
@@ -51,10 +55,6 @@
       <item value="Dispatches the request and on top of that performs request pre and postprocessing as well as HTTP exception catching and error handling" />
       <item value="'NoneType' object is not callable" />
       <item value="Invalid header padding" />
-      <item value="云" />
-      <item value="clu" />
-      <item value="cloud wise" />
-      <item value="cloudwise" />
     </histories>
     <option name="languageScores">
       <map>
