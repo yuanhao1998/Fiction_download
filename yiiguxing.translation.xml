@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="TypeError: 'NoneType' object is not subscriptable" />
       <item value="自定义数据" />
       <item value="zi" />
       <item value="swagger" />
@@ -54,7 +55,6 @@
       <item value="pai" />
       <item value="ocal variable 'auto_items' referenced before assignment&#10;" />
       <item value="a new response object or the same, has to be an instance of :attr:`response_class`" />
-      <item value="Can be overridden in order to modify the response object before it's sent to the WSGI server. By default this will call all the :meth:`after_request` decorated functions" />
     </histories>
     <option name="languageScores">
       <map>
