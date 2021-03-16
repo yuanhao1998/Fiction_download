@@ -11,6 +11,7 @@
     <option name="widgets">
       <map>
         <entry key="Memory" value="true" />
+        <entry key="mtStatusBar" value="false" />
       </map>
     </option>
   </component>
