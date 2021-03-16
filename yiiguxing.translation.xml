@@ -5,6 +5,14 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="lssuse" />
+      <item value="ls su se" />
+      <item value="ls su" />
+      <item value="ls su s" />
+      <item value="l s s" />
+      <item value="issues" />
+      <item value="issuse" />
+      <item value="is s s" />
       <item value="TypeError: 'NoneType' object is not subscriptable" />
       <item value="自定义数据" />
       <item value="zi" />
@@ -47,14 +55,6 @@
       <item value="执勤" />
       <item value="zhi qin b" />
       <item value="zhi qin p" />
-      <item value="Schedule" />
-      <item value="Duty Roster" />
-      <item value="DutyRoster" />
-      <item value="Schedul" />
-      <item value="排班表" />
-      <item value="pai" />
-      <item value="ocal variable 'auto_items' referenced before assignment&#10;" />
-      <item value="a new response object or the same, has to be an instance of :attr:`response_class`" />
     </histories>
     <option name="languageScores">
       <map>
