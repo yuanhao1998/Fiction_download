@@ -5,6 +5,12 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="AttributeError: '_AppCtxGlobals' object has no attribute 'cancel_login_check'" />
+      <item value="取消登陆检查" />
+      <item value="取消deng l" />
+      <item value="取消" />
+      <item value="qu xiao" />
+      <item value="qu" />
       <item value="For example, this can be used to open a database connection, or to load the logged in user from the session. The function will be called without any arguments. If it returns a non-None value, the value is handled as if it was the return value from the view, and further request handling is stopped." />
       <item value="Registers a function to run before each request" />
       <item value="lssuse" />
@@ -49,17 +55,11 @@
       <item value="launch" />
       <item value="la" />
       <item value="l" />
-      <item value="排班" />
-      <item value="Shift" />
-      <item value="班次" />
-      <item value="执勤表" />
-      <item value="执勤biao" />
-      <item value="执勤" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="33" />
-        <entry key="ENGLISH" value="34" />
+        <entry key="CHINESE" value="34" />
+        <entry key="ENGLISH" value="35" />
       </map>
     </option>
   </component>
