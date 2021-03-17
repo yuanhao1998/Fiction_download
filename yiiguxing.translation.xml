@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="For example, this can be used to open a database connection, or to load the logged in user from the session. The function will be called without any arguments. If it returns a non-None value, the value is handled as if it was the return value from the view, and further request handling is stopped." />
+      <item value="Registers a function to run before each request" />
       <item value="lssuse" />
       <item value="ls su se" />
       <item value="ls su" />
@@ -53,13 +55,11 @@
       <item value="执勤表" />
       <item value="执勤biao" />
       <item value="执勤" />
-      <item value="zhi qin b" />
-      <item value="zhi qin p" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="31" />
-        <entry key="ENGLISH" value="32" />
+        <entry key="CHINESE" value="33" />
+        <entry key="ENGLISH" value="34" />
       </map>
     </option>
   </component>
