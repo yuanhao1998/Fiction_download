@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="TypeError: function() argument 1 must be code, not str" />
+      <item value="function() argument 1 must be code, not str" />
+      <item value="'NoneType' object has no attribute 'Model'" />
       <item value="Registers a function to run before each request. For example, this can be used to open a database connection, or to load the logged in user from the session. The function will be called without any arguments. If it returns a non-None value, the value is handled as if it was the return value from the view, and further request handling is stopped." />
       <item value="Like :meth:`Flask.before_request` but for a blueprint. This function is only executed before each request that is handled by a function of that blueprint" />
       <item value="Working outside of application context" />
@@ -52,14 +55,11 @@
       <item value="shi jian c" />
       <item value="ji suan" />
       <item value="ji" />
-      <item value="详情" />
-      <item value="xi" />
-      <item value="roster" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="37" />
-        <entry key="ENGLISH" value="38" />
+        <entry key="CHINESE" value="40" />
+        <entry key="ENGLISH" value="41" />
       </map>
     </option>
   </component>
