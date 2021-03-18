@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="re_login" />
+      <item value="relogin" />
       <item value="OSError: [Errno 28] No space left on device" />
       <item value="Message: '192.168.1.220 - - [18Mar2021 14:35:15] &quot;\x1b[37mPOST userlogin HTTP1.1\x1b[0m&quot; 200 -'" />
       <item value="Message: ' Restarting with stat'" />
@@ -53,8 +55,6 @@
       <item value="xiao s" />
       <item value="duration" />
       <item value="持续时间" />
-      <item value="时间差" />
-      <item value="shi jian cha" />
     </histories>
     <option name="languageScores">
       <map>
