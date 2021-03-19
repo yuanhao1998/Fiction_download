@@ -5,6 +5,10 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="剑" />
+      <item value="jian" />
+      <item value="hao" />
+      <item value="stone" />
       <item value="re_login" />
       <item value="relogin" />
       <item value="OSError: [Errno 28] No space left on device" />
@@ -51,10 +55,6 @@
       <item value="s" />
       <item value="s t" />
       <item value="Looks like your collaboration needs are growing beyond what a free team can do. To collaborate on unlimited requests with your team, upgrade to one of our paid plans." />
-      <item value="小时" />
-      <item value="xiao s" />
-      <item value="duration" />
-      <item value="持续时间" />
     </histories>
     <option name="languageScores">
       <map>
