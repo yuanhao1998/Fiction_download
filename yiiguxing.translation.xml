@@ -5,10 +5,15 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="鉴权" />
+      <item value="数据权限" />
+      <item value="数据鉴权" />
+      <item value="数据jian quan" />
+      <item value="数据jian qu" />
+      <item value="jian" />
       <item value="ERROR: Could not find a version that satisfies the requirement mysqlclient&#10;ERROR: No matching distribution found for mysqlclient&#10;" />
       <item value="ModuleNotFoundError: No module named 'MySQLdb'" />
       <item value="剑" />
-      <item value="jian" />
       <item value="hao" />
       <item value="stone" />
       <item value="re_login" />
@@ -50,11 +55,6 @@
       <item value="process" />
       <item value="处理参数" />
       <item value="Processing" />
-      <item value="chu li" />
-      <item value="处理" />
-      <item value="struct" />
-      <item value="st" />
-      <item value="s" />
     </histories>
     <option name="languageScores">
       <map>
@@ -65,6 +65,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1615799257774" />
+    <option name="lastTrimTime" value="1616376868460" />
   </component>
 </application>
