@@ -5,6 +5,15 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="产品权限" />
+      <item value="产品" />
+      <item value="Parse" />
+      <item value="Parsi" />
+      <item value="Parsing" />
+      <item value="prase" />
+      <item value="解析" />
+      <item value="jie" />
+      <item value="ji ei x" />
       <item value="鉴权" />
       <item value="数据权限" />
       <item value="数据鉴权" />
@@ -46,15 +55,6 @@
       <item value="TypeError: 'NoneType' object is not subscriptable" />
       <item value="自定义数据" />
       <item value="zi" />
-      <item value="swagger" />
-      <item value="swa" />
-      <item value="process params" />
-      <item value="process_params" />
-      <item value="分页&#10;" />
-      <item value="分页" />
-      <item value="process" />
-      <item value="处理参数" />
-      <item value="Processing" />
     </histories>
     <option name="languageScores">
       <map>
