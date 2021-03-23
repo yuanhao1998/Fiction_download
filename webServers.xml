@@ -30,6 +30,9 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="8624d9d0-bd9f-48ea-83f8-bcba53fc34dc" name="root@192.168.1.119:22" url="http:///">
+        <fileTransfer accessType="SFTP" host="192.168.1.119" port="22" sshConfigId="cd64c154-711d-4e20-a504-09a516b1f2b3" sshConfig="root@192.168.1.119:22 password" />
+      </webServer>
     </option>
   </component>
 </application>
