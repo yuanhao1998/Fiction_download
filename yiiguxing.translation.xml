@@ -5,6 +5,15 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="Finds a line in &lt;full_doc&gt; like &lt;from_file_keyword&gt; &lt;colon&gt; &lt;path&gt; and return path" />
+      <item value="The spec to start with and update as flask-swagger finds paths" />
+      <item value="dictionary update sequence element 0 has length 1; 2 is required" />
+      <item value="We go through all endpoints of the app searching for swagger endpoints We provide the minimum required data according to swagger specs Callers can and should add and override at will" />
+      <item value="text sanitization method, the default simply replaces \n with &lt;br&gt;" />
+      <item value="the flask app to inspect" />
+      <item value="The spec to start with and update as flask-swagger finds paths." />
+      <item value="how to specify a file to load doc from" />
+      <item value="jsonify() behavior undefined when passed both args and kwargs" />
       <item value="AttributeError: 'Blueprint' object has no attribute 'url_map'" />
       <item value="AttributeError: 'str' object has no attribute 'decode'" />
       <item value="产品权限" />
@@ -46,20 +55,11 @@
       <item value="qu" />
       <item value="For example, this can be used to open a database connection, or to load the logged in user from the session. The function will be called without any arguments. If it returns a non-None value, the value is handled as if it was the return value from the view, and further request handling is stopped." />
       <item value="Registers a function to run before each request" />
-      <item value="lssuse" />
-      <item value="ls su se" />
-      <item value="ls su" />
-      <item value="ls su s" />
-      <item value="l s s" />
-      <item value="issues" />
-      <item value="issuse" />
-      <item value="is s s" />
-      <item value="TypeError: 'NoneType' object is not subscriptable" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="47" />
-        <entry key="ENGLISH" value="48" />
+        <entry key="CHINESE" value="62" />
+        <entry key="ENGLISH" value="63" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
