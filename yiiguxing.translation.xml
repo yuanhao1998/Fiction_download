@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="All server are not available" />
+      <item value="attempted relative import with no known parent package" />
       <item value="基础监控" />
       <item value="Finds a line in &lt;full_doc&gt; like &lt;from_file_keyword&gt; &lt;colon&gt; &lt;path&gt; and return path" />
       <item value="The spec to start with and update as flask-swagger finds paths" />
@@ -53,13 +55,11 @@
       <item value="取消deng l" />
       <item value="取消" />
       <item value="qu xiao" />
-      <item value="qu" />
-      <item value="For example, this can be used to open a database connection, or to load the logged in user from the session. The function will be called without any arguments. If it returns a non-None value, the value is handled as if it was the return value from the view, and further request handling is stopped." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="62" />
-        <entry key="ENGLISH" value="63" />
+        <entry key="CHINESE" value="64" />
+        <entry key="ENGLISH" value="65" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
