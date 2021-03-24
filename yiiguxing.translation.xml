@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="read file" />
+      <item value="his method will be removed in future versions" />
+      <item value="File contains no section headers." />
       <item value="All server are not available" />
       <item value="attempted relative import with no known parent package" />
       <item value="基础监控" />
@@ -52,14 +55,11 @@
       <item value="Working outside of application context" />
       <item value="AttributeError: '_AppCtxGlobals' object has no attribute 'cancel_login_check'" />
       <item value="取消登陆检查" />
-      <item value="取消deng l" />
-      <item value="取消" />
-      <item value="qu xiao" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="65" />
-        <entry key="ENGLISH" value="66" />
+        <entry key="CHINESE" value="68" />
+        <entry key="ENGLISH" value="69" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
