@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1107" />
     <option name="newTranslationDialogY" value="646" />
     <histories>
+      <item value="{'1000': {'1000': {'1001': '1001'}, '1002': {'1002': {'100205': '100205'}}, '1003': {'1003': {'100305': '100305'}}, '1004': {'1004': {'100405': '100405'}}, '1005': {'1005': {'100509': '100509'}}, '1006': {'1006': {'100602': '100602'}}, '1008': {'1008': {'100807': '100807'}}}, '1200': {'1200': {'1203': '1203'}}, '2000': {'2000': {'2003': '2003'}, '2005': {'2005': {'200503': '200503'}}, '2006': {'2006': {'200602': '200602'}}}, '3000': {'3001': {'3001': {'300105': '300105'}}, '3002': {'3002': {'300203': '300203'}}, '3003': {'3003': {'300301': '300301'}}, '3004': {'3004': {'300401': '300401'}}}, '4000': {'4000': {'4001': '4001'}}, '6000': {'6000': {'6006': '6006'}}, '6600': {'6600': {'6602': '6602'}}, '7000': {'7000': {'7005': '7005'}}, '8000': {'8000': {'8002': '8002'}}, '9000': {'9000': {'9007': '9007'}}}" />
       <item value="list indices must be integers or slices, not str" />
       <item value="LoginAuthentication" />
       <item value="登录验证" />
@@ -54,11 +55,10 @@
       <item value="Message: '192.168.1.220 - - [18Mar2021 14:35:15] &quot;\x1b[37mPOST userlogin HTTP1.1\x1b[0m&quot; 200 -'" />
       <item value="Message: ' Restarting with stat'" />
       <item value="TypeError: function() argument 1 must be code, not str" />
-      <item value="function() argument 1 must be code, not str" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="71" />
+        <entry key="CHINESE" value="73" />
         <entry key="ENGLISH" value="72" />
         <entry key="WELSH" value="1" />
       </map>
