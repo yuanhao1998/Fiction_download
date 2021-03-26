@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1239" />
     <option name="newTranslationDialogY" value="580" />
     <histories>
+      <item value="时间" />
       <item value="摄像头" />
       <item value="she x t" />
       <item value="she x" />
@@ -54,7 +55,6 @@
       <item value="jian" />
       <item value="ERROR: Could not find a version that satisfies the requirement mysqlclient&#10;ERROR: No matching distribution found for mysqlclient&#10;" />
       <item value="ModuleNotFoundError: No module named 'MySQLdb'" />
-      <item value="剑" />
     </histories>
     <option name="languageScores">
       <map>
