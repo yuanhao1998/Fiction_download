@@ -5,6 +5,13 @@
     <option name="newTranslationDialogX" value="1239" />
     <option name="newTranslationDialogY" value="580" />
     <histories>
+      <item value="Inspection" />
+      <item value="巡检Inspection" />
+      <item value="巡检" />
+      <item value="event" />
+      <item value="eve" />
+      <item value="ev" />
+      <item value="e" />
       <item value="period" />
       <item value="时间段" />
       <item value="shi jian du" />
@@ -48,13 +55,6 @@
       <item value="AttributeError: 'Blueprint' object has no attribute 'url_map'" />
       <item value="AttributeError: 'str' object has no attribute 'decode'" />
       <item value="产品权限" />
-      <item value="产品" />
-      <item value="Parse" />
-      <item value="Parsi" />
-      <item value="Parsing" />
-      <item value="prase" />
-      <item value="解析" />
-      <item value="jie" />
     </histories>
     <option name="languageScores">
       <map>
