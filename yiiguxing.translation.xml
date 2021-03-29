@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1239" />
     <option name="newTranslationDialogY" value="580" />
     <histories>
+      <item value="nodename nor servname provided, or not known" />
+      <item value="attempted relative import with no known parent package" />
+      <item value="Fetch all the rows" />
       <item value="The first four arguments is based on DB-API 2.0 recommendation" />
       <item value="事件" />
       <item value="shi jian" />
@@ -28,7 +31,6 @@
       <item value="his method will be removed in future versions" />
       <item value="File contains no section headers." />
       <item value="All server are not available" />
-      <item value="attempted relative import with no known parent package" />
       <item value="基础监控" />
       <item value="Finds a line in &lt;full_doc&gt; like &lt;from_file_keyword&gt; &lt;colon&gt; &lt;path&gt; and return path" />
       <item value="The spec to start with and update as flask-swagger finds paths" />
@@ -53,13 +55,11 @@
       <item value="鉴权" />
       <item value="数据权限" />
       <item value="数据鉴权" />
-      <item value="数据jian quan" />
-      <item value="数据jian qu" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="73" />
-        <entry key="ENGLISH" value="74" />
+        <entry key="CHINESE" value="76" />
+        <entry key="ENGLISH" value="77" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
