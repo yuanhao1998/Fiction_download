@@ -5,6 +5,11 @@
     <option name="newTranslationDialogX" value="1239" />
     <option name="newTranslationDialogY" value="580" />
     <histories>
+      <item value="period" />
+      <item value="时间段" />
+      <item value="shi jian du" />
+      <item value="s" />
+      <item value="shi" />
       <item value="nodename nor servname provided, or not known" />
       <item value="attempted relative import with no known parent package" />
       <item value="Fetch all the rows" />
@@ -17,7 +22,6 @@
       <item value="she x" />
       <item value="she r" />
       <item value="相机" />
-      <item value="s" />
       <item value="webcam" />
       <item value="local variable 'temp' referenced before assignment" />
       <item value="{'1000': {'1000': {'1001': '1001'}, '1002': {'1002': {'100205': '100205'}}, '1003': {'1003': {'100305': '100305'}}, '1004': {'1004': {'100405': '100405'}}, '1005': {'1005': {'100509': '100509'}}, '1006': {'1006': {'100602': '100602'}}, '1008': {'1008': {'100807': '100807'}}}, '1200': {'1200': {'1203': '1203'}}, '2000': {'2000': {'2003': '2003'}, '2005': {'2005': {'200503': '200503'}}, '2006': {'2006': {'200602': '200602'}}}, '3000': {'3001': {'3001': {'300105': '300105'}}, '3002': {'3002': {'300203': '300203'}}, '3003': {'3003': {'300301': '300301'}}, '3004': {'3004': {'300401': '300401'}}}, '4000': {'4000': {'4001': '4001'}}, '6000': {'6000': {'6006': '6006'}}, '6600': {'6600': {'6602': '6602'}}, '7000': {'7000': {'7005': '7005'}}, '8000': {'8000': {'8002': '8002'}}, '9000': {'9000': {'9007': '9007'}}}" />
@@ -51,10 +55,6 @@
       <item value="prase" />
       <item value="解析" />
       <item value="jie" />
-      <item value="ji ei x" />
-      <item value="鉴权" />
-      <item value="数据权限" />
-      <item value="数据鉴权" />
     </histories>
     <option name="languageScores">
       <map>
