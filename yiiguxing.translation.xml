@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1239" />
     <option name="newTranslationDialogY" value="580" />
     <histories>
+      <item value="The timer class was contributed by Itamar Shtull-Trauring" />
+      <item value="top the timer's action if it's still waiting" />
       <item value="Expecting value: line 1 column 1 (char 0)" />
       <item value="dispose" />
       <item value="简单" />
@@ -53,13 +55,11 @@
       <item value="text sanitization method, the default simply replaces \n with &lt;br&gt;" />
       <item value="the flask app to inspect" />
       <item value="The spec to start with and update as flask-swagger finds paths." />
-      <item value="how to specify a file to load doc from" />
-      <item value="jsonify() behavior undefined when passed both args and kwargs" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="76" />
-        <entry key="ENGLISH" value="77" />
+        <entry key="CHINESE" value="78" />
+        <entry key="ENGLISH" value="79" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
