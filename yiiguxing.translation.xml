@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1239" />
     <option name="newTranslationDialogY" value="580" />
     <histories>
+      <item value="filter() got multiple values for keyword argument 'is_desc'" />
       <item value="cannot join thread before it is started" />
       <item value="flow template id" />
       <item value="flow template_id" />
@@ -54,7 +55,6 @@
       <item value="read file" />
       <item value="his method will be removed in future versions" />
       <item value="File contains no section headers." />
-      <item value="All server are not available" />
     </histories>
     <option name="languageScores">
       <map>
