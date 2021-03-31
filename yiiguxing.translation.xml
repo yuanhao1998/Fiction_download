@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1239" />
     <option name="newTranslationDialogY" value="580" />
     <histories>
+      <item value="flow template id" />
+      <item value="flow template_id" />
+      <item value="flowtemplate_id" />
       <item value="attempted relative import with no known parent package" />
       <item value="Fetch the next row" />
       <item value="option values must be strings" />
@@ -52,9 +55,6 @@
       <item value="File contains no section headers." />
       <item value="All server are not available" />
       <item value="基础监控" />
-      <item value="Finds a line in &lt;full_doc&gt; like &lt;from_file_keyword&gt; &lt;colon&gt; &lt;path&gt; and return path" />
-      <item value="The spec to start with and update as flask-swagger finds paths" />
-      <item value="dictionary update sequence element 0 has length 1; 2 is required" />
     </histories>
     <option name="languageScores">
       <map>
