@@ -59,7 +59,7 @@
                   </entry>
                   <entry key="PyBehaveRunConfigurationType">
                     <value>
-                      <FeaturePluginData displayName="行为" pluginName="Pythonid" pluginId="Pythonid" bundled="true" />
+                      <FeaturePluginData displayName="Behave" pluginName="Pythonid" pluginId="Pythonid" bundled="true" />
                     </value>
                   </entry>
                   <entry key="PyRemoteDebugConfigurationType">
