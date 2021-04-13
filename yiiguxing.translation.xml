@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1239" />
     <option name="newTranslationDialogY" value="580" />
     <histories>
+      <item value="Return a logger with the specified name, creating it if necessary. If no name is specified, return the root logger" />
+      <item value="If no name is specified, return the root logger" />
+      <item value="Return a logger with the specified name, creating it if necessary" />
       <item value="release" />
       <item value=" You must give at least one requirement to install" />
       <item value="拓扑" />
@@ -52,9 +55,6 @@
       <item value="摄像头" />
       <item value="she x t" />
       <item value="she x" />
-      <item value="she r" />
-      <item value="相机" />
-      <item value="webcam" />
     </histories>
     <option name="languageScores">
       <map>
@@ -65,6 +65,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1617861437607" />
+    <option name="lastTrimTime" value="1618300500235" />
   </component>
 </application>
