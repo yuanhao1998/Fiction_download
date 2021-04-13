@@ -5,16 +5,27 @@
     <option name="newTranslationDialogX" value="1239" />
     <option name="newTranslationDialogY" value="580" />
     <histories>
+      <item value="监测" />
+      <item value="监测点" />
+      <item value="jian c" />
+      <item value="jia" />
+      <item value="跳转" />
+      <item value="tiao z" />
+      <item value="拓扑" />
+      <item value="t" />
+      <item value="详情" />
+      <item value="detail" />
+      <item value="deta" />
+      <item value="jian ce" />
+      <item value="j" />
       <item value="Segmentation fault" />
       <item value="Return a logger with the specified name, creating it if necessary. If no name is specified, return the root logger" />
       <item value="If no name is specified, return the root logger" />
       <item value="Return a logger with the specified name, creating it if necessary" />
       <item value="release" />
       <item value=" You must give at least one requirement to install" />
-      <item value="拓扑" />
       <item value="tuo p" />
       <item value="tuo" />
-      <item value="t" />
       <item value="Please use the select command to select the method you want to invoke" />
       <item value="温湿度" />
       <item value="humiture" />
@@ -44,17 +55,6 @@
       <item value="e" />
       <item value="period" />
       <item value="时间段" />
-      <item value="shi jian du" />
-      <item value="s" />
-      <item value="shi" />
-      <item value="nodename nor servname provided, or not known" />
-      <item value="Fetch all the rows" />
-      <item value="The first four arguments is based on DB-API 2.0 recommendation" />
-      <item value="事件" />
-      <item value="shi jian" />
-      <item value="时间" />
-      <item value="摄像头" />
-      <item value="she x t" />
     </histories>
     <option name="languageScores">
       <map>
