@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1239" />
     <option name="newTranslationDialogY" value="580" />
     <histories>
+      <item value="Segmentation fault" />
       <item value="Return a logger with the specified name, creating it if necessary. If no name is specified, return the root logger" />
       <item value="If no name is specified, return the root logger" />
       <item value="Return a logger with the specified name, creating it if necessary" />
@@ -54,7 +55,6 @@
       <item value="时间" />
       <item value="摄像头" />
       <item value="she x t" />
-      <item value="she x" />
     </histories>
     <option name="languageScores">
       <map>
