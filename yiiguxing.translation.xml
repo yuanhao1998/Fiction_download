@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1239" />
     <option name="newTranslationDialogY" value="580" />
     <histories>
+      <item value="device" />
+      <item value="monitor" />
       <item value="监测" />
       <item value="监测点" />
       <item value="jian c" />
@@ -53,8 +55,6 @@
       <item value="eve" />
       <item value="ev" />
       <item value="e" />
-      <item value="period" />
-      <item value="时间段" />
     </histories>
     <option name="languageScores">
       <map>
