@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1239" />
     <option name="newTranslationDialogY" value="580" />
     <histories>
+      <item value="content" />
       <item value="网络攻击" />
       <item value="网络" />
       <item value="bie" />
@@ -54,7 +55,6 @@
       <item value="errors is an optional string that specifies how encoding errors are to be handled---this argument should not be used in binary mode. Pass 'strict' to raise a ValueError exception if there is an encoding error (the default of None has the same effect), or pass 'ignore' to ignore errors. (Note that ignoring encoding errors can lead to data loss.) See the documentation for codecs.register or run 'help(codecs.Codec)' for a list of the permitted encoding error strings." />
       <item value="filter() got multiple values for keyword argument 'is_desc'" />
       <item value="cannot join thread before it is started" />
-      <item value="flow template id" />
     </histories>
     <option name="languageScores">
       <map>
