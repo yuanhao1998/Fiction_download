@@ -2,9 +2,12 @@
   <component name="AppStorage">
     <option name="newTranslationDialogHeight" value="276" />
     <option name="newTranslationDialogWidth" value="556" />
-    <option name="newTranslationDialogX" value="1239" />
-    <option name="newTranslationDialogY" value="580" />
+    <option name="newTranslationDialogX" value="1437" />
+    <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="BUSINESS" />
+      <item value="COMMON" />
+      <item value="dest" />
       <item value="content" />
       <item value="网络攻击" />
       <item value="网络" />
@@ -52,9 +55,6 @@
       <item value="温湿度" />
       <item value="humiture" />
       <item value=" list indices must be integers or slices, not str" />
-      <item value="errors is an optional string that specifies how encoding errors are to be handled---this argument should not be used in binary mode. Pass 'strict' to raise a ValueError exception if there is an encoding error (the default of None has the same effect), or pass 'ignore' to ignore errors. (Note that ignoring encoding errors can lead to data loss.) See the documentation for codecs.register or run 'help(codecs.Codec)' for a list of the permitted encoding error strings." />
-      <item value="filter() got multiple values for keyword argument 'is_desc'" />
-      <item value="cannot join thread before it is started" />
     </histories>
     <option name="languageScores">
       <map>
