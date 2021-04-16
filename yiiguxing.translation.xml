@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="拓扑" />
+      <item value="tuo p" />
+      <item value="tuo" />
       <item value="BUSINESS" />
       <item value="COMMON" />
       <item value="dest" />
@@ -36,7 +39,6 @@
       <item value="jia" />
       <item value="跳转" />
       <item value="tiao z" />
-      <item value="拓扑" />
       <item value="t" />
       <item value="详情" />
       <item value="detail" />
@@ -49,8 +51,6 @@
       <item value="Return a logger with the specified name, creating it if necessary" />
       <item value="release" />
       <item value=" You must give at least one requirement to install" />
-      <item value="tuo p" />
-      <item value="tuo" />
       <item value="Please use the select command to select the method you want to invoke" />
       <item value="温湿度" />
       <item value="humiture" />
