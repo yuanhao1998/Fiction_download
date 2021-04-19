@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="虚拟机" />
+      <item value="virtualmachine" />
       <item value="VirtualMachine" />
       <item value="relation" />
       <item value="拓扑" />
@@ -53,8 +55,6 @@
       <item value="Return a logger with the specified name, creating it if necessary" />
       <item value="release" />
       <item value=" You must give at least one requirement to install" />
-      <item value="Please use the select command to select the method you want to invoke" />
-      <item value="温湿度" />
     </histories>
     <option name="languageScores">
       <map>
