@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="Determine the most preferred API version supported by the specified server, then connect to the specified server using that API version, login and return the service instance object" />
       <item value="虚拟机" />
       <item value="virtualmachine" />
       <item value="VirtualMachine" />
@@ -54,7 +55,6 @@
       <item value="If no name is specified, return the root logger" />
       <item value="Return a logger with the specified name, creating it if necessary" />
       <item value="release" />
-      <item value=" You must give at least one requirement to install" />
     </histories>
     <option name="languageScores">
       <map>
