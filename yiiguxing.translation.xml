@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="VirtualMachine" />
       <item value="relation" />
       <item value="拓扑" />
       <item value="tuo p" />
@@ -54,7 +55,6 @@
       <item value=" You must give at least one requirement to install" />
       <item value="Please use the select command to select the method you want to invoke" />
       <item value="温湿度" />
-      <item value="humiture" />
     </histories>
     <option name="languageScores">
       <map>
