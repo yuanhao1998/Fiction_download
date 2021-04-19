@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="relation" />
       <item value="拓扑" />
       <item value="tuo p" />
       <item value="tuo" />
@@ -54,7 +55,6 @@
       <item value="Please use the select command to select the method you want to invoke" />
       <item value="温湿度" />
       <item value="humiture" />
-      <item value=" list indices must be integers or slices, not str" />
     </histories>
     <option name="languageScores">
       <map>
@@ -65,6 +65,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1618300500235" />
+    <option name="lastTrimTime" value="1618795163236" />
   </component>
 </application>
