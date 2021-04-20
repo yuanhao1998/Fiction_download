@@ -5,6 +5,13 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="switch" />
+      <item value="sw" />
+      <item value="storage" />
+      <item value="stor" />
+      <item value="sto" />
+      <item value="st" />
+      <item value="network" />
       <item value="Supports the command-line arguments needed to form a connection to vSphere" />
       <item value="Add a required argument to the &quot;sample specific arguments&quot; group Requires a predefined argument from the Argument class" />
       <item value="Samples specific argument parser. Wraps argparse to ease the setup of argument requirements for the samples" />
@@ -48,13 +55,6 @@
       <item value="跳转" />
       <item value="tiao z" />
       <item value="t" />
-      <item value="详情" />
-      <item value="detail" />
-      <item value="deta" />
-      <item value="jian ce" />
-      <item value="j" />
-      <item value="Segmentation fault" />
-      <item value="Return a logger with the specified name, creating it if necessary. If no name is specified, return the root logger" />
     </histories>
     <option name="languageScores">
       <map>
