@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="power" />
+      <item value="powerstat" />
       <item value="data center" />
       <item value="date center" />
       <item value="datecenter" />
@@ -53,8 +55,6 @@
       <item value="monitor" />
       <item value="监测" />
       <item value="监测点" />
-      <item value="jian c" />
-      <item value="jia" />
     </histories>
     <option name="languageScores">
       <map>
