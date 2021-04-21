@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="Return True if S starts with the specified prefix, False otherwise. With optional start, test S beginning at that position. With optional end, stop comparing S at that position. prefix can also be a tuple of strings to try" />
       <item value="power" />
       <item value="powerstat" />
       <item value="data center" />
@@ -54,7 +55,6 @@
       <item value="device" />
       <item value="monitor" />
       <item value="监测" />
-      <item value="监测点" />
     </histories>
     <option name="languageScores">
       <map>
