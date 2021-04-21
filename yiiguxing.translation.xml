@@ -5,6 +5,15 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="简单" />
+      <item value="dan j" />
+      <item value="排序" />
+      <item value="整理" />
+      <item value="排列" />
+      <item value="排列组合" />
+      <item value="排班" />
+      <item value="pa" />
+      <item value="roster" />
       <item value="商业" />
       <item value="其他" />
       <item value="Return True if S starts with the specified prefix, False otherwise. With optional start, test S beginning at that position. With optional end, stop comparing S at that position. prefix can also be a tuple of strings to try" />
@@ -46,15 +55,6 @@
       <item value="wang" />
       <item value="wa" />
       <item value="Netcom" />
-      <item value="网xin y" />
-      <item value="wang l" />
-      <item value="大屏" />
-      <item value="da ping" />
-      <item value="da p" />
-      <item value="EXPRESSION INDEX ERROR" />
-      <item value="EXPRESSION INDEXERROR" />
-      <item value="EXPRESSIONINDEXERROR" />
-      <item value="device" />
     </histories>
     <option name="languageScores">
       <map>
