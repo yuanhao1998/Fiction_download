@@ -6,6 +6,12 @@
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="20" />
     <option name="FONT_FAMILY" value="Source Code Pro" />
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Regular" />
+    <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
+  </component>
+  <component name="JsonEditorOptions">
+    <option name="COLON_MOVE_OUTSIDE_QUOTES" value="true" />
+    <option name="COMMA_MOVE_OUTSIDE_QUOTES" value="true" />
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
