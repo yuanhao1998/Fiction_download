@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="TypeError: unhashable type: 'dict'" />
+      <item value="简单" />
+      <item value="简答" />
       <item value="order" />
       <item value="上班次序" />
       <item value="Shift" />
@@ -14,7 +17,6 @@
       <item value="pai bai" />
       <item value="pi a b" />
       <item value="pai" />
-      <item value="简单" />
       <item value="dan j" />
       <item value="排序" />
       <item value="整理" />
@@ -53,8 +55,6 @@
       <item value="COMMON" />
       <item value="dest" />
       <item value="content" />
-      <item value="网络攻击" />
-      <item value="网络" />
     </histories>
     <option name="languageScores">
       <map>
