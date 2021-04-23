@@ -5,11 +5,15 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="order" />
+      <item value="上班次序" />
+      <item value="Shift" />
+      <item value="班次" />
+      <item value="ba" />
       <item value="排班表" />
       <item value="pai bai" />
       <item value="pi a b" />
       <item value="pai" />
-      <item value="班次" />
       <item value="简单" />
       <item value="dan j" />
       <item value="排序" />
@@ -51,10 +55,6 @@
       <item value="content" />
       <item value="网络攻击" />
       <item value="网络" />
-      <item value="bie" />
-      <item value="Net letter business" />
-      <item value="网信业务" />
-      <item value="网信" />
     </histories>
     <option name="languageScores">
       <map>
