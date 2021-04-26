@@ -33,6 +33,13 @@
       <webServer id="8624d9d0-bd9f-48ea-83f8-bcba53fc34dc" name="root@192.168.1.119:22" url="http:///">
         <fileTransfer accessType="SFTP" host="192.168.1.119" port="22" sshConfigId="cd64c154-711d-4e20-a504-09a516b1f2b3" sshConfig="root@192.168.1.119:22 password" />
       </webServer>
+      <webServer id="e1e5c681-091c-476b-966b-2a19574f9384" name="248">
+        <fileTransfer accessType="SFTP" host="192.168.1.248" port="22" sshConfigId="45ce3754-2498-4221-a8ee-189e18df5f3b" sshConfig="root@192.168.1.248:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
