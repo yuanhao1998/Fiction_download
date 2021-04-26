@@ -5,10 +5,10 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="TypeError: unhashable type: 'dict'" />
       <item value="脚本" />
       <item value="ji o a" />
       <item value="jiao" />
-      <item value="TypeError: unhashable type: 'dict'" />
       <item value="简单" />
       <item value="简答" />
       <item value="order" />
