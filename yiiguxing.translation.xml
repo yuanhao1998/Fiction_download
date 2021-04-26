@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="RecursionError: maximum recursion depth exceeded during compilation" />
       <item value="递归" />
       <item value="TypeError: unhashable type: 'dict'" />
       <item value="脚本" />
@@ -54,7 +55,6 @@
       <item value="relation" />
       <item value="拓扑" />
       <item value="tuo p" />
-      <item value="tuo" />
     </histories>
     <option name="languageScores">
       <map>
