@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value=" list indices must be integers or slices, not str" />
       <item value="subscriptable" />
       <item value="subscript" />
       <item value="subsc" />
@@ -54,7 +55,6 @@
       <item value="network" />
       <item value="Supports the command-line arguments needed to form a connection to vSphere" />
       <item value="Add a required argument to the &quot;sample specific arguments&quot; group Requires a predefined argument from the Argument class" />
-      <item value="Samples specific argument parser. Wraps argparse to ease the setup of argument requirements for the samples" />
     </histories>
     <option name="languageScores">
       <map>
