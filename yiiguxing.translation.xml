@@ -5,6 +5,12 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="subscriptable" />
+      <item value="subscript" />
+      <item value="subsc" />
+      <item value="sub" />
+      <item value="subcri" />
+      <item value="subc" />
       <item value="Connection refused" />
       <item value="RecursionError: maximum recursion depth exceeded during compilation" />
       <item value="递归" />
@@ -49,12 +55,6 @@
       <item value="Supports the command-line arguments needed to form a connection to vSphere" />
       <item value="Add a required argument to the &quot;sample specific arguments&quot; group Requires a predefined argument from the Argument class" />
       <item value="Samples specific argument parser. Wraps argparse to ease the setup of argument requirements for the samples" />
-      <item value="Determine the most preferred API version supported by the specified server, then connect to the specified server using that API version, login and return the service instance object" />
-      <item value="虚拟机" />
-      <item value="virtualmachine" />
-      <item value="VirtualMachine" />
-      <item value="relation" />
-      <item value="拓扑" />
     </histories>
     <option name="languageScores">
       <map>
