@@ -5,6 +5,10 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="sophia" />
+      <item value="soph" />
+      <item value="s" />
+      <item value="sp" />
       <item value=" list indices must be integers or slices, not str" />
       <item value="subscriptable" />
       <item value="subscript" />
@@ -51,10 +55,6 @@
       <item value="storage" />
       <item value="stor" />
       <item value="sto" />
-      <item value="st" />
-      <item value="network" />
-      <item value="Supports the command-line arguments needed to form a connection to vSphere" />
-      <item value="Add a required argument to the &quot;sample specific arguments&quot; group Requires a predefined argument from the Argument class" />
     </histories>
     <option name="languageScores">
       <map>
