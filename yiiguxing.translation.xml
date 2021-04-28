@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="TypeError: unhashable type: 'dict'" />
       <item value="sophia" />
       <item value="soph" />
       <item value="s" />
@@ -19,7 +20,6 @@
       <item value="Connection refused" />
       <item value="RecursionError: maximum recursion depth exceeded during compilation" />
       <item value="递归" />
-      <item value="TypeError: unhashable type: 'dict'" />
       <item value="脚本" />
       <item value="ji o a" />
       <item value="jiao" />
