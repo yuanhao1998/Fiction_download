@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="权限" />
       <item value="TypeError: unhashable type: 'dict'" />
       <item value="sophia" />
       <item value="soph" />
@@ -54,7 +55,6 @@
       <item value="sw" />
       <item value="storage" />
       <item value="stor" />
-      <item value="sto" />
     </histories>
     <option name="languageScores">
       <map>
