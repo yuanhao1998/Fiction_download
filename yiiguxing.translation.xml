@@ -5,6 +5,15 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="Insecure completion-dependent directories detected" />
+      <item value="Suppress this warning either by running p10k configure or by manually&#10;    defining the following parameter" />
+      <item value=" console output produced during zsh initialization follows" />
+      <item value=" If the above didn't help or you want to skip the verification of&#10; insecure directories you can set the variable ZSH_DISABLE_COMPFIX to&#10; &quot;true&quot; before oh-my-zsh is sourced in your zshrc file.&#10;" />
+      <item value=" If the above didn't help or you want to skip the verification of&#10; insecure directories you can set the variable ZSH_DISABLE_COMPFIX to&#10;[oh-my-zsh] &quot;true&quot; before oh-my-zsh is sourced in your zshrc file.&#10;" />
+      <item value=" If the above didn't help or you want to skip the verification of&#10;[oh-my-zsh] insecure directories you can set the variable ZSH_DISABLE_COMPFIX to&#10;[oh-my-zsh] &quot;true&quot; before oh-my-zsh is sourced in your zshrc file.&#10;" />
+      <item value="[oh-my-zsh] If the above didn't help or you want to skip the verification of&#10;[oh-my-zsh] insecure directories you can set the variable ZSH_DISABLE_COMPFIX to&#10;[oh-my-zsh] &quot;true&quot; before oh-my-zsh is sourced in your zshrc file.&#10;" />
+      <item value="When using Powerlevel10k with instant prompt, console output during zsh&#10;initialization may indicate issues" />
+      <item value=" Console output during zsh initialization detected" />
       <item value="分类" />
       <item value="权限" />
       <item value="TypeError: unhashable type: 'dict'" />
@@ -46,15 +55,6 @@
       <item value="roster" />
       <item value="商业" />
       <item value="其他" />
-      <item value="Return True if S starts with the specified prefix, False otherwise. With optional start, test S beginning at that position. With optional end, stop comparing S at that position. prefix can also be a tuple of strings to try" />
-      <item value="power" />
-      <item value="powerstat" />
-      <item value="data center" />
-      <item value="date center" />
-      <item value="datecenter" />
-      <item value="switch" />
-      <item value="sw" />
-      <item value="storage" />
     </histories>
     <option name="languageScores">
       <map>
