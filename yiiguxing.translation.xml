@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="express" />
       <item value="Insecure completion-dependent directories detected" />
       <item value="Suppress this warning either by running p10k configure or by manually&#10;    defining the following parameter" />
       <item value=" console output produced during zsh initialization follows" />
@@ -54,7 +55,6 @@
       <item value="pa" />
       <item value="roster" />
       <item value="商业" />
-      <item value="其他" />
     </histories>
     <option name="languageScores">
       <map>
@@ -65,6 +65,6 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1619399631304" />
+    <option name="lastTrimTime" value="1620280352727" />
   </component>
 </application>
