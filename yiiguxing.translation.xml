@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="name1() missing 1 required positional argument: 'self'" />
       <item value="express" />
       <item value="Insecure completion-dependent directories detected" />
       <item value="Suppress this warning either by running p10k configure or by manually&#10;    defining the following parameter" />
@@ -54,12 +55,11 @@
       <item value="排班" />
       <item value="pa" />
       <item value="roster" />
-      <item value="商业" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="85" />
-        <entry key="ENGLISH" value="86" />
+        <entry key="CHINESE" value="86" />
+        <entry key="ENGLISH" value="87" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
