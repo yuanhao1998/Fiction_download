@@ -5,6 +5,15 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="malfunction" />
+      <item value="未知" />
+      <item value="位置" />
+      <item value="危险" />
+      <item value="we xi" />
+      <item value="微信" />
+      <item value="故障" />
+      <item value="正常" />
+      <item value="z" />
       <item value="name1() missing 1 required positional argument: 'self'" />
       <item value="express" />
       <item value="Insecure completion-dependent directories detected" />
@@ -46,20 +55,11 @@
       <item value="排班表" />
       <item value="pai bai" />
       <item value="pi a b" />
-      <item value="pai" />
-      <item value="dan j" />
-      <item value="排序" />
-      <item value="整理" />
-      <item value="排列" />
-      <item value="排列组合" />
-      <item value="排班" />
-      <item value="pa" />
-      <item value="roster" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="86" />
-        <entry key="ENGLISH" value="87" />
+        <entry key="CHINESE" value="118" />
+        <entry key="ENGLISH" value="119" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
