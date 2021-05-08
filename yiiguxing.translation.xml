@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="expect" />
+      <item value="ex" />
       <item value="malfunction" />
       <item value="未知" />
       <item value="位置" />
@@ -53,12 +55,10 @@
       <item value="班次" />
       <item value="ba" />
       <item value="排班表" />
-      <item value="pai bai" />
-      <item value="pi a b" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="118" />
+        <entry key="CHINESE" value="119" />
         <entry key="ENGLISH" value="119" />
         <entry key="WELSH" value="1" />
       </map>
