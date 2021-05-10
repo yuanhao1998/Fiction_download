@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="entity" />
+      <item value="en" />
       <item value="实体" />
       <item value="shi ti" />
       <item value="shiti" />
@@ -53,12 +55,10 @@
       <item value="RecursionError: maximum recursion depth exceeded during compilation" />
       <item value="递归" />
       <item value="脚本" />
-      <item value="ji o a" />
-      <item value="jiao" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="136" />
+        <entry key="CHINESE" value="137" />
         <entry key="ENGLISH" value="133" />
         <entry key="WELSH" value="1" />
       </map>
