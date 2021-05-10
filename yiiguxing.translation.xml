@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1437" />
     <option name="newTranslationDialogY" value="724" />
     <histories>
+      <item value="invoked from within" />
       <item value=" No matching distribution found for cffi" />
       <item value="ERROR: No matching distribution found for pycparser (from cffi==1.14.5)" />
       <item value="ERROR: Could not find a version that satisfies the requirement pycparser (from cffi==1.14.5) (from versions: none)" />
@@ -54,11 +55,10 @@
       <item value="简单" />
       <item value="简答" />
       <item value="order" />
-      <item value="上班次序" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="123" />
+        <entry key="CHINESE" value="124" />
         <entry key="ENGLISH" value="121" />
         <entry key="WELSH" value="1" />
       </map>
