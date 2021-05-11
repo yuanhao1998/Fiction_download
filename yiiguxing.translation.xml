@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="populated by the metaclass, defined here to help IDEs only" />
       <item value="不重复" />
       <item value="不c" />
       <item value="不充分" />
@@ -54,12 +55,11 @@
       <item value="z" />
       <item value="name1() missing 1 required positional argument: 'self'" />
       <item value="express" />
-      <item value="Insecure completion-dependent directories detected" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="223" />
-        <entry key="ENGLISH" value="214" />
+        <entry key="ENGLISH" value="215" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
