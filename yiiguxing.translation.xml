@@ -2,9 +2,31 @@
   <component name="AppStorage">
     <option name="newTranslationDialogHeight" value="276" />
     <option name="newTranslationDialogWidth" value="556" />
-    <option name="newTranslationDialogX" value="1437" />
-    <option name="newTranslationDialogY" value="724" />
+    <option name="newTranslationDialogX" value="1088" />
+    <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="parser" />
+      <item value="参数校验" />
+      <item value="参数jiao y" />
+      <item value="mixin" />
+      <item value="min" />
+      <item value="重写类" />
+      <item value="重写lei" />
+      <item value="重写累" />
+      <item value="ch" />
+      <item value="access control" />
+      <item value="access con t" />
+      <item value="access " />
+      <item value="ac c" />
+      <item value="页面写权限" />
+      <item value="页面读写权限" />
+      <item value="页面权限" />
+      <item value="du r" />
+      <item value="装饰器" />
+      <item value="wrapper" />
+      <item value="Access control" />
+      <item value="权限控制" />
+      <item value="权限" />
       <item value="entity" />
       <item value="en" />
       <item value="实体" />
@@ -33,33 +55,11 @@
       <item value=" console output produced during zsh initialization follows" />
       <item value=" If the above didn't help or you want to skip the verification of&#10; insecure directories you can set the variable ZSH_DISABLE_COMPFIX to&#10; &quot;true&quot; before oh-my-zsh is sourced in your zshrc file.&#10;" />
       <item value=" If the above didn't help or you want to skip the verification of&#10; insecure directories you can set the variable ZSH_DISABLE_COMPFIX to&#10;[oh-my-zsh] &quot;true&quot; before oh-my-zsh is sourced in your zshrc file.&#10;" />
-      <item value=" If the above didn't help or you want to skip the verification of&#10;[oh-my-zsh] insecure directories you can set the variable ZSH_DISABLE_COMPFIX to&#10;[oh-my-zsh] &quot;true&quot; before oh-my-zsh is sourced in your zshrc file.&#10;" />
-      <item value="[oh-my-zsh] If the above didn't help or you want to skip the verification of&#10;[oh-my-zsh] insecure directories you can set the variable ZSH_DISABLE_COMPFIX to&#10;[oh-my-zsh] &quot;true&quot; before oh-my-zsh is sourced in your zshrc file.&#10;" />
-      <item value="When using Powerlevel10k with instant prompt, console output during zsh&#10;initialization may indicate issues" />
-      <item value=" Console output during zsh initialization detected" />
-      <item value="分类" />
-      <item value="权限" />
-      <item value="TypeError: unhashable type: 'dict'" />
-      <item value="sophia" />
-      <item value="soph" />
-      <item value="s" />
-      <item value="sp" />
-      <item value=" list indices must be integers or slices, not str" />
-      <item value="subscriptable" />
-      <item value="subscript" />
-      <item value="subsc" />
-      <item value="sub" />
-      <item value="subcri" />
-      <item value="subc" />
-      <item value="Connection refused" />
-      <item value="RecursionError: maximum recursion depth exceeded during compilation" />
-      <item value="递归" />
-      <item value="脚本" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="137" />
-        <entry key="ENGLISH" value="133" />
+        <entry key="CHINESE" value="214" />
+        <entry key="ENGLISH" value="204" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
