@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="value could not be parsed to a boolean (type=type_error.bool)" />
       <item value="raise exception" />
       <item value="populated by the metaclass, defined here to help IDEs only" />
       <item value="不重复" />
@@ -54,12 +55,11 @@
       <item value="故障" />
       <item value="正常" />
       <item value="z" />
-      <item value="name1() missing 1 required positional argument: 'self'" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="223" />
-        <entry key="ENGLISH" value="216" />
+        <entry key="ENGLISH" value="217" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
