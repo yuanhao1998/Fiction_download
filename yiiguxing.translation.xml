@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="Creates a new model setting __dict__ and __fields_set__ from trusted or pre-validated data. Default values are respected, but no other validation is performed. Behaves as if `Config.extra = 'allow'` was set since it adds all passed values" />
       <item value="parser" />
       <item value="参数校验" />
       <item value="参数jiao y" />
@@ -54,12 +55,11 @@
       <item value="Suppress this warning either by running p10k configure or by manually&#10;    defining the following parameter" />
       <item value=" console output produced during zsh initialization follows" />
       <item value=" If the above didn't help or you want to skip the verification of&#10; insecure directories you can set the variable ZSH_DISABLE_COMPFIX to&#10; &quot;true&quot; before oh-my-zsh is sourced in your zshrc file.&#10;" />
-      <item value=" If the above didn't help or you want to skip the verification of&#10; insecure directories you can set the variable ZSH_DISABLE_COMPFIX to&#10;[oh-my-zsh] &quot;true&quot; before oh-my-zsh is sourced in your zshrc file.&#10;" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="214" />
-        <entry key="ENGLISH" value="204" />
+        <entry key="ENGLISH" value="205" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
