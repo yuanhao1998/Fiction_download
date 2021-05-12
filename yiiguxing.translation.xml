@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="module" />
+      <item value="mo" />
       <item value="重复名称" />
       <item value="重复ming c" />
       <item value="重复" />
@@ -53,13 +55,11 @@
       <item value="malfunction" />
       <item value="未知" />
       <item value="位置" />
-      <item value="危险" />
-      <item value="we xi" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="236" />
-        <entry key="ENGLISH" value="231" />
+        <entry key="CHINESE" value="238" />
+        <entry key="ENGLISH" value="232" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
