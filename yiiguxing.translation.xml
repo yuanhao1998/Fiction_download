@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="Dispatches the request and on top of that performs request pre and postprocessing as well as HTTP exception catching and error handling" />
       <item value="so that middlewares can be applied without losing a reference to the app object" />
       <item value="o that middlewares can be applied without losing a reference to the app object" />
       <item value="module" />
@@ -54,12 +55,11 @@
       <item value="ERROR: No matching distribution found for pycparser (from cffi==1.9.1)" />
       <item value="expect" />
       <item value="ex" />
-      <item value="malfunction" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="238" />
-        <entry key="ENGLISH" value="234" />
+        <entry key="ENGLISH" value="235" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
