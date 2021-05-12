@@ -5,6 +5,11 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="handle" />
+      <item value="处理" />
+      <item value="HTTP (HyperText Transfer Protocol) is an extensible protocol on top of a reliable stream transport (e.g. TCPIP). The protocol recognizes three parts to a request:" />
+      <item value="The following explanation of HTTP serves to guide you through the code as well as to expose any misunderstandings I may have about HTTP" />
+      <item value="HTTP request handler base class" />
       <item value="A list of functions that will be called at the beginning of the : first request to this instance. To register a function, use the : :meth:`before_first_request` decorator" />
       <item value="Called before each request and will ensure that it triggers the :attr:`before_first_request_funcs` and only exactly once per application instance (which means process usually)" />
       <item value="Dispatches the request and on top of that performs request pre and postprocessing as well as HTTP exception catching and error handling" />
@@ -50,16 +55,11 @@
       <item value="实体" />
       <item value="shi ti" />
       <item value="shiti" />
-      <item value="invoked from within" />
-      <item value=" No matching distribution found for cffi" />
-      <item value="ERROR: No matching distribution found for pycparser (from cffi==1.14.5)" />
-      <item value="ERROR: Could not find a version that satisfies the requirement pycparser (from cffi==1.14.5) (from versions: none)" />
-      <item value="ERROR: No matching distribution found for pycparser (from cffi==1.9.1)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="238" />
-        <entry key="ENGLISH" value="237" />
+        <entry key="CHINESE" value="251" />
+        <entry key="ENGLISH" value="251" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
