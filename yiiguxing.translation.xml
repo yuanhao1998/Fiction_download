@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="prefix" />
       <item value="handle" />
       <item value="处理" />
       <item value="HTTP (HyperText Transfer Protocol) is an extensible protocol on top of a reliable stream transport (e.g. TCPIP). The protocol recognizes three parts to a request:" />
@@ -54,11 +55,10 @@
       <item value="en" />
       <item value="实体" />
       <item value="shi ti" />
-      <item value="shiti" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="251" />
+        <entry key="CHINESE" value="252" />
         <entry key="ENGLISH" value="251" />
         <entry key="WELSH" value="1" />
       </map>
