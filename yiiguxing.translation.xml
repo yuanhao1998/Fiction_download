@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="重复名称" />
+      <item value="重复ming c" />
+      <item value="重复" />
       <item value="ensure this value has at most 10 characters" />
       <item value="value could not be parsed to a boolean (type=type_error.bool)" />
       <item value="raise exception" />
@@ -52,14 +55,11 @@
       <item value="位置" />
       <item value="危险" />
       <item value="we xi" />
-      <item value="微信" />
-      <item value="故障" />
-      <item value="正常" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="223" />
-        <entry key="ENGLISH" value="218" />
+        <entry key="CHINESE" value="236" />
+        <entry key="ENGLISH" value="231" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
