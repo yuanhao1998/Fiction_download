@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="ensure this value has at most 10 characters" />
       <item value="value could not be parsed to a boolean (type=type_error.bool)" />
       <item value="raise exception" />
       <item value="populated by the metaclass, defined here to help IDEs only" />
@@ -54,12 +55,11 @@
       <item value="微信" />
       <item value="故障" />
       <item value="正常" />
-      <item value="z" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="223" />
-        <entry key="ENGLISH" value="217" />
+        <entry key="ENGLISH" value="218" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
