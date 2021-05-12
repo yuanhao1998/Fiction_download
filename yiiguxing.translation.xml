@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="so that middlewares can be applied without losing a reference to the app object" />
+      <item value="o that middlewares can be applied without losing a reference to the app object" />
       <item value="module" />
       <item value="mo" />
       <item value="重复名称" />
@@ -53,13 +55,11 @@
       <item value="expect" />
       <item value="ex" />
       <item value="malfunction" />
-      <item value="未知" />
-      <item value="位置" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="238" />
-        <entry key="ENGLISH" value="232" />
+        <entry key="ENGLISH" value="234" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
