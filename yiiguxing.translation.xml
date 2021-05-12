@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="can't set attribute" />
       <item value="prefix" />
       <item value="handle" />
       <item value="处理" />
@@ -54,12 +55,11 @@
       <item value="entity" />
       <item value="en" />
       <item value="实体" />
-      <item value="shi ti" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="252" />
-        <entry key="ENGLISH" value="251" />
+        <entry key="ENGLISH" value="252" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
