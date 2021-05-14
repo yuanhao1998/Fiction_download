@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="record" />
+      <item value="No registered converter was able to produce a C++ rvalue of type std::string from this Python object of type int" />
       <item value="can't set attribute" />
       <item value="prefix" />
       <item value="handle" />
@@ -53,12 +55,10 @@
       <item value="权限控制" />
       <item value="权限" />
       <item value="entity" />
-      <item value="en" />
-      <item value="实体" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="252" />
+        <entry key="CHINESE" value="254" />
         <entry key="ENGLISH" value="252" />
         <entry key="WELSH" value="1" />
       </map>
