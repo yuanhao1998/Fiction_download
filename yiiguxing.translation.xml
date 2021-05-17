@@ -5,6 +5,9 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="自定义类" />
+      <item value="z x" />
+      <item value="zi" />
       <item value="record" />
       <item value="No registered converter was able to produce a C++ rvalue of type std::string from this Python object of type int" />
       <item value="can't set attribute" />
@@ -52,19 +55,16 @@
       <item value="装饰器" />
       <item value="wrapper" />
       <item value="Access control" />
-      <item value="权限控制" />
-      <item value="权限" />
-      <item value="entity" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="254" />
-        <entry key="ENGLISH" value="252" />
+        <entry key="CHINESE" value="266" />
+        <entry key="ENGLISH" value="264" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1620721328694" />
+    <option name="lastTrimTime" value="1621215776745" />
   </component>
 </application>
