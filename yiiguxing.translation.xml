@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="Raises ValidationError if the input data cannot be parsed to form a valid model" />
+      <item value="Create a new model by parsing and validating input data from keyword arguments." />
       <item value="pydantic&#10;" />
       <item value="resolv" />
       <item value="re so" />
@@ -53,13 +55,11 @@
       <item value="access " />
       <item value="ac c" />
       <item value="页面写权限" />
-      <item value="页面读写权限" />
-      <item value="页面权限" />
     </histories>
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="274" />
-        <entry key="ENGLISH" value="270" />
+        <entry key="ENGLISH" value="272" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
