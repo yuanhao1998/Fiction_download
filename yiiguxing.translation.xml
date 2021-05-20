@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="pydantic&#10;" />
       <item value="resolv" />
       <item value="re so" />
       <item value="re s" />
@@ -54,11 +55,10 @@
       <item value="页面写权限" />
       <item value="页面读写权限" />
       <item value="页面权限" />
-      <item value="du r" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="273" />
+        <entry key="CHINESE" value="274" />
         <entry key="ENGLISH" value="270" />
         <entry key="WELSH" value="1" />
       </map>
