@@ -5,6 +5,10 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="私有" />
+      <item value="si y" />
+      <item value="si" />
+      <item value="p" />
       <item value="Raises ValidationError if the input data cannot be parsed to form a valid model" />
       <item value="Create a new model by parsing and validating input data from keyword arguments." />
       <item value="pydantic&#10;" />
@@ -51,20 +55,16 @@
       <item value="重写累" />
       <item value="ch" />
       <item value="access control" />
-      <item value="access con t" />
-      <item value="access " />
-      <item value="ac c" />
-      <item value="页面写权限" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="274" />
-        <entry key="ENGLISH" value="272" />
+        <entry key="CHINESE" value="280" />
+        <entry key="ENGLISH" value="278" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1621215776745" />
+    <option name="lastTrimTime" value="1621847602250" />
   </component>
 </application>
