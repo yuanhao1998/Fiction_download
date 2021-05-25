@@ -23,13 +23,6 @@
       <webServer id="f2f7d6cd-e6f9-4bfe-89bd-f4c6f5881a49" name="root@192.168.1.34:22" url="http:///">
         <fileTransfer accessType="SFTP" host="192.168.1.34" port="22" sshConfigId="693721cb-dca4-4c67-a4a2-e7866ed8d355" sshConfig="root@192.168.1.34:22 password" />
       </webServer>
-      <webServer id="e7980bf4-8fcd-4efc-9ac1-60b7b30975bd" name="192.168.1.94-Windows" url="http://192.168.1.94">
-        <fileTransfer host="192.168.1.94" port="21">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-      </webServer>
       <webServer id="8624d9d0-bd9f-48ea-83f8-bcba53fc34dc" name="root@192.168.1.119:22" url="http:///">
         <fileTransfer accessType="SFTP" host="192.168.1.119" port="22" sshConfigId="cd64c154-711d-4e20-a504-09a516b1f2b3" sshConfig="root@192.168.1.119:22 password" />
       </webServer>
@@ -37,6 +30,13 @@
         <fileTransfer accessType="SFTP" host="192.168.1.248" port="22" sshConfigId="45ce3754-2498-4221-a8ee-189e18df5f3b" sshConfig="root@192.168.1.248:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="2aa49138-bcef-4f6e-85b7-59c22bc48c57" name="6.55-win" url="http://192.168.6.55">
+        <fileTransfer host="192.168.6.55" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
