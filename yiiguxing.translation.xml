@@ -5,6 +5,7 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="Unimplemented&#10;" />
       <item value="模块" />
       <item value="l" />
       <item value="私有" />
@@ -54,17 +55,16 @@
       <item value="min" />
       <item value="重写类" />
       <item value="重写lei" />
-      <item value="重写累" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="285" />
+        <entry key="CHINESE" value="286" />
         <entry key="ENGLISH" value="283" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1621847602250" />
+    <option name="lastTrimTime" value="1622284313878" />
   </component>
 </application>
