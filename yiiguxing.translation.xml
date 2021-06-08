@@ -5,6 +5,8 @@
     <option name="newTranslationDialogX" value="1088" />
     <option name="newTranslationDialogY" value="464" />
     <histories>
+      <item value="努力" />
+      <item value="加油" />
       <item value="英文版" />
       <item value="y" />
       <item value="get() takes 1 positional argument but 2 were given" />
@@ -53,13 +55,11 @@
       <item value="Creates a new model setting __dict__ and __fields_set__ from trusted or pre-validated data. Default values are respected, but no other validation is performed. Behaves as if `Config.extra = 'allow'` was set since it adds all passed values" />
       <item value="parser" />
       <item value="参数校验" />
-      <item value="参数jiao y" />
-      <item value="mixin" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="298" />
-        <entry key="ENGLISH" value="294" />
+        <entry key="CHINESE" value="306" />
+        <entry key="ENGLISH" value="302" />
         <entry key="WELSH" value="1" />
       </map>
     </option>
